@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Layout from "../components/Layout";
 import CardSlide from "../components/CardSlide";
 import CardSmall from "../components/CardSmall";
+import HoverCard from "../components/HoverCard";
 
 export default function Home() {
   return (
@@ -114,6 +115,28 @@ export default function Home() {
                   sagittis. Nullam vel sem. Etiam feugiat lorem non metus.
                   Suspendisse eu ligula.{" "}
                 </p>
+              </div>
+            </section>
+            <section>
+              <div className="flex flex-row">
+                <div className="w-1/3">
+                  <HoverCard
+                    title="Innovatief & Duurzaam"
+                    description="Een innovatief ontwerp betekent een uniek huis oftewel een duurzame woning met toekomst  "
+                  ></HoverCard>
+                </div>
+                <div className="w-1/3">
+                  <HoverCard
+                    title="Innovatief & Duurzaam"
+                    description="Een innovatief ontwerp betekent een uniek huis oftewel een duurzame woning met toekomst  "
+                  ></HoverCard>
+                </div>
+                <div className="w-1/3">
+                  <HoverCard
+                    title="Innovatief & Duurzaam"
+                    description="Een innovatief ontwerp betekent een uniek huis oftewel een duurzame woning met toekomst  "
+                  ></HoverCard>
+                </div>
               </div>
             </section>
           </Layout>
