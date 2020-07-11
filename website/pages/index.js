@@ -4,6 +4,7 @@ import Layout from "../components/Layout";
 import CardSlide from "../components/CardSlide";
 import CardSmall from "../components/CardSmall";
 import HoverCard from "../components/HoverCard";
+import Image from "../components/Image";
 
 export default function Home() {
   return (
@@ -97,7 +98,7 @@ export default function Home() {
                 </button>
               </div>
             </section>
-            <section>
+            <section className="mb-24">
               <div
                 style={{
                   maxWidth: "592px",
@@ -116,22 +117,62 @@ export default function Home() {
                   Suspendisse eu ligula.{" "}
                 </p>
               </div>
+              <div className="flex">
+                <div className="w-1/3">
+                  <Image src="/placeholder-1.png"></Image>
+                </div>
+                <div className="w-1/3">
+                  <Image src="/placeholder-2.png"></Image>
+                </div>
+                <div className="w-1/3">
+                  <Image src="/placeholder-3.png"></Image>
+                </div>
+              </div>
+              <div className="flex -mt-6">
+                <div className="w-1/3">
+                  <Image src="/placeholder-4.png"></Image>
+                </div>
+                <div className="w-1/3">
+                  <Image src="/placeholder-5.png"></Image>
+                </div>
+                <div className="w-1/3">
+                  <Image src="/placeholder-6.png"></Image>
+                </div>
+              </div>
             </section>
             <section>
-              <div className="flex flex-row">
-                <div className="w-1/3">
+              <div
+                style={{
+                  maxWidth: "592px",
+                  marginRight: "auto",
+                  marginLeft: "auto",
+                }}
+                className="text-left md:text-center"
+              >
+                <h2 className="text-2xl font-heading text-white font-extrabold mb-2 antialiased">
+                  Waar wij voor staan
+                </h2>
+                <p className="text-base font-body text-gray-200 font-normal mb-10 antialiased">
+                  {" "}
+                  Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim
+                  sagittis. Nullam vel sem. Etiam feugiat lorem non metus.
+                  Suspendisse eu ligula.{" "}
+                </p>
+              </div>
+              <div className="flex flex-row flex-wrap">
+                <div className="w-full md:w-1/3">
                   <HoverCard
                     title="Innovatief & Duurzaam"
                     description="Een innovatief ontwerp betekent een uniek huis oftewel een duurzame woning met toekomst  "
                   ></HoverCard>
                 </div>
-                <div className="w-1/3">
+                <div className="w-full md:w-1/3">
                   <HoverCard
                     title="Innovatief & Duurzaam"
                     description="Een innovatief ontwerp betekent een uniek huis oftewel een duurzame woning met toekomst  "
                   ></HoverCard>
                 </div>
-                <div className="w-1/3">
+                <div className="w-full md:w-1/3">
                   <HoverCard
                     title="Innovatief & Duurzaam"
                     description="Een innovatief ontwerp betekent een uniek huis oftewel een duurzame woning met toekomst  "
