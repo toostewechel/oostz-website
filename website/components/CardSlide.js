@@ -6,10 +6,10 @@ function CardSlide() {
           <img src="/slide1.png"></img>
         </div>
         <div className="row-start-1 row-end-7 col-start-1 col-end-6 flex flex-col justify-center ml-8 mr-8">
-          <h1 className="text-3xl font-heading text-heading font-extrabold mb-2">
+          <h1 className="text-3xl font-heading text-heading font-extrabold mb-2 antialiased">
             Sterk in ontwerp.
           </h1>
-          <p className="text-base font-body text-body mb-6">
+          <p className="text-base font-body text-body mb-6 antialiased">
             Wij werken met passie aan ontwerpen voor de verbouw, nieuwbouw en
             aanbouw. Altijd op maat en persoonlijk.
           </p>
