@@ -163,19 +163,19 @@ export default function Home() {
                 <div className="w-full md:w-1/3">
                   <HoverCard
                     title="Innovatief & Duurzaam"
-                    description="Een innovatief ontwerp betekent een uniek huis oftewel een duurzame woning met toekomst  "
+                    description="Een innovatief ontwerp betekent een uniek huis oftewel een duurzame woning met toekomst"
                   ></HoverCard>
                 </div>
                 <div className="w-full md:w-1/3">
                   <HoverCard
-                    title="Innovatief & Duurzaam"
-                    description="Een innovatief ontwerp betekent een uniek huis oftewel een duurzame woning met toekomst  "
+                    title="Creatief & bevlogen"
+                    description="Wij vertalen op een creatieve en bevlogen wijze uw dromen en plannen in tastbare ontwerpen"
                   ></HoverCard>
                 </div>
                 <div className="w-full md:w-1/3">
                   <HoverCard
-                    title="Innovatief & Duurzaam"
-                    description="Een innovatief ontwerp betekent een uniek huis oftewel een duurzame woning met toekomst  "
+                    title="Professioneel advies"
+                    description="Wij begeleiden u op klantgerichte wijze en geven betrouwbaar advies tijdens de realisatie"
                   ></HoverCard>
                 </div>
               </div>

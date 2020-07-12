@@ -1,11 +1,11 @@
 function CardSlide() {
   return (
     <div>
-      <div className="grid grid-cols-12 grid-rows-6 bg-yellow-100 rounded overflow-hidden">
-        <div className="row-start-1 row-end-7 col-start-6 col-end-13 flex items-end">
+      <div className="flex items-center md:grid md:grid-cols-12 md:grid-rows-6 bg-yellow-100 rounded overflow-hidden">
+        <div className="hidden md:row-start-1 md:row-end-7 md:col-start-6 md:col-end-13 md:flex md:items-end">
           <img src="/slide1.png"></img>
         </div>
-        <div className="row-start-1 row-end-7 col-start-1 col-end-6 flex flex-col justify-center ml-8 mr-8">
+        <div className="p-6 md:row-start-1 md:row-end-7 md:col-start-1 md:col-end-6 flex flex-col justify-center md:ml-8 md:mr-8">
           <h1 className="text-3xl font-heading text-heading font-extrabold mb-2 antialiased">
             Sterk in ontwerp.
           </h1>
