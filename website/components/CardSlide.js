@@ -5,7 +5,7 @@ function CardSlide(props) {
         <div className="hidden md:row-start-1 md:row-end-7 md:col-start-6 md:col-end-13 md:flex md:items-end">
           <img src={props.src} alt={props.alt}></img>
         </div>
-        <div className="p-6 md:row-start-1 md:row-end-7 md:col-start-1 md:col-end-6 flex flex-col justify-center md:ml-8 md:mr-8">
+        <div className="p-6 md:row-start-1 md:row-end-7 md:col-start-1 md:col-end-6 flex flex-col justify-center md:ml-8 ">
           <h1 className="text-3xl font-heading text-heading font-extrabold mb-2 antialiased">
             {props.title}
           </h1>

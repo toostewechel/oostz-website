@@ -29,17 +29,32 @@ export default function Projecten() {
               naturalSlideWidth={100}
               naturalSlideHeight={50}
               totalSlides={3}
+              isPlaying={true}
+              interval={4000}
+              infinite={false}
             >
               {" "}
               <Slider>
                 <Slide index={0}>
-                  <CardSlide></CardSlide>
+                  <CardSlide
+                    src="/slide1.png"
+                    title="Sterk in ontwerp."
+                    description="Wij werken met passie aan ontwerpen voor de verbouw, nieuwbouw en aanbouw. Altijd op maat en persoonlijk."
+                  ></CardSlide>
                 </Slide>
                 <Slide index={1}>
-                  <CardSlide></CardSlide>
+                  <CardSlide
+                    src="/slide2.png"
+                    title="Oog voor detail."
+                    description="Wij hebben een sterk oog voor detail, want alleen details maken van een gedegen ontwerp een mooi ontwerp."
+                  ></CardSlide>
                 </Slide>
                 <Slide index={2}>
-                  <CardSlide></CardSlide>
+                  <CardSlide
+                    src="/slide3.png"
+                    title="Aandacht voor jou."
+                    description="Ontwerpen draait om aandacht. Aandacht voor jouw wensen, de samenwerking en het resultaat. "
+                  ></CardSlide>
                 </Slide>
               </Slider>
               <div className="flex justify-center">
