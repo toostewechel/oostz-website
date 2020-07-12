@@ -31,7 +31,7 @@ export default function Home() {
             <section className="mt-20">
               <CarouselProvider
                 naturalSlideWidth={100}
-                naturalSlideHeight={50}
+                naturalSlideHeight={48}
                 totalSlides={3}
               >
                 {" "}
@@ -58,7 +58,7 @@ export default function Home() {
                     ></CardSlide>
                   </Slide>
                 </Slider>
-                <div className="flex justify-center -mt-2">
+                <div className="flex justify-center mt-4">
                   <ButtonBack className="border border-background p-2 rounded mr-2 hover:border-yellow-100">
                     <svg
                       className="fill-current text-yellow-300"

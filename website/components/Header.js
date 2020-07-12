@@ -8,7 +8,11 @@ function Header() {
     >
       <div className="flex items-center justify-between flex-wrap">
         <div>
-          <img src="/logo-oostz.svg"></img>
+          <Link href="/">
+            <a>
+              <img src="/logo-oostz.svg"></img>
+            </a>
+          </Link>
         </div>
         <div class="block lg:hidden">
           <button class="flex items-center rounded text-white hover:text-yellow-200">
