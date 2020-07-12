@@ -27,7 +27,7 @@ function Header() {
                 Werkwijze
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/projecten">
               <a className="font-body font-light text-white mr-6 leading-8 block mt-4 lg:inline-block lg:mt-0 hover:text-gray-200">
                 Projecten
               </a>

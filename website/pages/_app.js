@@ -1,6 +1,7 @@
 import React from "react";
 import App from "next/app";
 import "../styles/app.css";
+import "pure-react-carousel/dist/react-carousel.es.css";
 
 import { MDXProvider } from "@mdx-js/react";
 

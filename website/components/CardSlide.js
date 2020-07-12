@@ -18,11 +18,6 @@ function CardSlide() {
           </button>
         </div>
       </div>
-      <div className="flex justify-center mt-6">
-        <div className="h-3 w-3 border-2 border-yellow-300 bg-yellow-300 mr-3 rounded-sm"></div>
-        <div className="h-3 w-3 border-2 border-gray-200 mr-3 rounded-sm"></div>
-        <div className="h-3 w-3 border-2 border-gray-200 rounded-sm"></div>
-      </div>
     </div>
   );
 }
