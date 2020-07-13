@@ -5,6 +5,8 @@ import CardSlide from "../components/CardSlide";
 import CardSmall from "../components/CardSmall";
 import HoverCard from "../components/HoverCard";
 import Image from "../components/Image";
+import TabGallery from "../components/TabGallery";
+import TestimonialSlide from "../components/TestimonialSlide";
 
 //Import pure-react-carousel
 import React from "react";
@@ -16,10 +18,13 @@ import {
   ButtonNext,
 } from "pure-react-carousel";
 
+//Import reach tabs
+import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs";
+
 export default function Home() {
   return (
     <body className="bg-background ">
-      <div className="container mx-auto">
+      <div className="mx-auto">
         <Head>
           <meta name="description" content="Oostz Ontwerp" />
           <title>Oostz Ontwerp</title>
@@ -179,6 +184,7 @@ export default function Home() {
                   Suspendisse eu ligula.{" "}
                 </p>
               </div>
+              <TabGallery></TabGallery>
               <div className="flex">
                 <div className="w-1/3">
                   <Image src="/placeholder-1.png"></Image>
@@ -242,6 +248,44 @@ export default function Home() {
                 </div>
               </div>
             </section>
+          </Layout>
+          <section>
+            <div
+              className="h-64 w-full bg-cover"
+              style={{
+                backgroundImage: "url(/background-testimonial.png)",
+              }}
+            >
+              <Layout>
+                <TestimonialSlide
+                  title="Wat mensen over ons zeggen"
+                  testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
+                  author="Familie de Wit"
+                ></TestimonialSlide>
+              </Layout>
+            </div>
+          </section>
+          <Layout>
+            <div className="flex flex-row flex-wrap">
+              <div className="w-full md:w-1/3">
+                <HoverCard
+                  title="Innovatief & Duurzaam"
+                  description="Een innovatief ontwerp betekent een uniek huis oftewel een duurzame woning met toekomst"
+                ></HoverCard>
+              </div>
+              <div className="w-full md:w-1/3">
+                <HoverCard
+                  title="Creatief & bevlogen"
+                  description="Wij vertalen op een creatieve en bevlogen wijze uw dromen en plannen in tastbare ontwerpen"
+                ></HoverCard>
+              </div>
+              <div className="w-full md:w-1/3">
+                <HoverCard
+                  title="Professioneel advies"
+                  description="Wij begeleiden u op klantgerichte wijze en geven betrouwbaar advies tijdens de realisatie"
+                ></HoverCard>
+              </div>
+            </div>
           </Layout>
         </main>
       </div>
