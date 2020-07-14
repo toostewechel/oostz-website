@@ -11,6 +11,7 @@
     "@mdx-js/loader": "^1.6.6",
     "@next/mdx": "^9.4.4",
     "@reach/tabs": "^0.10.5",
+    "beautiful-react-hooks": "^0.27.1",
     "next": "9.4.4",
     "pure-react-carousel": "^1.27.1",
     "react": "16.13.1",

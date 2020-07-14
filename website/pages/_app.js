@@ -1,7 +1,6 @@
 import React from "react";
 import App from "next/app";
 import "../styles/app.css";
-import "../styles/reach.css";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import "@reach/tabs/styles.css";
 

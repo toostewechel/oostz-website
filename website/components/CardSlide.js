@@ -1,7 +1,8 @@
 function CardSlide(props) {
   return (
-    <div>
-      <div className="flex items-center md:grid md:grid-cols-12 md:grid-rows-6 bg-yellow-100 rounded overflow-hidden">
+    <div className="relative m-3">
+      <div className="absolute border border-gray-200 -mt-3 -mr-3 mb-3 ml-3 top-0 right-0 bottom-0 left-0 rounded"></div>
+      <div className="relative flex items-center md:grid md:grid-cols-12 md:grid-rows-6 bg-yellow-100 rounded overflow-hidden">
         <div className="hidden md:row-start-1 md:row-end-7 md:col-start-6 md:col-end-13 md:flex md:items-end">
           <img src={props.src} alt={props.alt}></img>
         </div>

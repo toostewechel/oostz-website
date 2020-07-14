@@ -15,11 +15,17 @@ function Header() {
           </Link>
         </div>
         <div class="block lg:hidden">
-          <button class="flex items-center rounded text-white hover:text-yellow-200">
+          <button
+            id="nav-toggle"
+            class="flex items-center rounded text-white hover:text-yellow-200"
+          >
             <img src="/menubutton.svg"></img>
           </button>
         </div>
-        <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div
+          id="nav-content"
+          className="w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+        >
           <div className="lg:flex-grow lg:flex lg:justify-center">
             <Link href="/">
               <a className="font-body font-light text-white mr-6 leading-8 block mt-4 lg:inline-block lg:mt-0 hover:text-gray-200">
