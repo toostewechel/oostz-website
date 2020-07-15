@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import Header2 from "../components/Header";
 import Layout from "../components/Layout";
 import CardSmall from "../components/CardSmall";
 import HoverCard from "../components/HoverCard";
