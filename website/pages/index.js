@@ -3,10 +3,10 @@ import Header from "../components/Header";
 import Layout from "../components/Layout";
 import CardSmall from "../components/CardSmall";
 import HoverCard from "../components/HoverCard";
-import Image from "../components/ThumbnailImage";
 import TabGallery from "../components/TabGallery";
 import TestimonialSlide from "../components/TestimonialSlide";
 import HomeSlider from "../components/HomeSlider";
+import Designers from "../components/Designers";
 
 //Import pure-react-carousel
 import React from "react";
@@ -130,6 +130,9 @@ export default function Home() {
                 </p>
               </div>
               <TabGallery></TabGallery>
+            </section>
+            <section className="mb-24">
+              <Designers></Designers>
             </section>
             <section className="mb-24">
               <div
