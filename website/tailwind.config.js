@@ -1,6 +1,11 @@
 module.exports = {
   purge: [],
   theme: {
+    inset: {
+      "0": 0,
+      auto: "auto",
+      "1/2": "50%",
+    },
     fontFamily: {
       heading: ["Public Sans", "sans-serif"],
       body: ["Muli", "sans-serif"],

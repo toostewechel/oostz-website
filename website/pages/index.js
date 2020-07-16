@@ -1,10 +1,9 @@
 import Head from "next/head";
 import Header from "../components/Header";
-import Header2 from "../components/Header";
 import Layout from "../components/Layout";
 import CardSmall from "../components/CardSmall";
 import HoverCard from "../components/HoverCard";
-import Image from "../components/Image";
+import Image from "../components/ThumbnailImage";
 import TabGallery from "../components/TabGallery";
 import TestimonialSlide from "../components/TestimonialSlide";
 import HomeSlider from "../components/HomeSlider";
@@ -19,9 +18,6 @@ import {
   ButtonNext,
 } from "pure-react-carousel";
 
-//Import reach tabs
-import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs";
-
 export default function Home() {
   return (
     <body className="bg-background ">
@@ -32,8 +28,8 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main>
-          <Header></Header>
           <Layout>
+            <Header></Header>
             <section className="mt-20">
               <HomeSlider></HomeSlider>
             </section>
@@ -134,28 +130,6 @@ export default function Home() {
                 </p>
               </div>
               <TabGallery></TabGallery>
-              <div className="flex">
-                <div className="w-1/3">
-                  <Image src="/placeholder-1.png"></Image>
-                </div>
-                <div className="w-1/3">
-                  <Image src="/placeholder-2.png"></Image>
-                </div>
-                <div className="w-1/3">
-                  <Image src="/placeholder-3.png"></Image>
-                </div>
-              </div>
-              <div className="flex -mt-6">
-                <div className="w-1/3">
-                  <Image src="/placeholder-4.png"></Image>
-                </div>
-                <div className="w-1/3">
-                  <Image src="/placeholder-5.png"></Image>
-                </div>
-                <div className="w-1/3">
-                  <Image src="/placeholder-6.png"></Image>
-                </div>
-              </div>
             </section>
             <section className="mb-24">
               <div

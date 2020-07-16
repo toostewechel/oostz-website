@@ -32,10 +32,7 @@ function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <nav
-      style={{ maxWidth: "960px", marginRight: "auto", marginLeft: "auto" }}
-      className="bg-background p-4"
-    >
+    <header className="bg-background ">
       <div className="flex items-center justify-between flex-wrap">
         <div>
           <Link href="/">
@@ -84,7 +81,7 @@ function Header() {
           </div>
         </div>
       )}
-    </nav>
+    </header>
   );
 }
 
