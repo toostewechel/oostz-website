@@ -5,7 +5,7 @@ import Accordion from "../../components/Accordion";
 
 export default function Werkwijze() {
   return (
-    <body className="bg-background ">
+    <body className="bg-background h-screen ">
       <div className="mx-auto">
         <Head>
           <meta name="description" content="Oostz Ontwerp" />
@@ -36,7 +36,12 @@ export default function Werkwijze() {
                 </div>
               </div>
             </section>
-            <Accordion></Accordion>
+            <div className="flex flex-row">
+              <div className="w-1/3"></div>
+              <div className="w-2/3">
+                <Accordion></Accordion>
+              </div>
+            </div>
           </Layout>
         </main>
       </div>

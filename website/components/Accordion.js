@@ -11,7 +11,7 @@ function StyledAccordionPanel(props) {
       style={{
         paddingLeft: "16px",
         paddingRight: "16px",
-        paddingTop: "24px",
+        paddingTop: "8px",
         paddingBottom: "24px",
         backgroundColor: "#FFF8E7",
         borderBottomLeftRadius: "4px",
@@ -22,7 +22,11 @@ function StyledAccordionPanel(props) {
   );
 }
 
-function StyledAccordionButton({ isActive, title, description }) {
+function Stack(props) {
+  return <div style={{ marginBottom: props.size }}></div>;
+}
+
+function StyledAccordionHeader({ isActive, title, description }) {
   return (
     <AccordionButton style={{ display: "block", width: "100%" }}>
       <div
@@ -32,22 +36,38 @@ function StyledAccordionButton({ isActive, title, description }) {
             : `p-4 flex rounded-t-sm items-center w-full justify-between`
         }`}
       >
-        <div className="flex flex-row">
+        <div className="flex flex-row items-center">
           <div>
             <img src="placeholderAccordion.svg" className="mr-3"></img>
           </div>
           <div className="flex flex-col items-start ">
-            <h4 className="text-base font-heading text-white font-semibold antialiased mb-1">
-              Kennismaking
+            <h4
+              className={`${
+                isActive
+                  ? `text-base font-heading text-heading font-semibold antialiased `
+                  : `text-base font-heading text-white font-semibold antialiased `
+              }`}
+            >
+              {title}
             </h4>
-            <p className="text-sm font-body text-gray-200 font-normal antialiased">
-              Leer ons kennen en vertel uw plannen
+            <p
+              className={`${
+                isActive
+                  ? `text-sm font-body text-body font-normal antialiased`
+                  : `text-sm font-body text-gray-200 font-normal antialiased`
+              }`}
+            >
+              {description}
             </p>
           </div>
         </div>
         <div className="flex items-end">
           <svg
-            className="fill-current text-white items-center"
+            className={`${
+              isActive
+                ? `fill-current text-heading items-center`
+                : `fill-current text-white items-center`
+            }`}
             width="16"
             height="16"
             viewBox="0 0 16 16"
@@ -81,23 +101,34 @@ function Accordion() {
   return (
     <ReachAccordion index={index} onChange={handleTabsChange}>
       <AccordionItem>
-        <StyledAccordionButton isActive={0 === index}></StyledAccordionButton>
+        <StyledAccordionHeader
+          isActive={0 === index}
+          title="Kennismaking"
+          description="Leer ons kennen en vertel uw plannen"
+        ></StyledAccordionHeader>
         <StyledAccordionPanel>
-          Vertel ons vrijblijvend uw verhaal en maak kennis met Oostz ontwerp.
-          Samen bespreken wij uw wensen en ideeën en wat u van ons kunt
-          verwachten. Het is handig als u al zoveel mogelijk informatie
-          meeneemt. Denk aan kaveldetails, stijlvoorkeuren en budget.
+          <p className="text-base font-body text-body antialiased">
+            Vertel ons vrijblijvend uw verhaal en maak kennis met Oostz ontwerp.
+            Samen bespreken wij uw wensen en ideeën en wat u van ons kunt
+            verwachten. Het is handig als u al zoveel mogelijk informatie
+            meeneemt. Denk aan kaveldetails, stijlvoorkeuren en budget.
+          </p>
         </StyledAccordionPanel>
       </AccordionItem>
+      <Stack size={12}></Stack>
       <AccordionItem>
-        <h3>
-          <AccordionButton>Step 2: Do another thing</AccordionButton>
-        </h3>
+        <StyledAccordionHeader
+          isActive={1 === index}
+          title="Kennismaking"
+          description="Leer ons kennen en vertel uw plannen"
+        ></StyledAccordionHeader>
         <StyledAccordionPanel>
-          Vertel ons vrijblijvend uw verhaal en maak kennis met Oostz ontwerp.
-          Samen bespreken wij uw wensen en ideeën en wat u van ons kunt
-          verwachten. Het is handig als u al zoveel mogelijk informatie
-          meeneemt. Denk aan kaveldetails, stijlvoorkeuren en budget.
+          <p className="text-base font-body text-body antialiased">
+            Vertel ons vrijblijvend uw verhaal en maak kennis met Oostz ontwerp.
+            Samen bespreken wij uw wensen en ideeën en wat u van ons kunt
+            verwachten. Het is handig als u al zoveel mogelijk informatie
+            meeneemt. Denk aan kaveldetails, stijlvoorkeuren en budget.
+          </p>
         </StyledAccordionPanel>
       </AccordionItem>
     </ReachAccordion>
