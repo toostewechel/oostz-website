@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.6",
     "@next/mdx": "^9.4.4",
+    "@reach/accordion": "^0.10.5",
     "@reach/disclosure": "^0.10.5",
     "@reach/tabs": "^0.10.5",
     "beautiful-react-hooks": "^0.27.1",
