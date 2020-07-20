@@ -8,6 +8,7 @@ import TestimonialSlide from "../components/TestimonialSlide";
 import HomeSlider from "../components/HomeSlider";
 import Designers from "../components/Designers";
 import Footer from "../components/Footer";
+import Button from "../components/Button";
 
 //Import pure-react-carousel
 import React from "react";
@@ -92,22 +93,9 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex md:justify-center">
-                <button className="flex flex-row items-center px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300 mt-4 lg:mt-0">
-                  Onze werkwijze{" "}
-                  <svg
-                    className="ml-2"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.8047 7.51054L12.6193 4.2027C12.5261 4.10591 12.4073 4.04 12.278 4.01329C12.1487 3.98659 12.0147 4.0003 11.8929 4.05269C11.7711 4.10508 11.667 4.19379 11.5937 4.30761C11.5205 4.42143 11.4814 4.55526 11.4813 4.69216V6.78846C11.4813 6.83437 11.4638 6.87839 11.4325 6.91085C11.4013 6.94331 11.3589 6.96154 11.3147 6.96154H1C0.734784 6.96154 0.48043 7.07095 0.292893 7.2657C0.105357 7.46045 0 7.72458 0 8C0 8.27542 0.105357 8.53955 0.292893 8.7343C0.48043 8.92905 0.734784 9.03846 1 9.03846H11.3147C11.3589 9.03846 11.4013 9.05669 11.4325 9.08915C11.4638 9.12161 11.4813 9.16563 11.4813 9.21154V11.3078C11.4814 11.4447 11.5205 11.5786 11.5937 11.6924C11.667 11.8062 11.7711 11.8949 11.8929 11.9473C12.0147 11.9997 12.1487 12.0134 12.278 11.9867C12.4073 11.96 12.5261 11.8941 12.6193 11.7973L15.8047 8.48946C15.9296 8.35963 15.9999 8.18358 15.9999 8C15.9999 7.81643 15.9296 7.64037 15.8047 7.51054Z"
-                      fill="#1F1F1F"
-                    />
-                  </svg>
-                </button>
+                <div className="mt-4 lg:mt-0">
+                  <Button label="Onze werkwijze" href="/werkwijze"></Button>
+                </div>
               </div>
             </section>
             <section className="mb-24">

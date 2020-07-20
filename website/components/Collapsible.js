@@ -27,20 +27,20 @@ function StyledDisclosureButton({ isOpen, title, subtitle, ...props }) {
       <div
         className={`${
           isOpen
-            ? `p-4 flex rounded-t-sm items-center w-full justify-between bg-yellow-100`
-            : `p-4 flex rounded-t-sm items-center w-full justify-between`
+            ? `p-2 md:p-4 flex rounded-t-sm items-center w-full justify-between bg-yellow-100`
+            : `p-2 md:p-4 flex rounded-t-sm items-center w-full justify-between`
         }`}
       >
         <div className="flex flex-row items-center">
           <div>
             <img src={props.src} className="mr-3"></img>
           </div>
-          <div className="flex flex-col items-start ">
+          <div className="flex flex-col items-start">
             <h4
               className={`${
                 isOpen
-                  ? `text-base font-heading text-heading font-semibold antialiased `
-                  : `text-base font-heading text-white font-semibold antialiased `
+                  ? `text-sm font-heading text-heading font-semibold antialiased `
+                  : `text-sm font-heading text-white font-semibold antialiased `
               }`}
             >
               {title}
@@ -48,8 +48,8 @@ function StyledDisclosureButton({ isOpen, title, subtitle, ...props }) {
             <p
               className={`${
                 isOpen
-                  ? `text-sm font-body text-body font-normal antialiased`
-                  : `text-sm font-body text-gray-200 font-normal antialiased`
+                  ? `text-sm font-body text-body font-normal antialiased `
+                  : `text-sm font-body text-gray-200 font-normal antialiased `
               }`}
             >
               {subtitle}
