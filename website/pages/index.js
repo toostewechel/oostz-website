@@ -31,10 +31,10 @@ export default function Home() {
         <main>
           <Layout>
             <Header></Header>
-            <section className="mt-20">
+            <section className="mt-10 mb-10 md:mt-20 md:mb-24">
               <HomeSlider></HomeSlider>
             </section>
-            <section className="mt-24 mb-24">
+            <section className="mb-24">
               <div
                 style={{
                   maxWidth: "592px",
@@ -53,7 +53,7 @@ export default function Home() {
                   de bouwsector
                 </p>
               </div>
-              <div className="flex flex-row flex-wrap mb-8">
+              <div className="flex flex-row flex-wrap md:mb-8">
                 <div className="flex w-full md:w-1/2 md:justify-center lg:w-1/4 lg:justify-start">
                   <CardSmall
                     src="/concept-icon.svg"

@@ -44,7 +44,7 @@ function HomeSlider() {
           ></CardSlide>
         </Slide>
       </Slider>
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center mt-2 md:mt-4">
         <ButtonBack className="border border-background p-2 rounded mr-2 hover:border-yellow-100">
           <svg
             className="fill-current text-yellow-300"

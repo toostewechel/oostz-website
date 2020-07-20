@@ -90,35 +90,24 @@ function StyledAccordionHeader({ isActive, title, description }) {
 }
 
 function Accordion() {
-  const [index, setIndex] = React.useState(0);
+  const [indices, setIndices] = React.useState([0, 1]);
+  function toggleItem(toggledIndex) {
+    if (indices.includes(toggledIndex)) {
+      setIndices(
+        indices.filter((currentIndex) => currentIndex !== toggledIndex)
+      );
+    } else {
+      setIndices([...indices, toggledIndex].sort());
+    }
+  }
 
-  const handleTabsChange = (index) => {
-    setIndex(index);
-  };
-
-  console.log(index);
+  console.log(indices);
 
   return (
-    <ReachAccordion index={index} onChange={handleTabsChange}>
+    <ReachAccordion index={indices} onChange={toggleItem}>
       <AccordionItem>
         <StyledAccordionHeader
-          isActive={0 === index}
-          title="Kennismaking"
-          description="Leer ons kennen en vertel uw plannen"
-        ></StyledAccordionHeader>
-        <StyledAccordionPanel>
-          <p className="text-base font-body text-body antialiased">
-            Vertel ons vrijblijvend uw verhaal en maak kennis met Oostz ontwerp.
-            Samen bespreken wij uw wensen en ideeën en wat u van ons kunt
-            verwachten. Het is handig als u al zoveel mogelijk informatie
-            meeneemt. Denk aan kaveldetails, stijlvoorkeuren en budget.
-          </p>
-        </StyledAccordionPanel>
-      </AccordionItem>
-      <Stack size={12}></Stack>
-      <AccordionItem>
-        <StyledAccordionHeader
-          isActive={1 === index}
+          isActive={indices === 0}
           title="Kennismaking"
           description="Leer ons kennen en vertel uw plannen"
         ></StyledAccordionHeader>

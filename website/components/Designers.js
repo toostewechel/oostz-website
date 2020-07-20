@@ -43,10 +43,10 @@ function Designers() {
 
   return (
     <div className="flex flex-row">
-      <div className="flex w-1/3 justify-center">
+      <div className="hidden md:flex md:w-1/3 md:justify-center">
         <img src={avatar}></img>
       </div>
-      <div className="flex flex-col w-2/3 justify-center">
+      <div className="flex flex-col w-full md:w-2/3 justify-center">
         <div className="flex inline-flex mb-8">
           <button
             className={`${
@@ -104,7 +104,7 @@ function Designers() {
           <h4 className="text-sm font-body text-gray-200 font-light antialiased mb-4">
             {jobtitle}
           </h4>
-          <p className="text-base font-body text-gray-200 font-normal mb-10 antialiased mb-4">
+          <p className="text-base font-body text-gray-200 font-normal antialiased mb-4">
             {description}
           </p>
           <a href={linkedin} target="_blank">

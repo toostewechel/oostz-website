@@ -33,7 +33,7 @@ function TabGallery() {
 
   return (
     <Tabs index={tabIndex} onChange={handleTabsChange}>
-      <div className="flex justify-center">
+      <div className="flex md:justify-center">
         <TabList>
           <Tab label="Alle" isActive={0 === tabIndex} />
           <Tab label="Gerealiseerd" isActive={1 === tabIndex} />
@@ -42,25 +42,25 @@ function TabGallery() {
       </div>
       <TabPanels>
         <TabPanel>
-          <div className="flex flex-row mt-8 ">
-            <div className="p-2 w-1/3">
+          <div className="md:flex md:flex-row mt-8 ">
+            <div className="p-2 md:w-1/3">
               <ThumbnailImage src="/placeholder-1.png" href="/projecten" />
             </div>
-            <div className="p-2 w-1/3">
+            <div className="p-2 md:w-1/3">
               <ThumbnailImage src="/placeholder-2.png" />
             </div>
-            <div className="p-2 w-1/3">
+            <div className="p-2 md:w-1/3">
               <ThumbnailImage src="/placeholder-3.png" />
             </div>
           </div>
-          <div className="flex flex-row -mt-6">
-            <div className="p-2 w-1/3">
+          <div className="md:flex md:flex-row -mt-6">
+            <div className="p-2 md:w-1/3">
               <ThumbnailImage src="/placeholder-4.png" />
             </div>
-            <div className="p-2 w-1/3">
+            <div className="p-2 md:w-1/3">
               <ThumbnailImage src="/placeholder-5.png" />
             </div>
-            <div className="p-2 w-1/3">
+            <div className="p-2 md:w-1/3">
               <ThumbnailImage src="/placeholder-6.png" />
             </div>
           </div>

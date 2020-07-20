@@ -1,6 +1,6 @@
 function CardSmall(props) {
   return (
-    <div className="p-3">
+    <div className="mb-6 md:p-3">
       <div className="flex flex-row items-center mb-6">
         <img src={props.src} className="mr-2"></img>
         <h3 className="text-xl font-heading text-white font-semibold antialiased">
