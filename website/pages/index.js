@@ -5,20 +5,11 @@ import CardSmall from "../components/CardSmall";
 import HoverCard from "../components/HoverCard";
 import TabGallery from "../components/TabGallery";
 import TestimonialSlide from "../components/TestimonialSlide";
-import HomeSlider from "../components/HomeSlider";
 import Designers from "../components/Designers";
 import Footer from "../components/Footer";
 import Button from "../components/Button";
-
-//Import pure-react-carousel
-import React from "react";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-} from "pure-react-carousel";
+import CardSlider from "../components/CardSlider";
+import TestimonialSlider from "../components/TestimonialSlider";
 
 export default function Home() {
   return (
@@ -33,7 +24,7 @@ export default function Home() {
           <Layout>
             <Header></Header>
             <section className="mt-10 mb-10 md:mt-20 md:mb-24">
-              <HomeSlider></HomeSlider>
+              <CardSlider />
             </section>
             <section className="mb-24">
               <div
@@ -169,56 +160,12 @@ export default function Home() {
               }}
             >
               <Layout>
-                <div className="text-left md:text-center">
+                <div className="text-center">
                   <h2 className="text-2xl font-heading text-white font-extrabold mb-2 antialiased">
                     Wat mensen over ons zeggen
                   </h2>
                 </div>
-                <CarouselProvider
-                  naturalSlideWidth={100}
-                  naturalSlideHeight={18}
-                  totalSlides={2}
-                >
-                  <div className="mr-auto ml-auto">
-                    <Slider>
-                      <Slide index={0}>
-                        <TestimonialSlide
-                          testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
-                          author="Familie de Wit"
-                        ></TestimonialSlide>
-                      </Slide>
-                      <Slide index={1}>
-                        <TestimonialSlide
-                          testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
-                          author="Gezin de Jong"
-                        ></TestimonialSlide>
-                      </Slide>
-                    </Slider>
-                  </div>
-                  <div className="flex justify-center mt-4">
-                    <ButtonBack className="p-2 rounded mr-2 hover:border-yellow-100">
-                      <svg
-                        className="fill-current text-yellow-300"
-                        width="16"
-                        height="16"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M.195 8.49l3.186 3.307a.644.644 0 00.726.15.673.673 0 00.3-.255.711.711 0 00.112-.384V9.212c0-.046.017-.09.048-.123a.164.164 0 01.118-.05H15c.265 0 .52-.11.707-.305A1.06 1.06 0 0016 8c0-.275-.105-.54-.293-.734A.982.982 0 0015 6.962H4.685a.164.164 0 01-.118-.051.177.177 0 01-.048-.123V4.692c0-.137-.04-.27-.113-.384a.673.673 0 00-.299-.255.644.644 0 00-.726.15L.195 7.51A.706.706 0 000 8c0 .184.07.36.195.49z" />
-                      </svg>
-                    </ButtonBack>
-                    <ButtonNext className="p-2 rounded mr-2 hover:border-yellow-100">
-                      <svg
-                        className="fill-current text-yellow-300"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 16 16"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M16 8l-3-4h-1l-1 1v2H1 0a1 1 0 000 2h11v2l1 1a1 1 0 001 0l3-4z" />
-                      </svg>
-                    </ButtonNext>
-                  </div>
-                </CarouselProvider>
+                <TestimonialSlider></TestimonialSlider>
               </Layout>
             </div>
           </section>

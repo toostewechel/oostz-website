@@ -1,5 +1,5 @@
 import { useMediaQuery } from "beautiful-react-hooks";
-import CardSlide from "../components/CardSlide";
+import TestimonialSlide from "./TestimonialSlide";
 
 //Import pure-react-carousel
 import {
@@ -10,42 +10,39 @@ import {
   ButtonNext,
 } from "pure-react-carousel";
 
-function HomeSlider() {
+function TestimonialSlider() {
   const isLarge = useMediaQuery("(min-width: 768px)");
 
   return (
     <CarouselProvider
       naturalSlideWidth={isLarge ? 100 : 100}
-      naturalSlideHeight={isLarge ? 48 : 60}
+      naturalSlideHeight={isLarge ? 20 : 50}
       totalSlides={3}
       isIntrinsicHeight={isLarge ? false : true}
     >
       {" "}
       <Slider>
         <Slide index={0}>
-          <CardSlide
-            src="/slide1.png"
-            title="Sterk in ontwerp."
-            description="Wij werken met passie aan ontwerpen voor de verbouw, nieuwbouw en aanbouw. Altijd op maat en persoonlijk."
-          ></CardSlide>
+          <TestimonialSlide
+            testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
+            author="Familie de Wit"
+          ></TestimonialSlide>
         </Slide>
         <Slide index={1}>
-          <CardSlide
-            src="/slide2.png"
-            title="Oog voor detail."
-            description="Wij hebben een sterk oog voor detail, want alleen details maken van een gedegen ontwerp een mooi ontwerp."
-          ></CardSlide>
+          <TestimonialSlide
+            testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
+            author="Familie de Wit"
+          ></TestimonialSlide>
         </Slide>
         <Slide index={2}>
-          <CardSlide
-            src="/slide3.png"
-            title="Aandacht voor jou."
-            description="Ontwerpen draait om aandacht. Aandacht voor jouw wensen, de samenwerking en het resultaat. "
-          ></CardSlide>
+          <TestimonialSlide
+            testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
+            author="Familie de Wit"
+          ></TestimonialSlide>
         </Slide>
       </Slider>
       <div className="flex justify-center mt-2 md:mt-4">
-        <ButtonBack className="border border-background p-2 rounded mr-2 hover:border-yellow-100">
+        <ButtonBack className="p-2 rounded mr-2 hover:border-yellow-100">
           <svg
             className="fill-current text-yellow-300"
             width="16"
@@ -55,7 +52,7 @@ function HomeSlider() {
             <path d="M.195 8.49l3.186 3.307a.644.644 0 00.726.15.673.673 0 00.3-.255.711.711 0 00.112-.384V9.212c0-.046.017-.09.048-.123a.164.164 0 01.118-.05H15c.265 0 .52-.11.707-.305A1.06 1.06 0 0016 8c0-.275-.105-.54-.293-.734A.982.982 0 0015 6.962H4.685a.164.164 0 01-.118-.051.177.177 0 01-.048-.123V4.692c0-.137-.04-.27-.113-.384a.673.673 0 00-.299-.255.644.644 0 00-.726.15L.195 7.51A.706.706 0 000 8c0 .184.07.36.195.49z" />
           </svg>
         </ButtonBack>
-        <ButtonNext className="border border-background p-2 rounded mr-2 hover:border-yellow-100">
+        <ButtonNext className="p-2 rounded mr-2 hover:border-yellow-100">
           <svg
             className="fill-current text-yellow-300"
             width="16"
@@ -71,4 +68,4 @@ function HomeSlider() {
   );
 }
 
-export default HomeSlider;
+export default TestimonialSlider;
