@@ -6,24 +6,20 @@ import {
 
 function StyledDisclosurePanel(props) {
   return (
-    <DisclosurePanel
-      style={{
-        paddingLeft: "16px",
-        paddingRight: "16px",
-        paddingTop: "8px",
-        paddingBottom: "24px",
-        backgroundColor: "#FFF8E7",
-        borderBottomLeftRadius: "4px",
-        borderBottomRightRadius: "4px",
-      }}
-      {...props}
-    />
+    <DisclosurePanel>
+      <div className="pr-2 pl-2 md:pr-4 md:pl-4 pt-2 pb-6 rounded-bl-sm rounded-br-sm bg-yellow-100 ">
+        {props.children}
+      </div>
+    </DisclosurePanel>
   );
 }
 
 function StyledDisclosureButton({ isOpen, title, subtitle, ...props }) {
   return (
-    <DisclosureButton style={{ display: "block", width: "100%" }}>
+    <DisclosureButton
+      className="focus:outline-none"
+      style={{ display: "block", width: "100%" }}
+    >
       <div
         className={`${
           isOpen
@@ -32,7 +28,7 @@ function StyledDisclosureButton({ isOpen, title, subtitle, ...props }) {
         }`}
       >
         <div className="flex flex-row items-center">
-          <div>
+          <div className="hidden md:flex">
             <img src={props.src} className="mr-3"></img>
           </div>
           <div className="flex flex-col items-start">
