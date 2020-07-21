@@ -133,18 +133,21 @@ export default function Home() {
               <div className="flex flex-row flex-wrap">
                 <div className="w-full md:w-1/3">
                   <HoverCard
+                    src="/innovatief-duurzaam.svg"
                     title="Innovatief & Duurzaam"
                     description="Een innovatief ontwerp betekent een uniek huis oftewel een duurzame woning met toekomst"
                   ></HoverCard>
                 </div>
                 <div className="w-full md:w-1/3">
                   <HoverCard
+                    src="/creatief-bevlogen.svg"
                     title="Creatief & bevlogen"
                     description="Wij vertalen op een creatieve en bevlogen wijze uw dromen en plannen in tastbare ontwerpen"
                   ></HoverCard>
                 </div>
                 <div className="w-full md:w-1/3">
                   <HoverCard
+                    src="/professioneel-advies.svg"
                     title="Professioneel advies"
                     description="Wij begeleiden u op klantgerichte wijze en geven betrouwbaar advies tijdens de realisatie"
                   ></HoverCard>
