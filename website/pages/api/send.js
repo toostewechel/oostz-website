@@ -6,7 +6,7 @@ export default async function (req, res) {
   const { name, phone, email, message } = req.body;
 
   const output = `
-  <p>Iemand heeft het contactformulier ingevuld</p> 
+  <p>Iemand heeft het contactformulier op de website ingevuld</p> 
   <h3>Contactgegevens</h3>
   <ul>
     <li>Naam: ${name}</li>
@@ -14,7 +14,9 @@ export default async function (req, res) {
     <li>E-mail: ${email}</li>
   </ul>
   <h3>Bericht</h3>
-  <li>Bericht: ${message}</li>
+  <ul>
+    <li>${message}</li>
+  </ul>
 `;
 
   const content = {

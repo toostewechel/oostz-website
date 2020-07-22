@@ -10,7 +10,7 @@ async function sendMail(req, res) {
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
   const { name, phone, email, message } = req.body;
   const output = `
-    <p>Iemand heeft het contactformulier ingevuld</p> 
+    <p>Iemand heeft het contactformulier op de website ingevuld</p> 
     <h3>Contactgegevens</h3>
     <ul>
       <li>Naam: ${name}</li>
@@ -18,7 +18,9 @@ async function sendMail(req, res) {
       <li>E-mail: ${email}</li>
     </ul>
     <h3>Bericht</h3>
-    <li>Bericht: ${message}</li>
+    <ul>
+      <li>${message}</li>
+    </ul>
   `;
 
   const content = {
