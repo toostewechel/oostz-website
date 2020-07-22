@@ -164,12 +164,14 @@ export default () => {
                     </button>
                   </form>
                   {status.info.error && (
-                    <div className="error text-white">
+                    <div className="error text-gray-200">
                       Error: {status.info.msg}
                     </div>
                   )}
                   {!status.info.error && status.info.msg && (
-                    <div className="success text-white">{status.info.msg}</div>
+                    <div className="success text-gray-200">
+                      {status.info.msg}
+                    </div>
                   )}
                 </div>
               </div>
