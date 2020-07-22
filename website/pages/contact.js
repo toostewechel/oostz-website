@@ -76,7 +76,7 @@ export default () => {
           <Layout>
             <Header></Header>
             <section className="mt-10 mb-10 lg:mt-20 lg:mb-12">
-              <div className="flex flex-row">
+              <div className="flex flex-col">
                 <div className="w-full lg:w-2/3">
                   <h1 className="text-3xl font-heading text-white font-extrabold mb-2 antialiased">
                     Neem contact op!
@@ -89,87 +89,91 @@ export default () => {
                     Neem contact met ons op en wij zullen snel bij u terugkomen.
                   </p>
                 </div>
+                <div className="w-full lg:w-2/3">
+                  <form onSubmit={handleOnSubmit}>
+                    <div className="mb-8">
+                      <label
+                        className="text-base font-heading text-white font-semibold antialiased mb-1"
+                        htmlFor="name"
+                      >
+                        Naam
+                      </label>
+                      <input
+                        className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
+                        id="name"
+                        type="name"
+                        onChange={handleOnChange}
+                        required
+                        value={inputs.name}
+                      />
+                    </div>
+                    <div className="mb-8">
+                      <label
+                        className="text-base font-heading text-white font-semibold antialiased mb-1"
+                        htmlFor="phone"
+                      >
+                        Telefoon
+                      </label>
+                      <input
+                        className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
+                        id="phone"
+                        type="phone"
+                        onChange={handleOnChange}
+                        required
+                        value={inputs.phone}
+                      />
+                    </div>
+                    <div className="mb-8">
+                      <label
+                        className="text-base font-heading text-white font-semibold antialiased mb-1"
+                        htmlFor="email"
+                      >
+                        E-mail adress
+                      </label>
+                      <input
+                        className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
+                        id="email"
+                        type="email"
+                        onChange={handleOnChange}
+                        required
+                        value={inputs.email}
+                      />
+                    </div>
+                    <div className="mb-12">
+                      <label className="text-white block" htmlFor="message">
+                        Vraag of opmerking
+                      </label>
+                      <textarea
+                        className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
+                        id="message"
+                        onChange={handleOnChange}
+                        required
+                        value={inputs.message}
+                      />
+                    </div>
+                    <button
+                      className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300"
+                      type="submit"
+                      disabled={status.submitting}
+                    >
+                      {!status.submitting
+                        ? !status.submitted
+                          ? "Verzenden"
+                          : "Submitted"
+                        : "Submitting..."}
+                    </button>
+                  </form>
+                  {status.info.error && (
+                    <div className="error text-white">
+                      Error: {status.info.msg}
+                    </div>
+                  )}
+                  {!status.info.error && status.info.msg && (
+                    <div className="success text-white">{status.info.msg}</div>
+                  )}
+                </div>
               </div>
             </section>
-            <form onSubmit={handleOnSubmit}>
-              <div className="mb-8">
-                <label
-                  className="text-base font-heading text-white font-semibold antialiased mb-1"
-                  htmlFor="name"
-                >
-                  Naam
-                </label>
-                <input
-                  className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
-                  id="name"
-                  type="name"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.name}
-                />
-              </div>
-              <div className="mb-8">
-                <label
-                  className="text-base font-heading text-white font-semibold antialiased mb-1"
-                  htmlFor="phone"
-                >
-                  Telefoon
-                </label>
-                <input
-                  className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
-                  id="phone"
-                  type="phone"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.phone}
-                />
-              </div>
-              <div className="mb-8">
-                <label
-                  className="text-base font-heading text-white font-semibold antialiased mb-1"
-                  htmlFor="email"
-                >
-                  E-mail adress
-                </label>
-                <input
-                  className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
-                  id="email"
-                  type="email"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.email}
-                />
-              </div>
-              <div className="mb-12">
-                <label className="text-white block" htmlFor="message">
-                  Vraag of opmerking
-                </label>
-                <textarea
-                  className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
-                  id="message"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.message}
-                />
-              </div>
-              <button
-                className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300"
-                type="submit"
-                disabled={status.submitting}
-              >
-                {!status.submitting
-                  ? !status.submitted
-                    ? "Verzenden"
-                    : "Submitted"
-                  : "Submitting..."}
-              </button>
-            </form>
-            {status.info.error && (
-              <div className="error text-white">Error: {status.info.msg}</div>
-            )}
-            {!status.info.error && status.info.msg && (
-              <div className="success text-white">{status.info.msg}</div>
-            )}
           </Layout>
         </main>
       </div>
