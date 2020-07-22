@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import Layout from "../../components/Layout";
 
-export default () => {
+function ContactForm() {
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -47,7 +46,7 @@ export default () => {
   const handleOnSubmit = async (e) => {
     e.preventDefault();
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
-    const res = await fetch("/api/send", {
+    const res = await fetch("../pages/api/send", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -60,40 +59,48 @@ export default () => {
 
   return (
     <main>
-      <Layout>
-        <form onSubmit={handleOnSubmit}>
-          <label htmlFor="email">Email</label>
-          <input
-            className="border"
-            id="email"
-            type="email"
-            onChange={handleOnChange}
-            required
-            value={inputs.email}
-          />
-          <label htmlFor="message">Message</label>
-          <textarea
-            className="border"
-            id="message"
-            onChange={handleOnChange}
-            required
-            value={inputs.message}
-          />
-          <button type="submit" disabled={status.submitting}>
-            {!status.submitting
-              ? !status.submitted
-                ? "Submit"
-                : "Submitted"
-              : "Submitting..."}
-          </button>
-        </form>
-        {status.info.error && (
-          <div className="error">Error: {status.info.msg}</div>
-        )}
-        {!status.info.error && status.info.msg && (
-          <div className="success">{status.info.msg}</div>
-        )}
-      </Layout>
+      <form onSubmit={handleOnSubmit}>
+        <label className="text-white mr-3" htmlFor="email">
+          Email
+        </label>
+        <input
+          className="border bg-gray-200 mr-3"
+          id="email"
+          type="email"
+          onChange={handleOnChange}
+          required
+          value={inputs.email}
+        />
+        <label className="text-white" htmlFor="message">
+          Message
+        </label>
+        <textarea
+          className="border bg-gray-200"
+          id="message"
+          onChange={handleOnChange}
+          required
+          value={inputs.message}
+        />
+        <button
+          className="text-white"
+          type="submit"
+          disabled={status.submitting}
+        >
+          {!status.submitting
+            ? !status.submitted
+              ? "Submit"
+              : "Submitted"
+            : "Submitting..."}
+        </button>
+      </form>
+      {status.info.error && (
+        <div className="error">Error: {status.info.msg}</div>
+      )}
+      {!status.info.error && status.info.msg && (
+        <div className="success">{status.info.msg}</div>
+      )}
     </main>
   );
-};
+}
+
+export default ContactForm;

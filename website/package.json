@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node app.js",
     "build": "next build && next export",
     "start": "next start"
   },
@@ -15,7 +15,9 @@
     "@reach/tabs": "^0.10.5",
     "@sendgrid/mail": "^7.2.1",
     "beautiful-react-hooks": "^0.27.1",
+    "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "next": "9.4.4",
     "pure-react-carousel": "^1.27.1",
     "react": "16.13.1",

@@ -6,11 +6,11 @@ export default async function (req, res) {
   const { email, message } = req.body;
 
   const content = {
-    to: "tom_oostewechel@hotmail.com",
-    from: email,
+    to: "info@oostz-ontwerp.nl",
+    from: "info@oostz-ontwerp.nl",
     subject: `New Message From - ${email}`,
     text: message,
-    html: `<p>${message}</p>`,
+    html: `<p>${message} ${email}</p>`,
   };
 
   try {

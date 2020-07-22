@@ -1,10 +1,10 @@
 import Head from "next/head";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import Layout from "../../components/Layout";
-import Collapsible from "../../components/Collapsible";
-import Stack from "../../components/Stack";
-import Button from "../../components/Button";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Layout from "../components/Layout";
+import Collapsible from "../components/Collapsible";
+import Stack from "../components/Stack";
+import Button from "../components/Button";
 
 export default function Werkwijze() {
   return (

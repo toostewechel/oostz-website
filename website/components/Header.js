@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { useRouter } from "next/router";
 import { useMediaQuery } from "beautiful-react-hooks";
 import React, { useState } from "react";
@@ -35,11 +34,9 @@ function Header() {
     <header className="bg-background ">
       <div className="flex items-center justify-between flex-wrap">
         <div>
-          <Link href="/">
-            <a>
-              <img src="/logo-oostz.svg"></img>
-            </a>
-          </Link>
+          <a href="/">
+            <img src="/logo-oostz.svg"></img>
+          </a>
         </div>
         {isLaptop ? (
           <div

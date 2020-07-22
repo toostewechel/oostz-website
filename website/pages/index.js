@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 import Button from "../components/Button";
 import CardSlider from "../components/CardSlider";
 import TestimonialSlider from "../components/TestimonialSlider";
+import ContactForm from "../components/ContactForm";
 
 export default function Home() {
   return (
@@ -203,6 +204,7 @@ export default function Home() {
                 </div>
                 <div></div>
               </div>
+              <ContactForm></ContactForm>
             </Layout>
           </section>
           <Layout>
