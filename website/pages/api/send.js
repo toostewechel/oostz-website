@@ -5,12 +5,24 @@ export default async function (req, res) {
 
   const { name, phone, email, message } = req.body;
 
+  const output = `
+  <p>Iemand heeft het contactformulier ingevuld</p> 
+  <h3>Contactgegevens</h3>
+  <ul>
+    <li>Naam: ${name}</li>
+    <li>Telefoon: ${phone}</li>
+    <li>E-mail: ${email}</li>
+  </ul>
+  <h3>Bericht</h3>
+  <li>Bericht: ${message}</li>
+`;
+
   const content = {
     to: "info@oostz-ontwerp.nl",
     from: "info@oostz-ontwerp.nl",
-    subject: `New Message From - ${email}`,
+    subject: `Nieuw bericht - Oostz Ontwerp`,
     text: message,
-    html: `<p>${message} ${email} ${name} ${phone}</p>`,
+    html: output,
   };
 
   try {

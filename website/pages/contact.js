@@ -79,7 +79,7 @@ export default () => {
               <div className="flex flex-col">
                 <div className="w-full lg:w-2/3">
                   <h1 className="text-3xl font-heading text-white font-extrabold mb-2 antialiased">
-                    Neem contact op!
+                    Neem contact op
                   </h1>
                   <p
                     style={{ maxWidth: "592px" }}
