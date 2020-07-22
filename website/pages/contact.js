@@ -159,8 +159,8 @@ export default () => {
                       {!status.submitting
                         ? !status.submitted
                           ? "Verzenden"
-                          : "Submitted"
-                        : "Submitting..."}
+                          : "Verzonden"
+                        : "Bezig met verzenden..."}
                     </button>
                   </form>
                   {status.info.error && (
