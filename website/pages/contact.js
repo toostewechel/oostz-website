@@ -96,7 +96,7 @@ export default () => {
                         className="text-base font-heading text-white font-semibold antialiased mb-1"
                         htmlFor="name"
                       >
-                        Naam
+                        Naam <span className="text-yellow-500">*</span>
                       </label>
                       <input
                         className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
@@ -119,7 +119,6 @@ export default () => {
                         id="phone"
                         type="phone"
                         onChange={handleOnChange}
-                        required
                         value={inputs.phone}
                       />
                     </div>
@@ -128,7 +127,7 @@ export default () => {
                         className="text-base font-heading text-white font-semibold antialiased mb-1"
                         htmlFor="email"
                       >
-                        E-mail adress
+                        E-mail adress <span className="text-yellow-500">*</span>
                       </label>
                       <input
                         className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
@@ -141,7 +140,8 @@ export default () => {
                     </div>
                     <div className="mb-12">
                       <label className="text-white block" htmlFor="message">
-                        Vraag of opmerking
+                        Vraag of opmerking{" "}
+                        <span className="text-yellow-500">*</span>
                       </label>
                       <textarea
                         className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
@@ -149,6 +149,7 @@ export default () => {
                         onChange={handleOnChange}
                         required
                         value={inputs.message}
+                        rows="3"
                       />
                     </div>
                     <button
