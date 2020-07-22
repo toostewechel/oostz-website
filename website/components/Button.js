@@ -1,6 +1,6 @@
 function Button(props) {
   return (
-    <button className=" px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300">
+    <button className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300">
       <a className="flex flex-row items-center" href={props.href}>
         {props.label}
         <svg

@@ -11,6 +11,8 @@ export default () => {
   });
 
   const [inputs, setInputs] = useState({
+    name: "",
+    phone: "",
     email: "",
     message: "",
   });
@@ -23,6 +25,8 @@ export default () => {
         info: { error: false, msg: msg },
       });
       setInputs({
+        name: "",
+        phone: "",
         email: "",
         message: "",
       });
@@ -88,6 +92,38 @@ export default () => {
               </div>
             </section>
             <form onSubmit={handleOnSubmit}>
+              <div className="mb-8">
+                <label
+                  className="text-base font-heading text-white font-semibold antialiased mb-1"
+                  htmlFor="name"
+                >
+                  Naam
+                </label>
+                <input
+                  className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
+                  id="name"
+                  type="name"
+                  onChange={handleOnChange}
+                  required
+                  value={inputs.name}
+                />
+              </div>
+              <div className="mb-8">
+                <label
+                  className="text-base font-heading text-white font-semibold antialiased mb-1"
+                  htmlFor="phone"
+                >
+                  Telefoon
+                </label>
+                <input
+                  className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
+                  id="phone"
+                  type="phone"
+                  onChange={handleOnChange}
+                  required
+                  value={inputs.phone}
+                />
+              </div>
               <div className="mb-8">
                 <label
                   className="text-base font-heading text-white font-semibold antialiased mb-1"
