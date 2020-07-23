@@ -20,7 +20,7 @@ export default function Home() {
         <Head>
           <meta name="description" content="Oostz Ontwerp" />
           <title>Oostz Ontwerp</title>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.svg" />
         </Head>
         <Header></Header>
         <main className="mt-16">
