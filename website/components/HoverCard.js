@@ -36,7 +36,7 @@ function HoverCard(props) {
       ) : (
         <div>
           <div className="flex w-full flex-row items-start mb-6">
-            <img src="/placeholder-iocn.svg" className="mr-4"></img>
+            <img src={props.src} className="mr-4"></img>
             <div>
               <h4 className="text-lg md:text-base font-heading text-white font-medium antialiased mb-1">
                 {props.title}
