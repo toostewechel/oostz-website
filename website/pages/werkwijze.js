@@ -13,7 +13,7 @@ export default function Werkwijze() {
         <Head>
           <meta name="description" content="Oostz Ontwerp" />
           <title>Oostz Ontwerp</title>
-          <link rel="icon" href="/favicon.svg" />
+          <link rel="icon" href="/favicon.svgg" />
         </Head>
         <main>
           <Layout>

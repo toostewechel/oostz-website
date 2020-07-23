@@ -23,12 +23,12 @@ export default function Home() {
           <link rel="icon" href="/favicon.svg" />
         </Head>
         <Header></Header>
-        <main className="mt-16">
+        <main className="mt-20">
           <Layout>
             <section className="mt-10 mb-10 md:mt-20 md:mb-24">
               <CardSlider />
             </section>
-            <section className="mt-10 mb-10 md:mt-20 md:mb-24">
+            <section className="mb-16 md:mb-24">
               <div
                 style={{
                   maxWidth: "592px",
@@ -91,7 +91,7 @@ export default function Home() {
                 </div>
               </div>
             </section>
-            <section className="mb-24">
+            <section className="mb-16 md:mb-24">
               <div
                 style={{
                   maxWidth: "592px",
@@ -115,10 +115,10 @@ export default function Home() {
                 <HorizontalScrollContainer></HorizontalScrollContainer>
               )}
             </section>
-            <section className="mb-24">
+            <section className="mb-16 md:mb-24">
               <Designers></Designers>
             </section>
-            <section className="mb-24">
+            <section className="mb-6 md:mb-24">
               <div
                 style={{
                   maxWidth: "592px",
@@ -161,7 +161,7 @@ export default function Home() {
               </div>
             </section>
           </Layout>
-          <section className="mb-24">
+          <section className="mb-12 md:mb-24">
             <div
               className="h-auto w-full bg-cover pt-16 pb-12"
               style={{

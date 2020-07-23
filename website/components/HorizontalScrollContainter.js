@@ -21,16 +21,19 @@ function ProjectCard() {
         }}
       ></div>
       <div className="p-3 bg-yellow-100 rounded-b">
-        <h4 className="text-base font-heading text-heading font-medium antialiased mb-1">
+        <h3 className="text-lg font-heading text-heading font-bold antialiased mb-1">
           Vrijstaand huis
-        </h4>
+        </h3>
         <p className="text-sm font-body text-body font-normal mb-6 antialiased">
           Fusce convallis metus id felis luctus adipiscing. Sed libero.
           Vestibulum volutpat pretium libero.
         </p>
         <div className="flex flex-row justify-between items-center">
           <Button label="Bekijken" />
-          <p className="text-sm">Raalte</p>
+          <div class="inline-flex items-center">
+            <img src="/locatie.svg"></img>
+            <p className="text-xs text-gray-900">Raalte</p>
+          </div>
         </div>
       </div>
     </div>
