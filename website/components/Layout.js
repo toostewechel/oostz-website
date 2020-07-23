@@ -1,7 +1,7 @@
 const layoutStyle = {
   marginRight: "auto",
   marginLeft: "auto",
-  maxWidth: "960px",
+  maxWidth: "1024px",
   padding: "16px",
 };
 
