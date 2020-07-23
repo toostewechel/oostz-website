@@ -22,10 +22,8 @@ export default function Home() {
           <title>Oostz Ontwerp</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <main>
-          <div className="p-4">
-            <Header></Header>
-          </div>
+        <Header></Header>
+        <main className="mt-16">
           <Layout>
             <section className="mt-10 mb-10 md:mt-20 md:mb-24 ">
               <CardSlider />
@@ -213,10 +211,10 @@ export default function Home() {
               </div>
             </Layout>
           </section>
-          <Layout>
-            <Footer />
-          </Layout>
         </main>
+        <Layout>
+          <Footer />
+        </Layout>
       </div>
     </body>
   );
