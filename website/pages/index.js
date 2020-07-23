@@ -9,8 +9,11 @@ import Footer from "../components/Footer";
 import Button from "../components/Button";
 import CardSlider from "../components/CardSlider";
 import TestimonialSlider from "../components/TestimonialSlider";
+import HorizontalScrollContainer from "../components/HorizontalScrollContainter";
+import { useMediaQuery } from "beautiful-react-hooks";
 
 export default function Home() {
+  const isMobile = useMediaQuery("(min-width: 640px)");
   return (
     <body className="bg-background ">
       <div className="mx-auto">
@@ -20,9 +23,11 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main>
-          <Layout>
+          <div className="p-4">
             <Header></Header>
-            <section className="mt-10 mb-10 md:mt-20 md:mb-24">
+          </div>
+          <Layout>
+            <section className="mt-10 mb-10 md:mt-20 md:mb-24 ">
               <CardSlider />
             </section>
             <section className="mb-24">
@@ -106,7 +111,11 @@ export default function Home() {
                   Suspendisse eu ligula.
                 </p>
               </div>
-              <TabGallery></TabGallery>
+              {isMobile ? (
+                <TabGallery></TabGallery>
+              ) : (
+                <HorizontalScrollContainer></HorizontalScrollContainer>
+              )}
             </section>
             <section className="mb-24">
               <Designers></Designers>
