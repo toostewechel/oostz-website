@@ -25,10 +25,10 @@ export default function Home() {
         <Header></Header>
         <main className="mt-16">
           <Layout>
-            <section className="mt-10 mb-10 md:mt-20 md:mb-24 ">
+            <section className="mt-10 mb-10 md:mt-20 md:mb-24">
               <CardSlider />
             </section>
-            <section className="mb-24">
+            <section className="mt-10 mb-10 md:mt-20 md:mb-24">
               <div
                 style={{
                   maxWidth: "592px",
@@ -86,7 +86,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex md:justify-center">
-                <div className="mt-4 lg:mt-0">
+                <div className=" lg:mt-0">
                   <Button label="Onze werkwijze" href="/werkwijze"></Button>
                 </div>
               </div>
