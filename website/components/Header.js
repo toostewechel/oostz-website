@@ -31,7 +31,7 @@ function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="bg-background ">
+    <header className="fixed top-0 right-0 left-0 z-10 w-full bg-background p-2">
       <div className="flex items-center justify-between flex-wrap">
         <div>
           <a href="/">
@@ -64,7 +64,7 @@ function Header() {
         )}
       </div>
       {showMenu && (
-        <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto lg:hidden">
+        <div className="w-full h-screen block flex-grow lg:flex lg:items-center lg:w-auto lg:hidden">
           <div className="lg:flex-grow lg:flex lg:justify-center">
             <ActiveLink label="Home" href="/"></ActiveLink>
             <ActiveLink label="Werkwijze" href="/werkwijze"></ActiveLink>
