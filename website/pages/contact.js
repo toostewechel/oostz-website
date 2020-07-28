@@ -65,17 +65,17 @@ export default () => {
   };
 
   return (
-    <body className="bg-background h-screen">
+    <body className="bg-background">
       <div className="mx-auto">
         <Head>
           <meta name="description" content="Oostz Ontwerp" />
           <title>Oostz Ontwerp</title>
           <link rel="icon" href="/favicon.svg" />
         </Head>
-        <main>
+        <Header></Header>
+        <main className="mt-20">
           <Layout>
-            <Header></Header>
-            <section className="mt-10 mb-10 lg:mt-20 lg:mb-12">
+            <section className="mt-10 mb-10 md:mt-20 md:mb-24">
               <div className="flex flex-col">
                 <div className="w-full lg:w-2/3">
                   <h1 className="text-3xl font-heading text-white font-extrabold mb-2 antialiased">

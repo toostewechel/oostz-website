@@ -15,9 +15,9 @@ export default function Werkwijze() {
           <title>Oostz Ontwerp</title>
           <link rel="icon" href="/favicon.svgg" />
         </Head>
-        <main>
+        <Header></Header>
+        <main className="mt-20">
           <Layout>
-            <Header></Header>;
             <section className="mt-10 mb-10 lg:mt-20 lg:mb-24">
               <div className="flex flex-row">
                 <div className="w-full lg:w-2/3">
