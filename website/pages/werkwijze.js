@@ -31,7 +31,7 @@ export default function Werkwijze() {
                     Oostz Ontwerp is een vakkundige en betrouwbare partner voor
                     realisatie van uw project van ontwerp tot oplevering. Wij
                     zijn sterk in het klantgericht meedenken en hebben veel
-                    ervaring in de bouwsector van ontwerp tot oplevering.
+                    ervaring in de bouwsector.
                   </p>
                 </div>
                 <div className="hidden lg:flex lg:w-1/3 lg:justify-end">
@@ -186,9 +186,11 @@ export default function Werkwijze() {
                     </h3>
                   </div>
                   <p className="text-base md:text-sm font-body text-gray-200 font-normal mb-10 antialiased">
-                    In deze fase wordt er toegewerkt naar een definitief
-                    bouwplan en dienen wij deze in bij uw gemeente. Wij
-                    ontzorgen u volledig in dit traject.
+                    De plannen zijn goedgekeurd en de aannemer is gekozen. De
+                    realisatie kan beginnen! Ook in deze fase zijn wij niet uit
+                    beeld en kunt u voor vragen,{" "}
+                    <strong>professioneel advies</strong> en bouwbegeleiding bij
+                    ons terecht.
                   </p>
                 </div>
                 <div className="w-full md:w-2/3 md:pl-4">

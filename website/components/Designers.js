@@ -47,7 +47,7 @@ function Designers() {
         <img src={avatar}></img>
       </div>
       <div className="flex flex-col w-full md:w-2/3 justify-center">
-        <div className="flex inline-flex mb-8">
+        <div className="inline-flex mb-8">
           <button
             className={`${
               toggleDesigner

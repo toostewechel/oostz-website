@@ -44,7 +44,7 @@ export default function Home() {
                   Oostz Ontwerp is een vakkundige en betrouwbare partner voor
                   realisatie van uw project van ontwerp tot oplevering. Wij zijn
                   sterk in het klantgericht meedenken en hebben veel ervaring in
-                  de bouwsector
+                  de bouwsector.
                 </p>
               </div>
               <div className="flex flex-row flex-wrap md:mb-8">
@@ -101,7 +101,7 @@ export default function Home() {
                 className="text-left md:text-center"
               >
                 <h2 className="text-2xl font-heading text-white font-extrabold mb-2 antialiased">
-                  Onze ontwerpen
+                  Projecten
                 </h2>
                 <p className="text-base font-body text-gray-200 font-normal mb-10 antialiased">
                   Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim
@@ -181,7 +181,7 @@ export default function Home() {
           <section className="mb-24">
             <Layout>
               <div className="flex flex-row">
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                   <h2 className="text-2xl font-heading text-white font-extrabold mb-2 antialiased">
                     Neem vrijblijvend contact op
                   </h2>

@@ -43,7 +43,7 @@ function Header() {
             id="nav-content"
             className="w-full block flex-grow lg:flex lg:items-center lg:w-auto"
           >
-            <div className="flex-grow flex justify-center">
+            <div className="flex-grow flex justify-end">
               <ActiveLink label="Home" href="/"></ActiveLink>
               <ActiveLink label="Werkwijze" href="/werkwijze"></ActiveLink>
               <ActiveLink label="Projecten" href="/projecten"></ActiveLink>
@@ -59,7 +59,7 @@ function Header() {
           <div className="flex items-center justify-end">
             <button onClick={() => setShowMenu(!showMenu)}>
               {showMenu ? (
-                <img src="/MenuClose.svg"></img>
+                <img src="/menubutton.svg"></img>
               ) : (
                 <img src="/menubutton.svg"></img>
               )}

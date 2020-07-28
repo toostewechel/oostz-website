@@ -44,7 +44,7 @@ function TabGallery() {
         <TabPanel>
           <div className="md:flex md:flex-row mt-8 ">
             <div className="p-2 md:w-1/3">
-              <ThumbnailImage src="/placeholder-1.png" href="/projecten" />
+              <ThumbnailImage src="/project-mulder.png" href="/projecten" />
             </div>
             <div className="p-2 md:w-1/3">
               <ThumbnailImage src="/placeholder-2.png" />
