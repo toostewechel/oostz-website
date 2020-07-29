@@ -5,6 +5,7 @@ function ThumbnailImage(props) {
 
   const style = {
     filter: toggleHover ? "grayscale(100%)" : "grayscale(0%)",
+    borderRadius: "4px",
   };
 
   return (

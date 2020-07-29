@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Header from "../components/Header";
+import ProjectHeader from "../components/ProjectHeader";
 import Layout from "../components/Layout";
 import CardSlide from "../components/CardSlide";
 
@@ -16,16 +16,20 @@ import {
 export default function Projecten() {
   return (
     <body className="bg-background ">
-      <div className="container mx-auto">
+      <div className="mx-auto">
         <Head>
           <meta name="description" content="Oostz Ontwerp" />
           <title>Oostz Ontwerp</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main>
-          <Header></Header>
-          <div className="mt-16">
-            <img src="/mulder1.png"></img>
+          <ProjectHeader />
+          <div>
+            <div className="flex flex-row w-full">
+              <div className="w-full">
+                <img className="bg-contain" src="/mulder/mulder-1-xl.jpg"></img>
+              </div>
+            </div>
           </div>
         </main>
       </div>

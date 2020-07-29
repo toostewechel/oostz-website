@@ -4,7 +4,7 @@ import React from "react";
 class CustomDocument extends Document {
   render() {
     return (
-      <html lang="nl">
+      <html className="overflow-hidden h-full" lang="nl">
         <Head>
           <meta charSet="utf-8" />
           <link
@@ -12,7 +12,7 @@ class CustomDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className="subpixel-antialiased">
+        <body className="subpixel-antialiased overflow-auto h-full">
           <Main />
           <NextScript />
         </body>

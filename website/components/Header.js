@@ -47,11 +47,10 @@ function Header() {
               <ActiveLink label="Home" href="/"></ActiveLink>
               <ActiveLink label="Werkwijze" href="/werkwijze"></ActiveLink>
               <ActiveLink label="Projecten" href="/projecten"></ActiveLink>
-              <ActiveLink label="Contact" href="/contact"></ActiveLink>
             </div>
             <div>
               <button className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300 ">
-                Maak afspraak
+                Neem contact op
               </button>
             </div>
           </div>
@@ -73,11 +72,10 @@ function Header() {
             <ActiveLink label="Home" href="/"></ActiveLink>
             <ActiveLink label="Werkwijze" href="/werkwijze"></ActiveLink>
             <ActiveLink label="Projecten" href="/projecten"></ActiveLink>
-            <ActiveLink label="Contact" href="/contact"></ActiveLink>
           </div>
           <div>
             <button className="px-3 py-2 w-full bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300 mt-6 lg:mt-0">
-              Maak afspraak
+              <a href="/contact">Neem contact op</a>
             </button>
           </div>
         </div>
