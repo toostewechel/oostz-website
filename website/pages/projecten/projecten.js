@@ -1,7 +1,7 @@
 import Head from "next/head";
-import ProjectHeader from "../components/ProjectHeader";
-import Layout from "../components/Layout";
-import CardSlide from "../components/CardSlide";
+import ProjectHeader from "../../components/ProjectHeader";
+import Layout from "../../components/Layout";
+import CardSlide from "../../components/CardSlide";
 
 //Import pure-react-carousel
 import React from "react";

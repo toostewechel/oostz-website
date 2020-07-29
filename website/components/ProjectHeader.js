@@ -7,7 +7,9 @@ function ProjectHeader() {
             <img src="/logo-oostz.svg"></img>
           </a>
         </div>
-        <img src="/menubutton.svg"></img>
+        <a href="#">
+          <img src="/MenuClose.svg"></img>
+        </a>
       </div>
     </header>
   );

@@ -46,7 +46,10 @@ function Header() {
             <div className="flex-grow flex justify-end">
               <ActiveLink label="Home" href="/"></ActiveLink>
               <ActiveLink label="Werkwijze" href="/werkwijze"></ActiveLink>
-              <ActiveLink label="Projecten" href="/projecten"></ActiveLink>
+              <ActiveLink
+                label="Projecten"
+                href="/projecten/mulder/project-mulder"
+              ></ActiveLink>
             </div>
             <div>
               <button className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300 ">
