@@ -1,6 +1,9 @@
 import Head from "next/head";
 import ProjectHeader from "../../../components/ProjectHeader";
 import Layout from "../../../components/Layout";
+import Landing from "../../../components/project/Landing";
+import ProjectDetails from "../../../components/project/ProjectDetails";
+import SquareImage from "../../../components/project/SquareImage";
 
 export default function Page() {
   return (
@@ -14,37 +17,35 @@ export default function Page() {
         <main>
           <ProjectHeader />
           <section>
-            <div className="w-full">
-              <img className="bg-contain" src="/mulder/mulder-1-xl.jpg"></img>
-            </div>
+            <Landing
+              mobile="/images/projecten/mulder/mulder-square-1.png"
+              tablet="/images/projecten/mulder/mulder-square-1.png"
+              laptop="/images/projecten/mulder/mulder-square-1.png"
+              desktop="/images/projecten/mulder/mulder-1-xl.jpg"
+            />
           </section>
-          <section>
+          <section className="-mt-10">
             <Layout>
-              <div className="flex flex-row justify-between">
-                <div className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded">
-                  Ontwerp
+              <ProjectDetails
+                projectType="Ontwerp"
+                year="2020"
+                title="Moderne woning"
+                location="Raalte"
+                description="Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. In hac habitasse platea dictumst. Praesent congue erat at massa. Duis lobortis massa imperdiet quam. Aenean imperdiet."
+              />
+              <div className="flex flex-row mt-24 justify-between">
+                <div>
+                  <SquareImage
+                    src="/images/projecten/mulder/mulder-square-1.png"
+                    description="Fusce commodo aliquam arcu. Ut id nisl quis. "
+                  />
                 </div>
                 <div>
-                  <div></div>
+                  <SquareImage
+                    src="/images/projecten/mulder/mulder-square-2.png"
+                    description="Fusce commodo aliquam arcu. Ut id nisl quis. "
+                  />
                 </div>
-              </div>
-              <div
-                style={{
-                  maxWidth: "592px",
-                  marginRight: "auto",
-                  marginLeft: "auto",
-                }}
-                className="text-left md:text-center mt-8"
-              >
-                <h4 className="text-white">2020</h4>
-                <h1 className="text-3xl font-heading text-white font-extrabold mb-2 antialiased">
-                  Moderne woning
-                </h1>
-                <p className="text-base font-body text-gray-200 font-normal mb-10 antialiased">
-                  Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim
-                  sagittis. Fusce commodo aliquam arcu. Ut id nisl quis enim
-                  dignissim sagittis.
-                </p>
               </div>
             </Layout>
           </section>
