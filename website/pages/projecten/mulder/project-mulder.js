@@ -18,9 +18,9 @@ export default function Page() {
           <ProjectHeader />
           <section>
             <Landing
-              mobile="/images/projecten/mulder/mulder-square-1.png"
-              tablet="/images/projecten/mulder/mulder-square-1.png"
-              laptop="/images/projecten/mulder/mulder-square-1.png"
+              mobile="/images/projecten/mulder/mulder-1-xl.jpg"
+              tablet="/images/projecten/mulder/mulder-1-xl.jpg"
+              laptop="/images/projecten/mulder/mulder-1-xl.jpg"
               desktop="/images/projecten/mulder/mulder-1-xl.jpg"
             />
           </section>
