@@ -48,7 +48,7 @@ function Header() {
               <ActiveLink label="Werkwijze" href="/werkwijze"></ActiveLink>
               <ActiveLink
                 label="Projecten"
-                href="/projecten/mulder/project-mulder"
+                href="/projecten/mulder"
               ></ActiveLink>
             </div>
             <div>

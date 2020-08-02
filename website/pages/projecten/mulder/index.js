@@ -1,5 +1,5 @@
 import Head from "next/head";
-import ProjectHeader from "../../../components/ProjectHeader";
+import ProjectHeader from "../../../components/project/ProjectHeader";
 import Layout from "../../../components/Layout";
 import Landing from "../../../components/project/Landing";
 import ProjectDetails from "../../../components/project/ProjectDetails";
