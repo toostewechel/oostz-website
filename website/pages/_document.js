@@ -4,7 +4,7 @@ import React from "react";
 class CustomDocument extends Document {
   render() {
     return (
-      <html className="overflow-hidden h-full" lang="nl">
+      <html lang="nl">
         <Head>
           <meta charSet="utf-8" />
           <link
