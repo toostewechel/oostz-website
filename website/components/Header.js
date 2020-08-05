@@ -53,7 +53,7 @@ function Header() {
             </div>
             <div>
               <button className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300 ">
-                Neem contact op
+                <a href="/contact">Neem contact op</a>
               </button>
             </div>
           </div>

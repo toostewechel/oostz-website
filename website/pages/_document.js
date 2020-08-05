@@ -4,7 +4,7 @@ import React from "react";
 class CustomDocument extends Document {
   render() {
     return (
-      <html lang="nl">
+      <html className="bg-background" lang="nl">
         <Head>
           <meta charSet="utf-8" />
           <link
@@ -12,7 +12,7 @@ class CustomDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className="subpixel-antialiased overflow-auto h-full">
+        <body className="subpixel-antialiased overflow-auto h-full bg-background">
           <Main />
           <NextScript />
         </body>

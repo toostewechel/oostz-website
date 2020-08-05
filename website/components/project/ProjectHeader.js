@@ -24,7 +24,7 @@ function ProjectHeader() {
 
   return (
     <header
-      className={`fixed top-0 right-0 left-0 z-10 w-full p-2 transition duration-300 pointer-events-none ${
+      className={`fixed top-0 right-0 left-0 z-10 w-full p-2 transition duration-200 pointer-events-none ${
         !isTop ? "bg-background md:bg-transparent" : "bg-transparent"
       }`}
     >

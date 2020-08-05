@@ -25,21 +25,21 @@ function CardSlider() {
         <Slider>
           <Slide index={0}>
             <CardSlide
-              src="/slide1.png"
+              src="/images/home/slide1.png"
               title="Sterk in ontwerp."
               description="Wij werken met passie aan ontwerpen voor de verbouw, nieuwbouw en aanbouw. Altijd op maat en persoonlijk."
             ></CardSlide>
           </Slide>
           <Slide index={1}>
             <CardSlide
-              src="/slide2.png"
+              src="/images/home/slide2.jpg"
               title="Oog voor detail."
               description="Wij hebben een sterk oog voor detail, want alleen details maken van een gedegen ontwerp een mooi ontwerp."
             ></CardSlide>
           </Slide>
           <Slide index={2}>
             <CardSlide
-              src="/slide3.png"
+              src="/images/home/slide2.jpg"
               title="Aandacht voor jou."
               description="Ontwerpen draait om aandacht. Aandacht voor jouw wensen, de samenwerking en het resultaat. "
             ></CardSlide>
