@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Layout from "../components/Layout";
 import CardSmall from "../components/CardSmall";
 import HoverCard from "../components/HoverCard";
-import TabGallery from "../components/TabGallery";
+import ThumbnailImage from "../components/ThumbnailImage";
 import Designers from "../components/Designers";
 import Footer from "../components/Footer";
 import Button from "../components/Button";
@@ -110,7 +110,33 @@ export default function Home() {
                 </p>
               </div>
               {isMobile ? (
-                <TabGallery></TabGallery>
+                <div>
+                  <div className="md:flex md:flex-row mt-8 ">
+                    <div className="p-2 md:w-1/3">
+                      <ThumbnailImage
+                        src="/project-mulder.png"
+                        href="/projecten"
+                      />
+                    </div>
+                    <div className="p-2 md:w-1/3">
+                      <ThumbnailImage src="/placeholder-2.png" />
+                    </div>
+                    <div className="p-2 md:w-1/3">
+                      <ThumbnailImage src="/placeholder-3.png" />
+                    </div>
+                  </div>
+                  <div className="md:flex md:flex-row -mt-6">
+                    <div className="p-2 md:w-1/3">
+                      <ThumbnailImage src="/placeholder-4.png" />
+                    </div>
+                    <div className="p-2 md:w-1/3">
+                      <ThumbnailImage src="/placeholder-5.png" />
+                    </div>
+                    <div className="p-2 md:w-1/3">
+                      <ThumbnailImage src="/placeholder-6.png" />
+                    </div>
+                  </div>
+                </div>
               ) : (
                 <HorizontalScrollContainer></HorizontalScrollContainer>
               )}
