@@ -25,7 +25,7 @@ function ThumbnailImage(props) {
               className="flex flex-row items-center px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300"
               onClick={props.href}
             >
-              Bekijk project
+              Bekijken
               <svg
                 className="ml-2 fill-current text-background"
                 width="16"

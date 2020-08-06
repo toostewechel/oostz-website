@@ -13,7 +13,7 @@ import HorizontalScrollContainer from "../components/HorizontalScrollContainter"
 import { useMediaQuery } from "beautiful-react-hooks";
 
 export default function Home() {
-  const isMobile = useMediaQuery("(min-width: 640px)");
+  const isMobile = useMediaQuery("(max-width: 640px)");
   return (
     <body className="bg-background ">
       <div className="mx-auto">
@@ -111,6 +111,15 @@ export default function Home() {
               </div>
               {isMobile ? (
                 <div>
+                  <HorizontalScrollContainer></HorizontalScrollContainer>
+                  <div className="flex md:justify-center">
+                    <div className="lg:mt-6">
+                      <Button label="Alle projecten" href="/werkwijze"></Button>
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div>
                   <div className="md:flex md:flex-row mt-8 ">
                     <div className="p-2 md:w-1/3">
                       <ThumbnailImage
@@ -136,9 +145,12 @@ export default function Home() {
                       <ThumbnailImage src="/placeholder-6.png" />
                     </div>
                   </div>
+                  <div className="flex md:justify-center">
+                    <div className="lg:mt-6">
+                      <Button label="Alle projecten" href="/werkwijze"></Button>
+                    </div>
+                  </div>
                 </div>
-              ) : (
-                <HorizontalScrollContainer></HorizontalScrollContainer>
               )}
             </section>
             <section className="mb-16 md:mb-24">

@@ -44,16 +44,14 @@ function Header() {
             className="w-full block flex-grow lg:flex lg:items-center lg:w-auto"
           >
             <div className="flex-grow flex justify-end">
-              <ActiveLink label="Home" href="/"></ActiveLink>
-              <ActiveLink label="Werkwijze" href="/werkwijze"></ActiveLink>
-              <ActiveLink
-                label="Projecten"
-                href="/projecten/mulder"
-              ></ActiveLink>
+              <ActiveLink label="Home" href="/" />
+              <ActiveLink label="Werkwijze" href="/werkwijze" />
+              <ActiveLink label="Projecten" href="/projecten/mulder" />
+              <ActiveLink label="Contact" href="/contact" />
             </div>
             <div>
               <button className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300 ">
-                <a href="/contact">Neem contact op</a>
+                <a href="/contact">Maak afspraak</a>
               </button>
             </div>
           </div>
@@ -61,7 +59,7 @@ function Header() {
           <div className="flex items-center justify-end">
             <button onClick={() => setShowMenu(!showMenu)}>
               {showMenu ? (
-                <img src="/menubutton.svg"></img>
+                <img src="/MenuClose.svg"></img>
               ) : (
                 <img src="/menubutton.svg"></img>
               )}
@@ -72,13 +70,14 @@ function Header() {
       {showMenu && (
         <div className="w-full p-4 h-screen block flex-grow lg:items-center lg:w-auto lg:hidden">
           <div className="lg:flex-grow lg:flex lg:justify-center ">
-            <ActiveLink label="Home" href="/"></ActiveLink>
-            <ActiveLink label="Werkwijze" href="/werkwijze"></ActiveLink>
-            <ActiveLink label="Projecten" href="/projecten/mulder"></ActiveLink>
+            <ActiveLink label="Home" href="/" />
+            <ActiveLink label="Werkwijze" href="/werkwijze" />
+            <ActiveLink label="Projecten" href="/projecten/mulder" />
+            <ActiveLink label="Contact" href="/contact" />
           </div>
           <div>
             <button className="px-3 py-2 w-full bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300 mt-6 lg:mt-0">
-              <a href="/contact">Neem contact op</a>
+              <a href="/contact">Maak afspraak</a>
             </button>
           </div>
         </div>
