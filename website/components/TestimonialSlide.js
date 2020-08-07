@@ -4,7 +4,7 @@ function TestimonialSlide(props) {
       <h2 className="text-2xl font-heading text-white font-extrabold mb-6 antialiased">
         {props.title}
       </h2>
-      <p className="text-base md:text-lg text-white font-body mb-6 antialiased">
+      <p className="text-base md:text-base text-white font-body mb-6 antialiased">
         {props.testimonial}
       </p>
       <p className="text-sm text-white font-body mb-6 antialiased">

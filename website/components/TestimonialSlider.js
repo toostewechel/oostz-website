@@ -24,19 +24,19 @@ function TestimonialSlider() {
       <Slider>
         <Slide index={0}>
           <TestimonialSlide
-            testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
+            testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
             author="Familie de Wit"
           ></TestimonialSlide>
         </Slide>
         <Slide index={1}>
           <TestimonialSlide
-            testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
+            testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
             author="Familie de Wit"
           ></TestimonialSlide>
         </Slide>
         <Slide index={2}>
           <TestimonialSlide
-            testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
+            testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
             author="Familie de Wit"
           ></TestimonialSlide>
         </Slide>
