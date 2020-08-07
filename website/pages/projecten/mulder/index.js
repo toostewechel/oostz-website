@@ -22,7 +22,7 @@ export default function Page() {
               desktopImage="/images/projecten/mulder/mulder-1-xl.jpg"
             />
           </section>
-          <section className="-mt-10 md:mt-4 lg:mt-12">
+          <section id="projectdetails" className="-mt-10 md:mt-4 lg:mt-12">
             <Layout>
               <ProjectDetails
                 projectType="Ontwerp"

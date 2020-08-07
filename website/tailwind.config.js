@@ -5,6 +5,8 @@ module.exports = {
       "0": 0,
       auto: "auto",
       "1/2": "50%",
+      "1/4": "25%",
+      "1/20": "5%",
     },
     fontFamily: {
       heading: ["Public Sans", "sans-serif"],

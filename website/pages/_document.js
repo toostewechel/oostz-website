@@ -4,7 +4,11 @@ import React from "react";
 class CustomDocument extends Document {
   render() {
     return (
-      <html className="bg-background" lang="nl">
+      <html
+        style={{ scrollBehavior: "smooth" }}
+        className="bg-background"
+        lang="nl"
+      >
         <Head>
           <meta charSet="utf-8" />
           <link
