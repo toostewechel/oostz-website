@@ -251,7 +251,7 @@ export default function Home() {
                   style={{
                     backgroundImage: "url(/images/home/contactcard.jpg)",
                   }}
-                  className="flex flex-col w-full md:w-1/2 md:items-end md:ml-8 bg-yellow-100 rounded bg-cover px-8 py-8"
+                  className="flex flex-col w-full md:w-1/2 items-end md:ml-8 bg-yellow-100 rounded bg-cover px-8 py-8"
                 >
                   <div className="flex flex-row mb-6">
                     <div>
