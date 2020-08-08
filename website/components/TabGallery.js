@@ -33,7 +33,7 @@ function TabGallery() {
 
   return (
     <Tabs index={tabIndex} onChange={handleTabsChange}>
-      <div className="flex md:justify-center">
+      <div className="flex">
         <TabList>
           <Tab label="Alle" isActive={0 === tabIndex} />
           <Tab label="Gerealiseerd" isActive={1 === tabIndex} />
@@ -44,29 +44,51 @@ function TabGallery() {
         <TabPanel>
           <div className="md:flex md:flex-row mt-8 ">
             <div className="p-2 md:w-1/3">
-              <ThumbnailImage src="/project-mulder.png" href="/projecten" />
+              <ThumbnailImage
+                src="/project-mulder.png"
+                href="/projecten/mulder"
+              />
             </div>
             <div className="p-2 md:w-1/3">
-              <ThumbnailImage src="/placeholder-2.png" />
+              <ThumbnailImage
+                src="/project-mulder.png"
+                href="/projecten/mulder"
+              />
             </div>
             <div className="p-2 md:w-1/3">
-              <ThumbnailImage src="/placeholder-3.png" />
+              <ThumbnailImage
+                src="/project-mulder.png"
+                href="/projecten/mulder"
+              />
             </div>
           </div>
           <div className="md:flex md:flex-row -mt-6">
             <div className="p-2 md:w-1/3">
-              <ThumbnailImage src="/placeholder-4.png" />
+              <ThumbnailImage
+                src="/project-mulder.png"
+                href="/projecten/mulder"
+              />
             </div>
             <div className="p-2 md:w-1/3">
-              <ThumbnailImage src="/placeholder-5.png" />
+              <ThumbnailImage
+                src="/project-mulder.png"
+                href="/projecten/mulder"
+              />
             </div>
             <div className="p-2 md:w-1/3">
-              <ThumbnailImage src="/placeholder-6.png" />
+              <ThumbnailImage
+                src="/project-mulder.png"
+                href="/projecten/mulder"
+              />
             </div>
           </div>
         </TabPanel>
-        <TabPanel>Gerealiseerd</TabPanel>
-        <TabPanel>Ontwerpen</TabPanel>
+        <TabPanel>
+          <p className="text-white">Gerealiseerd</p>
+        </TabPanel>
+        <TabPanel>
+          <p className="text-white">Ontwerpen</p>
+        </TabPanel>
       </TabPanels>
     </Tabs>
   );

@@ -119,50 +119,58 @@ export default function Home() {
                   </div>
                 </div>
               ) : (
-                <div>
-                  <div className="md:flex md:flex-row mt-8 ">
-                    <div className="p-2 md:w-1/3">
-                      <ThumbnailImage
-                        src="/project-mulder.png"
-                        href="/projecten/mulder"
-                      />
-                    </div>
-                    <div className="p-2 md:w-1/3">
-                      <ThumbnailImage
-                        src="/project-mulder.png"
-                        href="/projecten/mulder"
-                      />
-                    </div>
-                    <div className="p-2 md:w-1/3">
-                      <ThumbnailImage
-                        src="/project-mulder.png"
-                        href="/projecten/mulder"
-                      />
-                    </div>
+                <div className="relative">
+                  <div className="absolute top-0 transform translate-x-1/2 overflow-hidden">
+                    <img src="/images/home/pattern.svg"></img>
                   </div>
-                  <div className="md:flex md:flex-row -mt-6">
-                    <div className="p-2 md:w-1/3">
-                      <ThumbnailImage
-                        src="/project-mulder.png"
-                        href="/projecten/mulder"
-                      />
+                  <div className="relative">
+                    <div className="md:flex md:flex-row mt-8 ">
+                      <div className="p-2 md:w-1/3">
+                        <ThumbnailImage
+                          src="/project-mulder.png"
+                          href="/projecten/mulder"
+                        />
+                      </div>
+                      <div className="p-2 md:w-1/3">
+                        <ThumbnailImage
+                          src="/project-mulder.png"
+                          href="/projecten/mulder"
+                        />
+                      </div>
+                      <div className="p-2 md:w-1/3">
+                        <ThumbnailImage
+                          src="/project-mulder.png"
+                          href="/projecten/mulder"
+                        />
+                      </div>
                     </div>
-                    <div className="p-2 md:w-1/3">
-                      <ThumbnailImage
-                        src="/project-mulder.png"
-                        href="/projecten/mulder"
-                      />
+                    <div className="md:flex md:flex-row -mt-6">
+                      <div className="p-2 md:w-1/3">
+                        <ThumbnailImage
+                          src="/project-mulder.png"
+                          href="/projecten/mulder"
+                        />
+                      </div>
+                      <div className="p-2 md:w-1/3">
+                        <ThumbnailImage
+                          src="/project-mulder.png"
+                          href="/projecten/mulder"
+                        />
+                      </div>
+                      <div className="p-2 md:w-1/3">
+                        <ThumbnailImage
+                          src="/project-mulder.png"
+                          href="/projecten/mulder"
+                        />
+                      </div>
                     </div>
-                    <div className="p-2 md:w-1/3">
-                      <ThumbnailImage
-                        src="/project-mulder.png"
-                        href="/projecten/mulder"
-                      />
-                    </div>
-                  </div>
-                  <div className="flex md:justify-center">
-                    <div className="lg:mt-6">
-                      <Button label="Alle projecten" href="/werkwijze"></Button>
+                    <div className="flex md:justify-center">
+                      <div className="lg:mt-6">
+                        <Button
+                          label="Alle projecten"
+                          href="/werkwijze"
+                        ></Button>
+                      </div>
                     </div>
                   </div>
                 </div>
