@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import { useMediaQuery } from "beautiful-react-hooks";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import Link from "next/link";
 
 function ActiveLink({ label, href }) {
   const router = useRouter();
@@ -11,7 +12,11 @@ function ActiveLink({ label, href }) {
 
   const handleClick = (e) => {
     e.preventDefault();
-    router.push(href);
+    router.push(href).then(() =>
+      window.scrollTo({
+        top: "0",
+      })
+    );
   };
 
   return (
@@ -30,6 +35,11 @@ function Header() {
   const isLaptop = useMediaQuery("(min-width: 1024px)");
   const [showMenu, setShowMenu] = useState(false);
 
+  useEffect(() => {
+    showMenu && (document.body.style.overflow = "hidden");
+    !showMenu && (document.body.style.overflow = "unset");
+  });
+
   return (
     <header className="fixed top-0 right-0 left-0 z-10 w-full bg-background p-2">
       <div className="flex items-center justify-between flex-wrap">
@@ -46,7 +56,7 @@ function Header() {
             <div className="flex-grow flex justify-end">
               <ActiveLink label="Home" href="/" />
               <ActiveLink label="Werkwijze" href="/werkwijze" />
-              <ActiveLink label="Projecten" href="/projecten/mulder" />
+              <ActiveLink label="Projecten" href="/projecten" />
               <ActiveLink label="Contact" href="/contact" />
             </div>
             <div>
