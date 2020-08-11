@@ -1,6 +1,6 @@
 function ProjectDetails(props) {
   return (
-    <div>
+    <section className="mb-16 md:mb-32">
       <div className="flex flex-row justify-between items-center">
         <div className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded">
           {props.projectType}
@@ -105,7 +105,7 @@ function ProjectDetails(props) {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

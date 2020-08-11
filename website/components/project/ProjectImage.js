@@ -1,4 +1,4 @@
-function SquareImage(props) {
+function ProjectImage(props) {
   return (
     <div>
       <img className="mb-4" src={props.src} alt={props.alt}></img>
@@ -11,4 +11,4 @@ function SquareImage(props) {
   );
 }
 
-export default SquareImage;
+export default ProjectImage;

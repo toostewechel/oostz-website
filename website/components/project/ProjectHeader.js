@@ -35,7 +35,7 @@ function ProjectHeader() {
           </a>
         </div>
         <div>
-          <a href="/">
+          <a href="/projecten">
             <img src="/MenuClose.svg"></img>
           </a>
         </div>

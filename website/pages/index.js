@@ -119,11 +119,8 @@ export default function Home() {
                   </div>
                 </div>
               ) : (
-                <div className="relative">
-                  <div className="absolute top-0 transform translate-x-1/2 overflow-hidden">
-                    <img src="/images/home/pattern.svg"></img>
-                  </div>
-                  <div className="relative">
+                <div>
+                  <div>
                     <div className="md:flex md:flex-row mt-8 ">
                       <div className="p-2 md:w-1/3">
                         <ThumbnailImage
@@ -168,7 +165,7 @@ export default function Home() {
                       <div className="lg:mt-6">
                         <Button
                           label="Alle projecten"
-                          href="/werkwijze"
+                          href="/projecten"
                         ></Button>
                       </div>
                     </div>

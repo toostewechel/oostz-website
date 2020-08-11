@@ -42,52 +42,140 @@ function TabGallery() {
       </div>
       <TabPanels>
         <TabPanel>
-          <div className="md:flex md:flex-row mt-8 ">
-            <div className="p-2 md:w-1/3">
-              <ThumbnailImage
-                src="/project-mulder.png"
-                href="/projecten/mulder"
-              />
+          <div className="md:flex md:flex-row mt-8 mb-6">
+            <div className="md:mr-4 md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
             </div>
-            <div className="p-2 md:w-1/3">
-              <ThumbnailImage
-                src="/project-mulder.png"
-                href="/projecten/mulder"
-              />
+            <div className="md:mr-4 md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
             </div>
-            <div className="p-2 md:w-1/3">
-              <ThumbnailImage
-                src="/project-mulder.png"
-                href="/projecten/mulder"
-              />
+            <div className="md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
             </div>
           </div>
-          <div className="md:flex md:flex-row -mt-6">
-            <div className="p-2 md:w-1/3">
-              <ThumbnailImage
-                src="/project-mulder.png"
-                href="/projecten/mulder"
-              />
+          <div className="md:flex md:flex-row mb-6">
+            <div className="md:mr-4 md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
             </div>
-            <div className="p-2 md:w-1/3">
-              <ThumbnailImage
-                src="/project-mulder.png"
-                href="/projecten/mulder"
-              />
+            <div className="md:mr-4 md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
             </div>
-            <div className="p-2 md:w-1/3">
-              <ThumbnailImage
-                src="/project-mulder.png"
-                href="/projecten/mulder"
-              />
+            <div className="md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
+            </div>
+          </div>
+          <div className="md:flex md:flex-row ">
+            <div className="md:mr-4 md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
+            </div>
+            <div className="md:mr-4 md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
+            </div>
+            <div className="md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
             </div>
           </div>
         </TabPanel>
         <TabPanel>
-          <p className="text-white">Gerealiseerd</p>
+          <div className="md:flex md:flex-row mt-8 mb-6">
+            <div className="md:mr-4 md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
+            </div>
+            <div className="md:mr-4 md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
+            </div>
+            <div className="md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
+            </div>
+          </div>
         </TabPanel>
         <TabPanel>
-          <p className="text-white">Ontwerpen</p>
+          <div className="md:flex md:flex-row mt-8 mb-6">
+            <div className="md:mr-4 md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
+            </div>
+            <div className="md:mr-4 md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
+            </div>
+            <div className="md:w-1/3">
+              <div>
+                <ThumbnailImage
+                  src="/project-mulder.png"
+                  description="Fusce commodo aliquam arcu."
+                />
+              </div>
+            </div>
+          </div>
         </TabPanel>
       </TabPanels>
     </Tabs>

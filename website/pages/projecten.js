@@ -33,9 +33,9 @@ export default function Projecten() {
                   </p>
                 </div>
               </div>
-            </section>
-            <section className="mb-16 md:mb-32">
-              <TabGallery />
+              <div>
+                <TabGallery />
+              </div>
             </section>
             <Footer />
           </Layout>

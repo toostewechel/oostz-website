@@ -16,7 +16,7 @@ function TestimonialSlider() {
   return (
     <CarouselProvider
       naturalSlideWidth={isLarge ? 100 : 100}
-      naturalSlideHeight={isLarge ? 20 : 50}
+      naturalSlideHeight={isLarge ? 15 : 50}
       totalSlides={3}
       isIntrinsicHeight={isLarge ? false : true}
     >

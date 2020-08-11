@@ -11,13 +11,17 @@ function ThumbnailImage(props) {
   return (
     <a href={props.href}>
       <div
-        className="relative rounded m-2 "
+        className="relative rounded"
         onMouseEnter={() => setToggleHover(!toggleHover)}
         onMouseLeave={() => setToggleHover(!toggleHover)}
       >
-        <div className="absolute border border-gray-200 -mt-2 -mr-2 mb-8 ml-3 top-0 right-0 bottom-0 left-0 rounded"></div>
         <div className="relative ">
-          <img style={style} src={props.src} alt={props.alt}></img>;
+          <img style={style} src={props.src} alt={props.alt}></img>
+        </div>
+        <div className="border-l-4 border-yellow-500 mt-3">
+          <p className="ml-3 text-sm font-body text-gray-200 font-normal antialiased">
+            Fusce commodo aliquam arcu.
+          </p>
         </div>
         {toggleHover && (
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -mt-2">
