@@ -42,7 +42,7 @@ function TabGallery() {
       </div>
       <TabPanels>
         <TabPanel>
-          <div className="md:flex md:flex-row mt-8 mb-6">
+          <div className="md:flex md:flex-row mt-8 mb-8">
             <div className="md:mr-4 md:w-1/3">
               <div>
                 <ThumbnailImage
@@ -68,7 +68,7 @@ function TabGallery() {
               </div>
             </div>
           </div>
-          <div className="md:flex md:flex-row mb-6">
+          <div className="md:flex md:flex-row mb-8">
             <div className="md:mr-4 md:w-1/3">
               <div>
                 <ThumbnailImage
