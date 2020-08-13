@@ -18,13 +18,13 @@ function ThumbnailImage(props) {
         <div className="relative ">
           <img style={style} src={props.src} alt={props.alt}></img>
         </div>
-        <div className="border-l-4 border-yellow-500 mt-3">
-          <p className="ml-3 text-sm font-body text-gray-200 font-normal antialiased">
-            Fusce commodo aliquam arcu.
+        <div className="border-l-4 border-yellow-500">
+          <p className="ml-3 mt-3 text-sm font-body text-gray-200 font-normal antialiased">
+            {props.description}
           </p>
         </div>
         {toggleHover && (
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -mt-2">
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
             <button
               className="flex flex-row items-center px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300"
               onClick={props.href}

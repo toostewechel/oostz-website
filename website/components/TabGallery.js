@@ -46,7 +46,7 @@ function TabGallery() {
             <div className="md:mr-4 md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -54,7 +54,7 @@ function TabGallery() {
             <div className="md:mr-4 md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -62,7 +62,7 @@ function TabGallery() {
             <div className="md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -72,7 +72,7 @@ function TabGallery() {
             <div className="md:mr-4 md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -80,7 +80,7 @@ function TabGallery() {
             <div className="md:mr-4 md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -88,7 +88,7 @@ function TabGallery() {
             <div className="md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -98,7 +98,7 @@ function TabGallery() {
             <div className="md:mr-4 md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -106,7 +106,7 @@ function TabGallery() {
             <div className="md:mr-4 md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -114,7 +114,7 @@ function TabGallery() {
             <div className="md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -126,7 +126,7 @@ function TabGallery() {
             <div className="md:mr-4 md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -134,7 +134,7 @@ function TabGallery() {
             <div className="md:mr-4 md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -142,7 +142,7 @@ function TabGallery() {
             <div className="md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -154,7 +154,7 @@ function TabGallery() {
             <div className="md:mr-4 md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
@@ -162,18 +162,18 @@ function TabGallery() {
             <div className="md:mr-4 md:w-1/3">
               <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
               </div>
             </div>
             <div className="md:w-1/3">
-              <div>
+              {/* <div>
                 <ThumbnailImage
-                  src="/project-mulder.png"
+                  src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </TabPanel>
