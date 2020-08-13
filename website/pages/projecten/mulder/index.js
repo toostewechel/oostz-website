@@ -73,13 +73,15 @@ export default function Page() {
                 <div className="md:flex md:flex-row mt-8 ">
                   <div className="mr-0 md:mr-4 md:w-1/3">
                     <ThumbnailImage
-                      src="/project-mulder.png"
+                      src="/images/placeholders/placeholder-project-large.svg"
+                      description="Lorum ipsum dolem"
                       href="/projecten/mulder"
                     />
                   </div>
                   <div className="mr-0 md:mr-4 md:w-1/3">
                     <ThumbnailImage
-                      src="/project-mulder.png"
+                      src="/images/placeholders/placeholder-project-large.svg"
+                      description="Lorum ipsum dolem"
                       href="/projecten/mulder"
                     />
                   </div>

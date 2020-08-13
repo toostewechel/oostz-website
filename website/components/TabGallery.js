@@ -48,6 +48,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -56,6 +57,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -64,6 +66,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -74,6 +77,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -82,6 +86,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -90,6 +95,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -100,6 +106,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -108,6 +115,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -116,6 +124,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -128,6 +137,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -136,6 +146,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -144,6 +155,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -156,6 +168,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
@@ -164,6 +177,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
+                  href="/projecten/mulder"
                 />
               </div>
             </div>
