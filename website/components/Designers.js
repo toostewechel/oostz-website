@@ -4,6 +4,7 @@ const jochemtepperik = {
   avatar: "/designer1.png",
   name: "Jochem Tepperik",
   linkedin: "https://www.linkedin.com/in/jochem-tepperik-b0bbba141/",
+  email: "jochem@oostz-ontwerp.nl",
   jobtitle: "Bouwkundig ontwerper",
   description:
     "Mijn missie als bouwkundig ontwerper is om samen de vertaling te maken van een esthetisch ontwerp naar een technisch ontwerp dat geheel aansluit op uw wensen en ideeën. Ik vind het fantastisch om hierin als creatieve schakel te fungeren en uw droom om te zetten in een tastbaar resultaat.",
@@ -13,6 +14,7 @@ const koenklijnvelderman = {
   avatar: "/designer2.png",
   name: "Koen Klijn Velderman",
   linkedin: "https://www.linkedin.com/in/jochem-tepperik-b0bbba141/",
+  email: "koen@oostz-ontwerp.nl",
   jobtitle: "Bouwkundig ontwerper",
   description:
     "'Make it simple, but significant.' Ontwerpen is voor mij eigenzinnig, uniek en functioneel. Uw wensen staan hierin centraal, met een persoonlijk en uniek ontwerp als gevolg. Het is een prachtig proces van schets tot eindresultaat, waarbij ik u graag begeleid.",
@@ -40,6 +42,10 @@ function Designers() {
   const linkedin = toggleDesigner
     ? jochemtepperik.linkedin
     : koenklijnvelderman.linkedin;
+
+  const email = toggleDesigner
+    ? jochemtepperik.email
+    : koenklijnvelderman.email;
 
   return (
     <div className="flex flex-row">
@@ -107,19 +113,33 @@ function Designers() {
           <p className="text-base font-body text-gray-200 font-normal antialiased mb-4">
             {description}
           </p>
-          <a href={linkedin} target="_blank">
-            <svg
-              className="fill-current text-white"
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M4.33333 5.66669H1.66666C1.48257 5.66669 1.33333 5.81593 1.33333 6.00002V14.6667C1.33333 14.8508 1.48257 15 1.66666 15H4.33333C4.51742 15 4.66666 14.8508 4.66666 14.6667V6.00002C4.66666 5.81593 4.51742 5.66669 4.33333 5.66669Z" />
-              <path d="M2.98666 4.33333C3.89977 4.33333 4.63999 3.58714 4.63999 2.66667C4.63999 1.74619 3.89977 1 2.98666 1C2.07355 1 1.33333 1.74619 1.33333 2.66667C1.33333 3.58714 2.07355 4.33333 2.98666 4.33333Z" />
-              <path d="M12.3333 15H14.3333C14.4217 15 14.5065 14.9649 14.569 14.9024C14.6315 14.8399 14.6667 14.7551 14.6667 14.6667V9.06669C14.6667 6.55336 13.2467 5.33336 11.26 5.33336C10.8681 5.31903 10.4776 5.38696 10.1136 5.53279C9.74964 5.67862 9.42024 5.8991 9.14667 6.18002C9.11013 6.22224 9.06154 6.25225 9.00743 6.26603C8.95333 6.2798 8.8963 6.27667 8.84402 6.25707C8.79175 6.23747 8.74673 6.20233 8.71502 6.15637C8.68331 6.11042 8.66644 6.05585 8.66667 6.00002C8.66667 5.91162 8.63155 5.82683 8.56904 5.76432C8.50652 5.70181 8.42174 5.66669 8.33333 5.66669H6.33333C6.24493 5.66669 6.16014 5.70181 6.09763 5.76432C6.03512 5.82683 6 5.91162 6 6.00002V14.6667C6 14.7551 6.03512 14.8399 6.09763 14.9024C6.16014 14.9649 6.24493 15 6.33333 15H8.33333C8.42174 15 8.50652 14.9649 8.56904 14.9024C8.63155 14.8399 8.66667 14.7551 8.66667 14.6667V9.66669C8.66667 9.22466 8.84226 8.80074 9.15482 8.48818C9.46738 8.17562 9.89131 8.00002 10.3333 8.00002C10.7754 8.00002 11.1993 8.17562 11.5118 8.48818C11.8244 8.80074 12 9.22466 12 9.66669V14.6667C12 14.7551 12.0351 14.8399 12.0976 14.9024C12.1601 14.9649 12.2449 15 12.3333 15Z" />
-            </svg>
-          </a>
+          <div className="flex flex-row items-center">
+            <a href={linkedin} target="_blank">
+              <svg
+                className="fill-current text-white mr-3"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M8.333 9.667H5.667a.333.333 0 00-.334.333v8.667c0 .184.15.333.334.333h2.666c.184 0 .334-.15.334-.333V10a.333.333 0 00-.334-.333zM6.987 8.333A1.66 1.66 0 008.64 6.667C8.64 5.747 7.9 5 6.987 5a1.66 1.66 0 00-1.654 1.667c0 .92.74 1.666 1.654 1.666zM16.333 19h2a.333.333 0 00.334-.333v-5.6c0-2.514-1.42-3.734-3.407-3.734a2.807 2.807 0 00-2.113.847.274.274 0 01-.48-.18.333.333 0 00-.334-.333h-2A.333.333 0 0010 10v8.667a.334.334 0 00.333.333h2a.333.333 0 00.334-.333v-5a1.667 1.667 0 013.333 0v5a.334.334 0 00.333.333z" />
+              </svg>
+            </a>
+            <a href={`mailto:${email}`} target="_blank">
+              <svg
+                className="fill-current text-white mr-3"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M19.925 7.888a.121.121 0 00-.133.026l-6.498 6.497a1.833 1.833 0 01-2.592 0L4.207 7.914a.12.12 0 00-.187.019A.121.121 0 004 8v8a1.333 1.333 0 001.333 1.333h13.334A1.334 1.334 0 0020 16V8a.12.12 0 00-.075-.112z" />
+                <path d="M11.41 13.704a.835.835 0 001.179 0l6.457-6.457a.333.333 0 00.08-.341c-.073-.22-.277-.24-.46-.24H5.334c-.183 0-.388.02-.46.24a.333.333 0 00.08.34l6.457 6.458z" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </div>
