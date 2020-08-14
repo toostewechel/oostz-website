@@ -23,10 +23,35 @@ export default function Home() {
           <link rel="icon" href="/favicon.svg" />
         </Head>
         <Header></Header>
-        <main className="mt-20">
+        <main className="mt-24">
+          <div
+            style={{
+              width: "100%",
+              height: "65vh",
+              background:
+                "linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(31,31,31,0.60) 25%, rgba(31,31,31,0.2) 50%, rgba(49,32,43,0.60) 75%, rgba(31,31,31,1) 100%), url(/images/home/slide2.jpeg)",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <Layout>
+              <div style={{ height: "65vh" }} className="flex items-center">
+                <div className="hidden md:flex md:w-1/2 lg:w-2/3"></div>
+                <div className="w-full md:w-1/2 lg:w-1/3 bg-yellow-500 rounded p-6">
+                  <h1 className="text-3xl font-heading text-heading font-extrabold mb-2 antialiased">
+                    Oog voor detail.
+                  </h1>
+                  <p className="text-base font-body text-body font-normal mb-6 antialiased">
+                    Wij hebben een sterk oog voor detail, want alleen details
+                    maken van een gedegen ontwerp een mooi ontwerp.
+                  </p>
+                </div>
+              </div>
+            </Layout>
+          </div>
           <Layout>
             <section className="mt-10 mb-10 md:mt-20 md:mb-24">
-              <CardSlider />
+              {/* <CardSlider /> */}
             </section>
             <section className="mb-16 md:mb-32">
               <div
