@@ -5,6 +5,10 @@ const layoutStyle = {
   padding: "16px",
 };
 
-const Layout = (props) => <div style={layoutStyle}>{props.children}</div>;
+const Layout = (props) => (
+  <div id={props.id} style={layoutStyle}>
+    {props.children}
+  </div>
+);
 
 export default Layout;

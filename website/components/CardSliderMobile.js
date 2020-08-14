@@ -10,7 +10,7 @@ import {
   ButtonNext,
 } from "pure-react-carousel";
 
-function CardSlider() {
+function CardSliderMobile() {
   const isLarge = useMediaQuery("(min-width: 768px)");
 
   return (
@@ -73,4 +73,4 @@ function CardSlider() {
   );
 }
 
-export default CardSlider;
+export default CardSliderMobile;
