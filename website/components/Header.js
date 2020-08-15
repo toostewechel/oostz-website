@@ -41,7 +41,7 @@ function Header() {
   });
 
   return (
-    <header className="fixed top-0 right-0 left-0 z-10 w-full bg-background py-3 px-6">
+    <header className="fixed top-0 right-0 left-0 z-10 w-full bg-background px-2 py-2 md:py-3 md:px-6">
       <div className="flex items-center justify-between flex-wrap">
         <div>
           <a href="/">
@@ -82,7 +82,7 @@ function Header() {
           <div className="lg:flex-grow lg:flex lg:justify-center ">
             <ActiveLink label="Home" href="/" />
             <ActiveLink label="Werkwijze" href="/werkwijze" />
-            <ActiveLink label="Projecten" href="/projecten/mulder" />
+            <ActiveLink label="Projecten" href="/projecten" />
             <ActiveLink label="Contact" href="/contact" />
           </div>
           <div>
