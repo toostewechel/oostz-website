@@ -27,7 +27,7 @@ export default function Home() {
             <link rel="icon" href="/favicon.svg" />
           </Head>
           <Header></Header>
-          <main className="mt-24">
+          <main>
             {isMobile ? (
               <Layout>
                 <CardSliderMobile />

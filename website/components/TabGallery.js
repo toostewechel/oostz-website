@@ -43,7 +43,7 @@ function TabGallery() {
       <TabPanels>
         <TabPanel>
           <div className="md:flex md:flex-row mt-8 mb-8">
-            <div className="md:mr-4 md:w-1/3">
+            <div className="md:mr-4 md:w-1/2">
               <div className="mb-8 md:mb-0">
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
@@ -52,17 +52,8 @@ function TabGallery() {
                 />
               </div>
             </div>
-            <div className="md:mr-4 md:w-1/3">
+            <div className="md:mr-4 md:w-1/2">
               <div className="mb-8 md:mb-0">
-                <ThumbnailImage
-                  src="/images/placeholders/placeholder-project-large.svg"
-                  description="Fusce commodo aliquam arcu."
-                  href="/projecten/mulder"
-                />
-              </div>
-            </div>
-            <div className="md:w-1/3">
-              <div>
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
@@ -72,7 +63,7 @@ function TabGallery() {
             </div>
           </div>
           <div className="md:flex md:flex-row mb-8">
-            <div className="md:mr-4 md:w-1/3">
+            <div className="md:mr-4 md:w-1/2">
               <div className="mb-8 md:mb-0">
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
@@ -81,17 +72,8 @@ function TabGallery() {
                 />
               </div>
             </div>
-            <div className="md:mr-4 md:w-1/3">
+            <div className="md:mr-4 md:w-1/2">
               <div className="mb-8 md:mb-0">
-                <ThumbnailImage
-                  src="/images/placeholders/placeholder-project-large.svg"
-                  description="Fusce commodo aliquam arcu."
-                  href="/projecten/mulder"
-                />
-              </div>
-            </div>
-            <div className="md:w-1/3">
-              <div>
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."
@@ -101,7 +83,7 @@ function TabGallery() {
             </div>
           </div>
           <div className="md:flex md:flex-row ">
-            <div className="md:mr-4 md:w-1/3">
+            <div className="md:mr-4 md:w-1/2">
               <div className="mb-8 md:mb-0">
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
@@ -110,17 +92,8 @@ function TabGallery() {
                 />
               </div>
             </div>
-            <div className="md:mr-4 md:w-1/3">
+            <div className="md:mr-4 md:w-1/2">
               <div className="mb-8 md:mb-0">
-                <ThumbnailImage
-                  src="/images/placeholders/placeholder-project-large.svg"
-                  description="Fusce commodo aliquam arcu."
-                  href="/projecten/mulder"
-                />
-              </div>
-            </div>
-            <div className="md:w-1/3">
-              <div>
                 <ThumbnailImage
                   src="/images/placeholders/placeholder-project-large.svg"
                   description="Fusce commodo aliquam arcu."

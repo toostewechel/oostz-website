@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import { useMediaQuery } from "beautiful-react-hooks";
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
 
 function ActiveLink({ label, href }) {
   const router = useRouter();
@@ -40,8 +39,33 @@ function Header() {
     !showMenu && (document.body.style.overflow = "unset");
   });
 
+  const [isTop, setIsTop] = useState(true);
+
+  useEffect(() => {
+    if (window.scrollY !== 0) {
+      setIsTop(false);
+    }
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY === 0) {
+        setIsTop(true);
+      } else {
+        setIsTop(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [setIsTop]);
+
   return (
-    <header className="fixed top-0 right-0 left-0 z-10 w-full bg-background px-2 py-2 md:py-3 md:px-6">
+    <header
+      className={`fixed top-0 right-0 left-0 z-10 w-full transition duration-200 pointer-events-none px-2 py-2 md:py-3 md:px-6 ${
+        !isTop ? "bg-background md:bg-transparent" : "bg-transparent"
+      }`}
+    >
       <div className="flex items-center justify-between flex-wrap">
         <div>
           <a href="/">

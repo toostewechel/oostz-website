@@ -22,7 +22,11 @@ export default function Page() {
             <section>
               <LandingImage
                 mobileImage="/images/projecten/mulder/landing-mobile.jpg"
-                desktopImage="/images/projecten/mulder/mulder-1-xl.jpg"
+                backgroundImage="/images/home/sterk-in-ontwerp-1.jpg"
+                title="Moderne Woning"
+                description="Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. In hac habitasse platea dictumst."
+                location="Raalte"
+                projectType="Ontwerp"
               />
             </section>
             <section
