@@ -62,8 +62,8 @@ function Header() {
 
   return (
     <header
-      className={`fixed top-0 right-0 left-0 z-10 w-full transition duration-200 pointer-events-none px-2 py-2 md:py-3 md:px-6 ${
-        !isTop ? "bg-background md:bg-transparent" : "bg-transparent"
+      className={`fixed top-0 right-0 left-0 z-10 w-full transition duration-200 px-2 py-2 md:py-3 md:px-6 ${
+        !isTop ? "bg-background" : "bg-transparent"
       }`}
     >
       <div className="flex items-center justify-between flex-wrap">

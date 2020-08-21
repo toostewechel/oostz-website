@@ -29,9 +29,7 @@ export default function Home() {
           <Header></Header>
           <main>
             {isMobile ? (
-              <Layout>
-                <CardSliderMobile />
-              </Layout>
+              <Layout>{/* <CardSliderMobile /> */}</Layout>
             ) : (
               <CardSliderDesktop />
             )}
