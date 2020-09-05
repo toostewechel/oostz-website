@@ -25,18 +25,18 @@ function ProjectHeader() {
   return (
     <header
       className={`fixed top-0 right-0 left-0 z-10 w-full p-2 transition duration-200 pointer-events-none ${
-        !isTop ? "bg-background md:bg-transparent" : "bg-transparent"
+        !isTop ? "bg-background" : "bg-transparent"
       }`}
     >
       <div className="flex items-center justify-between pointer-events-auto">
         <div>
           <a href="/">
-            <img src="/logo-oostz.svg"></img>
+            <img alt="logo-oostz-ontwerp" src="/logo-oostz.svg"></img>
           </a>
         </div>
         <div>
           <a href="/projecten">
-            <img src="/MenuClose.svg"></img>
+            <img alt="menu-sluiten" src="/MenuClose.svg"></img>
           </a>
         </div>
       </div>

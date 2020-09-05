@@ -102,7 +102,7 @@ function Header() {
         )}
       </div>
       {showMenu && (
-        <div className="w-full p-4 h-screen block flex-grow lg:items-center lg:w-auto lg:hidden">
+        <div className="w-full p-4 h-screen block flex-grow bg-background lg:items-center lg:w-auto lg:hidden">
           <div className="lg:flex-grow lg:flex lg:justify-center ">
             <ActiveLink label="Home" href="/" />
             <ActiveLink label="Werkwijze" href="/werkwijze" />

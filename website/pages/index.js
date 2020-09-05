@@ -29,7 +29,9 @@ export default function Home() {
           <Header></Header>
           <main>
             {isMobile ? (
-              <Layout>{/* <CardSliderMobile /> */}</Layout>
+              <Layout>
+                <CardSliderMobile />
+              </Layout>
             ) : (
               <CardSliderDesktop />
             )}
@@ -133,19 +135,19 @@ export default function Home() {
                       <div className="md:flex md:flex-row mt-8">
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
-                            src="/images/placeholders/placeholder-project-large.svg"
+                            src="/images/projecten/featured/featured-image-berends.jpg"
                             href="/projecten/mulder"
                           />
                         </div>
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
-                            src="/images/placeholders/placeholder-project-large.svg"
+                            src="/images/projecten/featured/featured-image-daggert.jpg"
                             href="/projecten/mulder"
                           />
                         </div>
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
-                            src="/images/placeholders/placeholder-project-large.svg"
+                            src="/images/projecten/featured/featured-image-klein-ovink.jpg"
                             href="/projecten/mulder"
                           />
                         </div>
@@ -153,7 +155,7 @@ export default function Home() {
                       <div className="md:flex md:flex-row md:-mt-2">
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
-                            src="/images/placeholders/placeholder-project-large.svg"
+                            src="/images/projecten/featured/featured-image-mulder.jpg"
                             href="/projecten/mulder"
                           />
                         </div>
