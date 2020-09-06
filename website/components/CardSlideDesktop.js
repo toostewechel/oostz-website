@@ -6,7 +6,7 @@ function CardSlideDesktop(props) {
       style={{
         width: "100%",
         height: "75vh",
-        background: `linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(31,31,31,0.60) 25%, rgba(31,31,31,0.2) 50%, rgba(49,32,43,0.60) 75%, rgba(31,31,31,1) 100%), url(${props.backgroundImage})`,
+        background: `linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(31,31,31,0.70) 25%, rgba(31,31,31,0.2) 50%, rgba(31,31,31,0.70) 75%, rgba(31,31,31,1) 100%), url(${props.backgroundImage})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
@@ -23,6 +23,7 @@ function CardSlideDesktop(props) {
             </p>
             <a href="#section1">
               <svg
+                className="animate-bounce"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"

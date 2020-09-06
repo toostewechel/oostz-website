@@ -17,7 +17,7 @@ function LandingImage(props) {
           style={{
             width: "100%",
             height: "75vh",
-            background: `linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(31,31,31,0.60) 25%, rgba(31,31,31,0.2) 50%, rgba(49,32,43,0.60) 75%, rgba(31,31,31,1) 100%), url(${props.backgroundImage})`,
+            background: `linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(31,31,31,0.60) 25%, rgba(31,31,31,0.2) 50%, rgba(31,31,31,0.60) 75%, rgba(31,31,31,1) 100%), url(${props.backgroundImage})`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
           }}
@@ -42,7 +42,7 @@ function LandingImage(props) {
                   <div className="inline-flex">
                     <div className="flex flex-row">
                       <a href="https://www.linkedin.com/feed/" target="_blank">
-                        <div className="p-1">
+                        <div className="p-1 rounded-full hover:bg-yellow-300">
                           <svg
                             className="fill-current text-background"
                             width="24"
@@ -56,7 +56,7 @@ function LandingImage(props) {
                         </div>
                       </a>
                       <a href="https://www.facebook.com/" target="_blank">
-                        <div className="p-1">
+                        <div className="p-1 rounded-full hover:bg-yellow-300">
                           <svg
                             className="fill-current text-background"
                             width="24"

@@ -18,13 +18,13 @@ function ThumbnailImage(props) {
         <div className="relative ">
           <img style={style} src={props.src} alt={props.alt}></img>
           {toggleHover && (
-            <div className="absolute bottom-0 right-0">
+            <div className="absolute top-0 right-0">
               <div
-                className="flex flex-row items-center px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded-br hover:bg-yellow-300"
+                className="flex flex-row items-center m-1 px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300"
                 onClick={props.href}
               >
                 <p className="text-heading text-sm font-body font-medium mr-2">
-                  Notaris woning
+                  {props.title}
                 </p>
                 <svg
                   className=" fill-current text-background"

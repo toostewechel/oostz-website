@@ -43,28 +43,28 @@ export default function Page() {
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/projecten/mulder/mulder-rectangle-1.png"
-                    description="Fusce commodo aliquam arcu. Ut id nisl quis. "
+                    src="/images/projecten/demir/demir-rectangle-1.jpg"
+                    description="Luchtfoto voorzijde huis."
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/mulder/mulder-square-1.png"
-                      description="Fusce commodo aliquam arcu. Ut id nisl quis. "
+                      src="/images/projecten/demir/demir-square-1.jpg"
+                      description="Gecentreerde entree."
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/mulder/mulder-square-2.png"
-                      description="Fusce commodo aliquam arcu. Ut id nisl quis. "
+                      src="/images/projecten/demir/demir-square-2.jpg"
+                      description="Rijkversierde details entree."
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/projecten/mulder/mulder-rectangle-1.png"
-                    description="Fusce commodo aliquam arcu. Ut id nisl quis. "
+                    src="/images/projecten/demir/demir-rectangle-2.jpg"
+                    description="Luchtfoto achterzijde huis."
                   />
                 </div>
               </Layout>
