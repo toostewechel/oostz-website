@@ -6,7 +6,7 @@ function ProjectDetails(props) {
 
   return (
     <section className="mb-16 md:mb-32">
-      <div className="flex flex-row justify-between items-center">
+      {/* <div className="flex flex-row justify-between items-center">
         <div className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded">
           {props.projectType}
         </div>
@@ -42,7 +42,7 @@ function ProjectDetails(props) {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       <div
         style={{
           maxWidth: "592px",

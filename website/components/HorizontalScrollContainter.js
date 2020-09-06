@@ -43,7 +43,7 @@ function HorizontalScrollContainer() {
   return (
     <section style={wrapperStyle} className="scrolling-touch mt-10 mb-10">
       <ProjectCard
-        image="/images/placeholders/placeholder-project.svg"
+        image="/images/projecten/featured/featured-image-demir.jpg"
         title="Vrijstaand huis"
         description="Lorem ipsum dolem suma. Dolem lorum ipsum solum dorum"
         location="Locatie"

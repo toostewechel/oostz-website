@@ -22,9 +22,10 @@ export default function Page() {
             <section>
               <LandingImage
                 mobileImage="/images/projecten/mulder/landing-mobile.jpg"
-                backgroundImage="/images/home/sterk-in-ontwerp-1.jpg"
-                projecttype="Woningbouw"
-                title="Moderne Woning"
+                backgroundImage="/images/projecten/demir/landing-image-demir.jpg"
+                category="Woningbouw"
+                title="Notaris woning"
+                projectType="Gerealiseerd"
                 // description="Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. In hac habitasse platea dictumst."
               />
             </section>
@@ -34,11 +35,11 @@ export default function Page() {
             >
               <Layout>
                 <ProjectDetails
-                  projectType="Ontwerp"
+                  projectType="Gerealiseerd"
                   year="2020"
-                  title="Moderne woning"
-                  location="Raalte"
-                  description="Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. In hac habitasse platea dictumst. Praesent congue erat at massa. Duis lobortis massa imperdiet quam. Aenean imperdiet."
+                  title="Strakke lijnen en symmetrie"
+                  location="Deventer"
+                  description="In Deventer is deze fraaie vrijstaande woning gerealiseerd. De strakke lijnen en symmetrie vormen de basis van deze notaris woning. De gecentreerde entree met rijkversierde details geven deze woning karakter. "
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage

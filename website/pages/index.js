@@ -30,7 +30,9 @@ export default function Home() {
           <main>
             {isMobile ? (
               <Layout>
-                <CardSliderMobile />
+                <div className="mt-32">
+                  <CardSliderMobile />
+                </div>
               </Layout>
             ) : (
               <CardSliderDesktop />
@@ -135,19 +137,19 @@ export default function Home() {
                       <div className="md:flex md:flex-row mt-8">
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
-                            src="/images/projecten/featured/featured-image-berends.jpg"
+                            src="/images/projecten/featured/featured-image-demir.jpg"
+                            href="/projecten/demir"
+                          />
+                        </div>
+                        <div className="p-2 md:w-1/3">
+                          <ThumbnailImage
+                            src="/images/projecten/featured/featured-image-bloemsma.jpg"
                             href="/projecten/mulder"
                           />
                         </div>
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
-                            src="/images/projecten/featured/featured-image-daggert.jpg"
-                            href="/projecten/mulder"
-                          />
-                        </div>
-                        <div className="p-2 md:w-1/3">
-                          <ThumbnailImage
-                            src="/images/projecten/featured/featured-image-klein-ovink.jpg"
+                            src="/images/projecten/featured/featured-image-krosse.jpg"
                             href="/projecten/mulder"
                           />
                         </div>
@@ -161,7 +163,7 @@ export default function Home() {
                         </div>
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
-                            src="/images/placeholders/placeholder-project-large.svg"
+                            src="/images/projecten/featured/featured-image-berends.jpg"
                             href="/projecten/mulder"
                           />
                         </div>
@@ -232,9 +234,10 @@ export default function Home() {
             </Layout>
             <section className="mb-12 md:mb-32">
               <div
-                className="h-auto w-full bg-cover pt-16 pb-12"
+                className="h-auto w-full bg-cover bg-bottom pt-24 pb-24"
                 style={{
-                  backgroundImage: "url(/background-testimonial-2k.png)",
+                  background: `linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(31,31,31,0.60) 25%, rgba(31,31,31,0.2) 50%, rgba(49,32,43,0.60) 75%, rgba(31,31,31,1) 100%), url(/images/home/aandacht-voor-jou.jpg)`,
+                  backgroundPosition: "bottom",
                 }}
               >
                 <Layout>
@@ -270,50 +273,52 @@ export default function Home() {
                     style={{
                       backgroundImage: "url(/images/home/contactcard.jpg)",
                     }}
-                    className="flex flex-col w-full md:w-1/2 items-end md:ml-8 bg-yellow-100 rounded bg-cover px-8 py-8"
+                    className="flex flex-col md:w-1/2 items-end md:ml-8 bg-yellow-100 rounded bg-cover px-8 py-8"
                   >
-                    <div className="flex flex-row mb-6">
-                      <div>
-                        <svg
-                          className="fill-current text-background"
-                          width="27"
-                          height="27"
-                          viewBox="0 0 27 27"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path d="M13.5 19.042c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zM8.75 4.792c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0 4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0 4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm9.5-6.334c.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583zm-4.75 6.334c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm4.75 0c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0-4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm-4.75 0c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0-4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583z" />
-                        </svg>
+                    <div className="flex flex-col items-start">
+                      <div className="flex flex-row mb-6">
+                        <div>
+                          <svg
+                            className="fill-current text-background"
+                            width="27"
+                            height="27"
+                            viewBox="0 0 27 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M13.5 19.042c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zM8.75 4.792c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0 4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0 4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm9.5-6.334c.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583zm-4.75 6.334c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm4.75 0c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0-4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm-4.75 0c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0-4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583z" />
+                          </svg>
+                        </div>
+                        <div className="ml-2">
+                          <h3 className="text-lg font-heading text-background font-semibold antialiased">
+                            0628092228
+                          </h3>
+                          <p className="text-sm font-body text-background font-light antialiased">
+                            Bel met Jochem
+                          </p>
+                        </div>
                       </div>
-                      <div className="ml-2">
-                        <h3 className="text-lg font-heading text-background font-semibold antialiased">
-                          0612345678
-                        </h3>
-                        <p className="text-sm font-body text-background font-light antialiased">
-                          Bel met Jochem
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex flex-row">
-                      <div>
-                        <svg
-                          className="fill-current text-background"
-                          width="27"
-                          height="27"
-                          viewBox="0 0 27 27"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path d="M13.5 19.042c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zM8.75 4.792c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0 4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0 4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm9.5-6.334c.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583zm-4.75 6.334c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm4.75 0c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0-4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm-4.75 0c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0-4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583z" />
-                        </svg>
-                      </div>
-                      <div className="ml-2">
-                        <h3 className="text-lg font-heading text-backgroundn font-semibold antialiased">
-                          0612345678
-                        </h3>
-                        <p className="text-sm font-body text-background font-light antialiased">
-                          Bel met Koen
-                        </p>
+                      <div className="flex flex-row">
+                        <div>
+                          <svg
+                            className="fill-current text-background"
+                            width="27"
+                            height="27"
+                            viewBox="0 0 27 27"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M13.5 19.042c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zM8.75 4.792c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0 4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0 4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm9.5-6.334c.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583zm-4.75 6.334c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm4.75 0c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0-4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm-4.75 0c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0-4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583z" />
+                          </svg>
+                        </div>
+                        <div className="ml-2">
+                          <h3 className="text-lg font-heading text-background font-semibold antialiased">
+                            0642023612
+                          </h3>
+                          <p className="text-sm font-body text-background font-light antialiased">
+                            Bel met Koen
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>

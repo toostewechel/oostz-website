@@ -54,7 +54,7 @@ function StyledDisclosureButton({ isOpen, title, subtitle, ...props }) {
         </div>
         <div className="flex items-end">
           {isOpen ? (
-            <div className="flex-grow-0 flex-shrink-0">
+            <div className="flex-shrink">
               <svg
                 className="fill-current text-heading items-center"
                 width="16"
@@ -74,7 +74,7 @@ function StyledDisclosureButton({ isOpen, title, subtitle, ...props }) {
               </svg>
             </div>
           ) : (
-            <div className="flex-grow-0 flex-shrink-0">
+            <div className="flex-shrink">
               <svg
                 className="fill-current text-white items-center"
                 width="16"
