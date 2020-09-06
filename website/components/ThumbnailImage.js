@@ -20,21 +20,12 @@ function ThumbnailImage(props) {
           {toggleHover && (
             <div className="absolute top-0 right-0">
               <div
-                className="flex flex-row items-center m-1 px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300"
+                className="flex flex-row items-center m-1 px-2 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300"
                 onClick={props.href}
               >
-                <p className="text-heading text-sm font-body font-medium mr-2">
+                <p className="text-heading text-sm font-body font-medium ">
                   {props.title}
                 </p>
-                <svg
-                  className=" fill-current text-background"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M16 8l-3-4h-1l-1 1v2H1 0a1 1 0 000 2h11v2l1 1a1 1 0 001 0l3-4z" />
-                </svg>
               </div>
             </div>
           )}

@@ -52,7 +52,7 @@ function ProjectDetails(props) {
         className="text-left md:text-center mt-12"
       >
         <h4 className="text-white">{props.year}</h4>
-        <h1 className="text-3xl font-heading text-white font-extrabold mb-2 antialiased">
+        <h1 className="text-2xl md:text-3xl font-heading text-white font-extrabold mb-2 antialiased">
           {props.title}
         </h1>
         <p className="text-base font-body text-gray-200 font-normal mb-10 antialiased">

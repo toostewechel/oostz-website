@@ -75,7 +75,7 @@ export default function Page() {
                   Bekijk ook eens
                 </h2>
                 <div className="md:flex md:flex-row mt-8 ">
-                  <div className="mr-0 md:mr-4 md:w-1/3">
+                  <div className="mr-0 mb-8 md:mr-4 md:mb-0 md:w-1/3">
                     <ThumbnailImage
                       src="/images/placeholders/placeholder-project-large.svg"
                       description="Lorum ipsum dolem"
