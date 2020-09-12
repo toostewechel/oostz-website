@@ -2,17 +2,10 @@ import { useMediaQuery } from "beautiful-react-hooks";
 import Layout from "../Layout";
 
 function LandingImage(props) {
-  const isDektop = useMediaQuery("(min-width: 768px)");
   const isMobile = useMediaQuery("(max-width: 640px)");
 
   return (
     <section>
-      {/* {isMobile && (
-        <div>
-          <img src={props.mobileImage} alt={props.alt}></img>
-        </div>
-      )} */}
-      {/* {isDektop && ( */}
       <div
         style={{
           width: "100%",
@@ -43,7 +36,7 @@ function LandingImage(props) {
                 <div className="inline-flex">
                   <div className="flex flex-row">
                     <a href="https://www.linkedin.com/feed/" target="_blank">
-                      <div className="p-1 rounded-full hover:bg-yellow-300">
+                      <div className="p-1 rounded hover:bg-yellow-300">
                         <svg
                           className="fill-current text-background"
                           width="24"
@@ -57,7 +50,7 @@ function LandingImage(props) {
                       </div>
                     </a>
                     <a href="https://www.facebook.com/" target="_blank">
-                      <div className="p-1 rounded-full hover:bg-yellow-300">
+                      <div className="p-1 rounded hover:bg-yellow-300">
                         <svg
                           className="fill-current text-background"
                           width="24"
@@ -77,7 +70,6 @@ function LandingImage(props) {
           </div>
         </Layout>
       </div>
-      {/* )} */}
     </section>
   );
 }

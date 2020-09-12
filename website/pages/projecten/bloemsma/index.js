@@ -21,9 +21,9 @@ export default function Page() {
             <ProjectHeader />
             <section>
               <LandingImage
-                backgroundImage="/images/projecten/demir/landing-image-demir.jpg"
+                backgroundImage="/images/projecten/bloemsma/landing-image-bloemsma.jpg"
                 category="Woningbouw"
-                title="Notaris woning"
+                title="Vrijstaande woning"
                 projectType="Gerealiseerd"
               />
             </section>
@@ -34,34 +34,34 @@ export default function Page() {
               <Layout>
                 <ProjectDetails
                   projectType="Gerealiseerd"
-                  year="2020"
+                  year="2017"
                   title="Strakke lijnen en symmetrie"
                   location="Deventer"
-                  description="In Deventer is deze fraaie vrijstaande woning gerealiseerd. De strakke lijnen en symmetrie vormen de basis van deze notaris woning. De gecentreerde entree met rijkversierde details geven deze woning karakter. "
+                  description="Deze moderne woning staat op nieuwbouwplan Spijkvoorderhout te Deventer. De woning komt helemaal tot zijn recht op deze riante kavel."
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/projecten/demir/demir-rectangle-1.jpg"
+                    src="/images/projecten/bloemsma/bloemsma-rectangle-1.jpg"
                     description="Luchtfoto voorzijde huis."
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/demir/demir-square-1.jpg"
+                      src="/images/projecten/bloemsma/bloemsma-square-1.jpg"
                       description="Gecentreerde entree."
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/demir/demir-square-2.jpg"
+                      src="/images/projecten/bloemsma/bloemsma-square-2.jpg"
                       description="Rijkversierde details entree."
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/projecten/demir/demir-rectangle-2.jpg"
+                    src="/images/projecten/bloemsma/bloemsma-rectangle-2.jpg"
                     description="Luchtfoto achterzijde huis."
                   />
                 </div>

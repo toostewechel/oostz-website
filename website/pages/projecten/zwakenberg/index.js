@@ -21,9 +21,9 @@ export default function Page() {
             <ProjectHeader />
             <section>
               <LandingImage
-                backgroundImage="/images/projecten/demir/landing-image-demir.jpg"
-                category="Woningbouw"
-                title="Notaris woning"
+                backgroundImage="/images/projecten/zwakenberg/landing-image-zwakenberg.jpg"
+                category="Aanbouw"
+                title="Veranda"
                 projectType="Gerealiseerd"
               />
             </section>
@@ -34,35 +34,35 @@ export default function Page() {
               <Layout>
                 <ProjectDetails
                   projectType="Gerealiseerd"
-                  year="2020"
-                  title="Strakke lijnen en symmetrie"
-                  location="Deventer"
-                  description="In Deventer is deze fraaie vrijstaande woning gerealiseerd. De strakke lijnen en symmetrie vormen de basis van deze notaris woning. De gecentreerde entree met rijkversierde details geven deze woning karakter. "
+                  year="2019"
+                  title="Open veranda"
+                  location="Raalte"
+                  description="In Raalte hebben we deze unieke veranda mogen ontwerpen. De toegepaste materialen geven een luxe en warme uitstraling."
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/projecten/demir/demir-rectangle-1.jpg"
-                    description="Luchtfoto voorzijde huis."
+                    src="/images/projecten/zwakenberg/zwakenberg-rectangle-1.jpg"
+                    description="Voorzijde woning."
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/demir/demir-square-1.jpg"
-                      description="Gecentreerde entree."
+                      src="/images/projecten/zwakenberg/zwakenberg-square-1.jpg"
+                      description="Entree woning."
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/demir/demir-square-2.jpg"
-                      description="Rijkversierde details entree."
+                      src="/images/projecten/zwakenberg/zwakenberg-square-2.jpg"
+                      description="Wit stucwerk met zwarte details."
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/projecten/demir/demir-rectangle-2.jpg"
-                    description="Luchtfoto achterzijde huis."
+                    src="/images/projecten/zwakenberg/zwakenberg-rectangle-2.jpg"
+                    description="Luchtfoto woning."
                   />
                 </div>
               </Layout>

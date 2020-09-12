@@ -21,9 +21,9 @@ export default function Page() {
             <ProjectHeader />
             <section>
               <LandingImage
-                backgroundImage="/images/projecten/demir/landing-image-demir.jpg"
+                backgroundImage="/images/projecten/krosse/landing-image-krosse.jpg"
                 category="Woningbouw"
-                title="Notaris woning"
+                title="Moderne woning"
                 projectType="Gerealiseerd"
               />
             </section>
@@ -34,35 +34,37 @@ export default function Page() {
               <Layout>
                 <ProjectDetails
                   projectType="Gerealiseerd"
-                  year="2020"
-                  title="Strakke lijnen en symmetrie"
-                  location="Deventer"
-                  description="In Deventer is deze fraaie vrijstaande woning gerealiseerd. De strakke lijnen en symmetrie vormen de basis van deze notaris woning. De gecentreerde entree met rijkversierde details geven deze woning karakter. "
+                  year="2019"
+                  title="Unieke vormen"
+                  location="Raalte"
+                  description="Op nieuwbouwplan de Terpen (Franciscushof) te Raalte is deze moderne woning gebouwd.
+                  De woning heeft unieke vormen wat een speels effect geeft. Daarnaast zorgt het stucwerk in combinatie met donker metselwerk voor een oogverblindend resultaat.
+                  "
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/projecten/demir/demir-rectangle-1.jpg"
-                    description="Luchtfoto voorzijde huis."
+                    src="/images/projecten/krosse/krosse-rectangle-2.jpg"
+                    description="Voorzijde woning."
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/demir/demir-square-1.jpg"
-                      description="Gecentreerde entree."
+                      src="/images/projecten/krosse/krosse-square-1.jpg"
+                      description="Contrast stuc- en metselwerk."
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/demir/demir-square-2.jpg"
-                      description="Rijkversierde details entree."
+                      src="/images/projecten/krosse/krosse-square-2.jpg"
+                      description="Luchtfoto achterzijde."
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/projecten/demir/demir-rectangle-2.jpg"
-                    description="Luchtfoto achterzijde huis."
+                    src="/images/projecten/krosse/krosse-rectangle-1.jpg"
+                    description="Achterzijde woning."
                   />
                 </div>
               </Layout>
@@ -78,15 +80,15 @@ export default function Page() {
                       src="/images/projecten/featured/featured-image-bloemsma.jpg"
                       title="Gerealiseerd"
                       description="Vrijstaande woning te Deventer"
-                      href="/projecten/mulder"
+                      href="/projecten/bloemsma"
                     />
                   </div>
                   <div className="mr-0 md:mr-4 md:w-1/3">
                     <ThumbnailImage
-                      src="/images/projecten/featured/featured-image-krosse.jpg"
+                      src="/images/projecten/featured/featured-image-demir.jpg"
                       title="Gerealiseerd"
-                      description="Moderne woning te Raalte"
-                      href="/projecten/mulder"
+                      description="Notaris woning te Deventer"
+                      href="/projecten/demir"
                     />
                   </div>
                   <div className=" md:w-1/3"></div>

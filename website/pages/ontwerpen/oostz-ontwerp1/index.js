@@ -21,10 +21,10 @@ export default function Page() {
             <ProjectHeader />
             <section>
               <LandingImage
-                backgroundImage="/images/projecten/demir/landing-image-demir.jpg"
+                backgroundImage="/images/ontwerpen/oostz-ontwerp1/landing-image-oostz-ontwerp1.jpg"
                 category="Woningbouw"
-                title="Notaris woning"
-                projectType="Gerealiseerd"
+                title="2-onder-1 kap"
+                projectType="Ontwerp"
               />
             </section>
             <section
@@ -35,33 +35,33 @@ export default function Page() {
                 <ProjectDetails
                   projectType="Gerealiseerd"
                   year="2020"
-                  title="Strakke lijnen en symmetrie"
-                  location="Deventer"
-                  description="In Deventer is deze fraaie vrijstaande woning gerealiseerd. De strakke lijnen en symmetrie vormen de basis van deze notaris woning. De gecentreerde entree met rijkversierde details geven deze woning karakter. "
+                  title="Brede 2-onder-1 kap"
+                  location="Diepenveen"
+                  description="In Diepenveen hebben we deze twee onder 1 kap mogen ontworpen. De woning is de breedte ontworpen wat hem uniek maakt in zijn soort. De combinatie van stucwerk en houten gevels geeft de woning een moderne uitstraling passend in de wijk. "
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/projecten/demir/demir-rectangle-1.jpg"
+                    src="/images/ontwerpen/oostz-ontwerp1/oostz-ontwerp1-rectangle-1.jpg"
                     description="Luchtfoto voorzijde huis."
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/demir/demir-square-1.jpg"
+                      src="/images/ontwerpen/oostz-ontwerp1/oostz-ontwerp1-square-1.jpg"
                       description="Gecentreerde entree."
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/demir/demir-square-2.jpg"
+                      src="/images/ontwerpen/oostz-ontwerp1/oostz-ontwerp1-square-2.jpg"
                       description="Rijkversierde details entree."
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/projecten/demir/demir-rectangle-2.jpg"
+                    src="/images/ontwerpen/oostz-ontwerp1/oostz-ontwerp1-rectangle-2.jpg"
                     description="Luchtfoto achterzijde huis."
                   />
                 </div>

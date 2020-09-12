@@ -18,6 +18,9 @@ function ProjectCard(props) {
         style={{
           backgroundImage: `url(${props.image})`,
           height: "160px",
+          backgroundSize: "cover",
+          borderTopLeftRadius: "4px",
+          borderTopRightRadius: "4px",
         }}
       ></div>
       <div className="p-3 bg-yellow-100 rounded-b">
@@ -44,43 +47,43 @@ function HorizontalScrollContainer() {
     <section style={wrapperStyle} className="scrolling-touch mt-10 mb-10">
       <ProjectCard
         image="/images/projecten/featured/featured-image-demir.jpg"
+        title="Notaris woning"
+        description="In Deventer is deze fraaie vrijstaande woning gerealiseerd"
+        location="Deventer"
+        href="/projecten/demir"
+      />
+      <ProjectCard
+        image="/images/projecten/featured/featured-image-bloemsma.jpg"
         title="Vrijstaand huis"
-        description="Lorem ipsum dolem suma. Dolem lorum ipsum solum dorum"
+        description="Deze moderne woning staat op Spijkvoorderhout te Deventer"
+        location="Locatie"
+        href="/projecten/bloemsma"
+      />
+      <ProjectCard
+        image="/images/projecten/featured/featured-image-krosse.jpg"
+        title="Moderne woning"
+        description="Deze unieke woning staat op de terpen te Raalte."
+        location="Locatie"
+        href="/projecten/krosse"
+      />
+      <ProjectCard
+        image="/images/projecten/featured/featured-image-oostz-ontwerp4.jpg"
+        title="Schuurwoning"
+        description="Deze moderne landelijke schuurwoning staat in Hellendoorn."
         location="Locatie"
         href="/projecten/mulder"
       />
       <ProjectCard
-        image="/images/placeholders/placeholder-project.svg"
-        title="Vrijstaand huis"
-        description="Lorem ipsum dolem suma. Dolem lorum ipsum solum dorum"
+        image="/images/projecten/featured/featured-image-oostz-ontwerp1.jpg"
+        title="Brede 2-onder-1 kap"
+        description="Deze unieke 2-onder-1 kap staat in Diepenveen."
         location="Locatie"
         href="/projecten/mulder"
       />
       <ProjectCard
-        image="/images/placeholders/placeholder-project.svg"
-        title="Vrijstaand huis"
-        description="Lorem ipsum dolem suma. Dolem lorum ipsum solum dorum"
-        location="Locatie"
-        href="/projecten/mulder"
-      />
-      <ProjectCard
-        image="/images/placeholders/placeholder-project.svg"
-        title="Vrijstaand huis"
-        description="Lorem ipsum dolem suma. Dolem lorum ipsum solum dorum"
-        location="Locatie"
-        href="/projecten/mulder"
-      />
-      <ProjectCard
-        image="/images/placeholders/placeholder-project.svg"
-        title="Vrijstaand huis"
-        description="Lorem ipsum dolem suma. Dolem lorum ipsum solum dorum"
-        location="Locatie"
-        href="/projecten/mulder"
-      />
-      <ProjectCard
-        image="/images/placeholders/placeholder-project.svg"
-        title="Vrijstaand huis"
-        description="Lorem ipsum dolem suma. Dolem lorum ipsum solum dorum"
+        image="/images/projecten/featured/featured-image-oostz-ontwerp3.jpg"
+        title="Moderne woning"
+        description="Deze moderne woning staat in Wijhe."
         location="Locatie"
         href="/projecten/mulder"
       />

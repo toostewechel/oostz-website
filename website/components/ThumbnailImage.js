@@ -6,6 +6,9 @@ function ThumbnailImage(props) {
   const style = {
     filter: toggleHover ? "grayscale(0%)" : "grayscale(100%)",
     borderRadius: "4px",
+    // backgroundImage: `url(${props.src})`,
+    // backgroundSize: "cover",
+    // backgroundRepeat: "no-repeat",
   };
 
   return (
@@ -16,11 +19,11 @@ function ThumbnailImage(props) {
         onMouseLeave={() => setToggleHover(!toggleHover)}
       >
         <div className="relative ">
-          <img style={style} src={props.src} alt={props.alt}></img>
+          <img style={style} src={props.src} className="h-full w-full"></img>
           {toggleHover && (
             <div className="absolute top-0 right-0">
               <div
-                className="flex flex-row items-center m-1 px-2 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300"
+                className="flex flex-row items-center m-1 px-2 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded"
                 onClick={props.href}
               >
                 <p className="text-heading text-sm font-body font-medium ">

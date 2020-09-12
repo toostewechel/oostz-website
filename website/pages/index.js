@@ -139,44 +139,44 @@ export default function Home() {
                           <ThumbnailImage
                             src="/images/projecten/featured/featured-image-demir.jpg"
                             href="/projecten/demir"
-                            title="Notaris woning"
+                            title="Gerealiseerd"
                           />
                         </div>
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
                             src="/images/projecten/featured/featured-image-bloemsma.jpg"
-                            href="/projecten/mulder"
-                            title="Notaris woning"
+                            href="/projecten/bloemsma"
+                            title="Gerealiseerd"
                           />
                         </div>
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
                             src="/images/projecten/featured/featured-image-krosse.jpg"
-                            href="/projecten/mulder"
-                            title="Notaris woning"
+                            href="/projecten/krosse"
+                            title="Gerealiseerd"
                           />
                         </div>
                       </div>
                       <div className="md:flex md:flex-row md:-mt-2">
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
-                            src="/images/projecten/featured/featured-image-mulder.jpg"
-                            href="/projecten/mulder"
-                            title="Notaris woning"
+                            src="/images/projecten/featured/featured-image-oostz-ontwerp4.jpg"
+                            href="/ontwerpen/oostz-ontwerp4"
+                            title="Ontwerp"
                           />
                         </div>
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
-                            src="/images/projecten/featured/featured-image-berends.jpg"
-                            href="/projecten/mulder"
-                            title="Notaris woning"
+                            src="/images/projecten/featured/featured-image-oostz-ontwerp1.jpg"
+                            href="/ontwerpen/oostz-ontwerp1"
+                            title="Ontwerp"
                           />
                         </div>
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
-                            src="/images/projecten/featured/featured-image-koen.jpg"
-                            href="/projecten/mulder"
-                            title="Notaris woning"
+                            src="/images/projecten/featured/featured-image-oostz-ontwerp3.jpg"
+                            href="/ontwerpen/oostz-ontwerp3"
+                            title="Ontwerp"
                           />
                         </div>
                       </div>
