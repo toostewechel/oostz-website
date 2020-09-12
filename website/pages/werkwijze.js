@@ -127,8 +127,9 @@ export default function Werkwijze() {
                       Ontwerp laten maken?
                     </h2>
                     <p className="text-base font-body text-body font-normal mb-6 antialiased">
-                      Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim
-                      sagittis. Nullam vel sem. Etiam feugiat lorem non metus.{" "}
+                      Overtuigd dat wij de juiste partner zijn voor uw plannen
+                      en projecten? Wij helpen je graag! Neem vrijblijvend
+                      contact met ons op.
                     </p>
                     <Button label="Neem contact op"></Button>
                   </div>

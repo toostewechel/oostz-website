@@ -35,14 +35,14 @@ export default function Page() {
                 <ProjectDetails
                   projectType="Gerealiseerd"
                   year="2019"
-                  title="Rieten dak en wit stucwerk"
+                  title="Vrijstaande woning"
                   location="Heeten"
                   description="Op nieuwbouwplan de IJsselgouwe te Heeten is deze moderne woning gerealiseerd. Het witte stucwerk in combinatie met de zwarte details geven een moderne look aan de woning."
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/projecten/schutte-jansen-holleboom/schutte-jansen-holleboom-rectangle-1.jpg"
-                    description="Voorzijde woning."
+                    src="/images/projecten/schutte-jansen-holleboom/schutte-jansen-holleboom-rectangle-2.jpg"
+                    description="Luchtfoto woning."
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
@@ -61,8 +61,8 @@ export default function Page() {
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/projecten/schutte-jansen-holleboom/schutte-jansen-holleboom-rectangle-2.jpg"
-                    description="Luchtfoto woning."
+                    src="/images/projecten/schutte-jansen-holleboom/schutte-jansen-holleboom-rectangle-1.jpg"
+                    description="Achterzijde woning."
                   />
                 </div>
               </Layout>

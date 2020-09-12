@@ -35,34 +35,34 @@ export default function Page() {
                 <ProjectDetails
                   projectType="Gerealiseerd"
                   year="2019"
-                  title="Open veranda"
+                  title="Luxe veranda"
                   location="Raalte"
                   description="In Raalte hebben we deze unieke veranda mogen ontwerpen. De toegepaste materialen geven een luxe en warme uitstraling."
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
                     src="/images/projecten/zwakenberg/zwakenberg-rectangle-1.jpg"
-                    description="Voorzijde woning."
+                    description="Aanzicht veranda"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/projecten/zwakenberg/zwakenberg-square-1.jpg"
-                      description="Entree woning."
+                      description="Houten plafond doorlopend in wand"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/projecten/zwakenberg/zwakenberg-square-2.jpg"
-                      description="Wit stucwerk met zwarte details."
+                      description="Lichtstraat"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
                     src="/images/projecten/zwakenberg/zwakenberg-rectangle-2.jpg"
-                    description="Luchtfoto woning."
+                    description="Zitgedeelte"
                   />
                 </div>
               </Layout>

@@ -23,7 +23,7 @@ export default function Page() {
               <LandingImage
                 backgroundImage="/images/ontwerpen/oostz-ontwerp1/landing-image-oostz-ontwerp1.jpg"
                 category="Woningbouw"
-                title="2-onder-1 kap"
+                title="Twee-onder-een kap"
                 projectType="Ontwerp"
               />
             </section>
@@ -33,36 +33,36 @@ export default function Page() {
             >
               <Layout>
                 <ProjectDetails
-                  projectType="Gerealiseerd"
+                  projectType="Ontwerp"
                   year="2020"
-                  title="Brede 2-onder-1 kap"
+                  title="Twee-onder-een kap"
                   location="Diepenveen"
                   description="In Diepenveen hebben we deze twee onder 1 kap mogen ontworpen. De woning is de breedte ontworpen wat hem uniek maakt in zijn soort. De combinatie van stucwerk en houten gevels geeft de woning een moderne uitstraling passend in de wijk. "
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
                     src="/images/ontwerpen/oostz-ontwerp1/oostz-ontwerp1-rectangle-1.jpg"
-                    description="Luchtfoto voorzijde huis."
+                    description="Voorzijde woning"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/ontwerpen/oostz-ontwerp1/oostz-ontwerp1-square-1.jpg"
-                      description="Gecentreerde entree."
+                      description="Achterzijde woning"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/ontwerpen/oostz-ontwerp1/oostz-ontwerp1-square-2.jpg"
-                      description="Rijkversierde details entree."
+                      description="Achterzijde / zijkant woning"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
                     src="/images/ontwerpen/oostz-ontwerp1/oostz-ontwerp1-rectangle-2.jpg"
-                    description="Luchtfoto achterzijde huis."
+                    description="Zijaanzicht"
                   />
                 </div>
               </Layout>

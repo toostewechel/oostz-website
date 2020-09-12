@@ -35,34 +35,34 @@ export default function Page() {
                 <ProjectDetails
                   projectType="Gerealiseerd"
                   year="2017"
-                  title="Strakke lijnen en symmetrie"
+                  title="Riante woning"
                   location="Deventer"
-                  description="Deze moderne woning staat op nieuwbouwplan Spijkvoorderhout te Deventer. De woning komt helemaal tot zijn recht op deze riante kavel."
+                  description="Deze vrijstaande woning staat op nieuwbouwplan Spijkvoorderhout te Deventer. De woning komt helemaal tot zijn recht op deze riante kavel."
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/projecten/bloemsma/bloemsma-rectangle-1.jpg"
-                    description="Luchtfoto voorzijde huis."
+                    src="/images/projecten/bloemsma/bloemsma-rectangle-2.jpg"
+                    description="Voorzijde woning"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/projecten/bloemsma/bloemsma-square-1.jpg"
-                      description="Gecentreerde entree."
+                      description="Luchtfoto woning"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/projecten/bloemsma/bloemsma-square-2.jpg"
-                      description="Rijkversierde details entree."
+                      description="Woning voorzien van spekband"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/projecten/bloemsma/bloemsma-rectangle-2.jpg"
-                    description="Luchtfoto achterzijde huis."
+                    src="/images/projecten/bloemsma/bloemsma-rectangle-1.jpg"
+                    description="Achterzijde woning"
                   />
                 </div>
               </Layout>

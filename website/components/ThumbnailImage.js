@@ -4,7 +4,7 @@ function ThumbnailImage(props) {
   const [toggleHover, setToggleHover] = useState(false);
 
   const style = {
-    filter: toggleHover ? "grayscale(0%)" : "grayscale(100%)",
+    filter: toggleHover ? "grayscale(100%)" : "grayscale(0%)",
     borderRadius: "4px",
     // backgroundImage: `url(${props.src})`,
     // backgroundSize: "cover",

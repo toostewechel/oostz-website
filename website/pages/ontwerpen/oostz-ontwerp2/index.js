@@ -33,7 +33,7 @@ export default function Page() {
             >
               <Layout>
                 <ProjectDetails
-                  projectType="Gerealiseerd"
+                  projectType="Ontwerp"
                   year="2020"
                   title="Rietgedekte woning"
                   location="Hellendoorn"
@@ -42,27 +42,27 @@ export default function Page() {
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
                     src="/images/ontwerpen/oostz-ontwerp2/oostz-ontwerp2-rectangle-1.jpg"
-                    description="Luchtfoto voorzijde huis."
+                    description="Voorzijde woning"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/ontwerpen/oostz-ontwerp2/oostz-ontwerp2-square-1.jpg"
-                      description="Gecentreerde entree."
+                      description="Zijaanzicht woning"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/ontwerpen/oostz-ontwerp2/oostz-ontwerp2-square-2.jpg"
-                      description="Rijkversierde details entree."
+                      description="Woning voorzien van scheepsdak"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
                     src="/images/ontwerpen/oostz-ontwerp2/oostz-ontwerp2-rectangle-2.jpg"
-                    description="Luchtfoto achterzijde huis."
+                    description="Achterzijde"
                   />
                 </div>
               </Layout>

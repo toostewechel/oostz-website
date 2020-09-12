@@ -33,36 +33,36 @@ export default function Page() {
             >
               <Layout>
                 <ProjectDetails
-                  projectType="Gerealiseerd"
+                  projectType="Ontwerp"
                   year="2020"
-                  title="Stucwerk en vlakke dakpan"
+                  title="Strakke lijnen"
                   location="Wijhe"
                   description="In Wijhe hebben we deze moderne woning mogen ontwerpen.  Het stucwerk in combinatie met een vlakke dakpan zorgt voor een moderne en strakke uitstraling."
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
                     src="/images/ontwerpen/oostz-ontwerp3/oostz-ontwerp3-rectangle-1.jpg"
-                    description="Luchtfoto voorzijde huis."
+                    description="Voorzijde woning"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/ontwerpen/oostz-ontwerp3/oostz-ontwerp3-square-1.jpg"
-                      description="Gecentreerde entree."
+                      description="Woning voorzien van vide"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/ontwerpen/oostz-ontwerp3/oostz-ontwerp3-square-2.jpg"
-                      description="Rijkversierde details entree."
+                      description="Zijgevel woning"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
                     src="/images/ontwerpen/oostz-ontwerp3/oostz-ontwerp3-rectangle-2.jpg"
-                    description="Luchtfoto achterzijde huis."
+                    description="Achtergevel woning"
                   />
                 </div>
               </Layout>

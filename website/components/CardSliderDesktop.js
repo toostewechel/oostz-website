@@ -16,6 +16,8 @@ function CardSliderDesktop() {
       naturalSlideHeight={55}
       totalSlides={3}
       isIntrinsicHeight={true}
+      isPlaying={true}
+      interval={5000}
     >
       <Slider>
         <Slide index={0}>

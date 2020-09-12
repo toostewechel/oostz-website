@@ -23,7 +23,7 @@ export default function Page() {
               <LandingImage
                 backgroundImage="/images/projecten/pronk/landing-image-pronk.jpg"
                 category="Woningbouw"
-                title="Twee-onder-1-kap"
+                title="Twee-onder-een-kap"
                 projectType="Gerealiseerd"
               />
             </section>
@@ -34,35 +34,35 @@ export default function Page() {
               <Layout>
                 <ProjectDetails
                   projectType="Gerealiseerd"
-                  year="2020"
-                  title="Strakke lijnen en symmetrie"
-                  location="?"
-                  description="Wat een plaatje! Voor onze opdrachtgever hebben we deze fraaie twee onder 1 kap mogen realiseren. Het bijzondere metselwerk geeft de woning karakter. "
+                  year="2016"
+                  title="Woning met karakter"
+                  location="Mariënheem"
+                  description="Wat een plaatje! Voor onze opdrachtgever hebben we deze fraaie twee-onder-een kap mogen realiseren. Het bijzondere metselwerk geeft de woning karakter. "
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
                     src="/images/projecten/pronk/pronk-rectangle-1.jpg"
-                    description="Luchtfoto voorzijde huis."
+                    description="Voorzijde woning"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/projecten/pronk/pronk-square-1.jpg"
-                      description="Gecentreerde entree."
+                      description="Voorzijde woning voorzien van erker"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/projecten/pronk/pronk-square-2.jpg"
-                      description="Rijkversierde details entree."
+                      description="Luchtfoto achterzijde woning"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
                     src="/images/projecten/pronk/pronk-rectangle-2.jpg"
-                    description="Luchtfoto achterzijde huis."
+                    description="Luchtfoto voorzijde woning"
                   />
                 </div>
               </Layout>

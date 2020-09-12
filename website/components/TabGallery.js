@@ -92,7 +92,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/projecten/featured/featured-image-bloemsma.jpg"
                   title="Gerealiseerd"
-                  description="Notaris woning te Deventer"
+                  description="Vrijstaande woning te Deventer"
                   href="/projecten/bloemsma"
                 />
               </div>
@@ -102,7 +102,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/projecten/featured/featured-image-pronk.jpg"
                   title="Gerealiseerd"
-                  description="Vrijstaande woning te ?"
+                  description="Twee-onder-een kap te Mariënheem"
                   href="/projecten/pronk"
                 />
               </div>
@@ -114,7 +114,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/projecten/featured/featured-image-oostz-ontwerp1.jpg"
                   title="Ontwerp"
-                  description="2-onder-1 kap te Diepenveen"
+                  description="Twee-onder-een kap te Diepenveen"
                   href="/ontwerpen/oostz-ontwerp1"
                 />
               </div>
@@ -204,7 +204,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/projecten/featured/featured-image-bloemsma.jpg"
                   title="Gerealiseerd"
-                  description="Notaris woning te Deventer"
+                  description="Vrijstaande woning te Deventer"
                   href="/projecten/bloemsma"
                 />
               </div>
@@ -214,7 +214,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/projecten/featured/featured-image-pronk.jpg"
                   title="Gerealiseerd"
-                  description="Vrijstaande woning te ?"
+                  description="Twee-onder-een kap woning te Mariënheem"
                   href="/projecten/pronk"
                 />
               </div>
@@ -228,7 +228,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/projecten/featured/featured-image-oostz-ontwerp1.jpg"
                   title="Ontwerp"
-                  description="2-onder-1 kap te Diepenveen"
+                  description="Twee-onder-een kap te Diepenveen"
                   href="/ontwerpen/oostz-ontwerp1"
                 />
               </div>

@@ -20,6 +20,8 @@ function CardSliderMobile() {
         naturalSlideHeight={isLarge ? 48 : 60}
         totalSlides={3}
         isIntrinsicHeight={isLarge ? false : true}
+        isPlaying={true}
+        interval={5000}
       >
         {" "}
         <Slider>

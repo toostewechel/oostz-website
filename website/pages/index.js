@@ -114,9 +114,7 @@ export default function Home() {
                     Projecten
                   </h2>
                   <p className="text-base font-body text-gray-200 font-normal mb-10 antialiased">
-                    Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim
-                    sagittis. Nullam vel sem. Etiam feugiat lorem non metus.
-                    Suspendisse eu ligula.
+                    Bekijk hier onze ontwerpen en gerealiseerde projecten.
                   </p>
                 </div>
                 {isMobile ? (
@@ -126,7 +124,7 @@ export default function Home() {
                       <div className="lg:mt-6">
                         <Button
                           label="Alle projecten"
-                          href="/werkwijze"
+                          href="/projecten"
                         ></Button>
                       </div>
                     </div>
@@ -208,9 +206,8 @@ export default function Home() {
                     Waar wij voor staan
                   </h2>
                   <p className="text-base font-body text-gray-200 font-normal mb-10 antialiased">
-                    Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim
-                    sagittis. Nullam vel sem. Etiam feugiat lorem non metus.
-                    Suspendisse eu ligula.
+                    We zijn een innovatieve en duurzame partner die u voorziet
+                    van professioneel advies en creatieve ontwerpen.
                   </p>
                 </div>
                 <div className="flex flex-row flex-wrap">

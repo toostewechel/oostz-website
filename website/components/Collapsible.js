@@ -52,49 +52,53 @@ function StyledDisclosureButton({ isOpen, title, subtitle, ...props }) {
             </p>
           </div>
         </div>
-        <div className="flex items-end">
-          {isOpen ? (
-            <div className="flex-shrink">
-              <svg
-                className="fill-current text-heading items-center"
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clip-path="url(#clip0)">
-                  <path d="M8.038 2.98a1.533 1.533 0 011.153.52l6.54 7.434a1.231 1.231 0 01-1.848 1.626L8.163 6.06a.167.167 0 00-.25 0l-5.72 6.501a1.233 1.233 0 11-1.848-1.626l6.538-7.432a1.54 1.54 0 011.155-.523z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0">
-                    <path d="M0 0h16v16H0z" />
-                  </clipPath>
-                </defs>
-              </svg>
-            </div>
-          ) : (
-            <div className="flex-shrink">
-              <svg
-                className="fill-current text-white items-center"
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clip-path="url(#clip0)">
-                  <path d="M8 13a1.534 1.534 0 01-1.153-.52L.307 5.045A1.231 1.231 0 012.155 3.42l5.72 6.502a.167.167 0 00.25 0l5.72-6.502a1.231 1.231 0 111.848 1.626l-6.538 7.432A1.54 1.54 0 018 13z" />
-                </g>
-                <defs>
-                  <clipPath id="clip0">
-                    <path d="M0 0h16v16H0z" />
-                  </clipPath>
-                </defs>
-              </svg>
-            </div>
-          )}
-        </div>
+        {isOpen ? (
+          <div
+            style={{ width: "16px", height: "16px" }}
+            className="flex-shrink"
+          >
+            <svg
+              className="fill-current text-heading items-center"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0)">
+                <path d="M8.038 2.98a1.533 1.533 0 011.153.52l6.54 7.434a1.231 1.231 0 01-1.848 1.626L8.163 6.06a.167.167 0 00-.25 0l-5.72 6.501a1.233 1.233 0 11-1.848-1.626l6.538-7.432a1.54 1.54 0 011.155-.523z" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <path d="M0 0h16v16H0z" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        ) : (
+          <div
+            style={{ width: "16px", height: "16px" }}
+            className="flex-shrink"
+          >
+            <svg
+              className="fill-current text-white items-center"
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0)">
+                <path d="M8 13a1.534 1.534 0 01-1.153-.52L.307 5.045A1.231 1.231 0 012.155 3.42l5.72 6.502a.167.167 0 00.25 0l5.72-6.502a1.231 1.231 0 111.848 1.626l-6.538 7.432A1.54 1.54 0 018 13z" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <path d="M0 0h16v16H0z" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        )}
       </div>
     </DisclosureButton>
   );
