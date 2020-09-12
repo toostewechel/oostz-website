@@ -131,7 +131,7 @@ export default function Werkwijze() {
                       en projecten? Wij helpen je graag! Neem vrijblijvend
                       contact met ons op.
                     </p>
-                    <Button label="Neem contact op"></Button>
+                    <Button href="/contact" label="Neem contact op"></Button>
                   </div>
                 </div>
               </Layout>

@@ -266,10 +266,7 @@ export default function Home() {
                       contact met ons op.
                     </p>
                     <div className="mt-4 lg:mt-6">
-                      <Button
-                        label="Contactformulier"
-                        href="/werkwijze"
-                      ></Button>
+                      <Button label="Contactformulier" href="/contact"></Button>
                     </div>
                   </div>
                   <div
