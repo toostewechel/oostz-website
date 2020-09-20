@@ -1,19 +1,22 @@
 import React, { useState } from "react";
+import { urlObjectKeys } from "next/dist/next-server/lib/utils";
 
 const jochemtepperik = {
-  avatar: "/designer1.png",
+  avatar: "/images/home/jochem-avatar.png",
+  photo: "/images/home/jochem.png",
   name: "Jochem Tepperik",
   linkedin: "https://www.linkedin.com/in/jochem-tepperik-b0bbba141/",
   email: "jochem@oostz-ontwerp.nl",
   jobtitle: "Bouwkundig ontwerper",
   description:
-    "Mijn missie als bouwkundig ontwerper is om samen de vertaling te maken van een esthetisch ontwerp naar een technisch ontwerp dat geheel aansluit op uw wensen en ideeën. Ik vind het fantastisch om hierin als creatieve schakel te fungeren en uw droom om te zetten in een tastbaar resultaat.",
+    "Ik maak graag samen met u de vertaling van een esthetisch ontwerp naar een technisch ontwerp dat geheel aansluit op uw wensen en ideeën. Ik vind het fantastisch om hierin als creatieve schakel te fungeren en uw droom om te zetten in een tastbaar resultaat.",
 };
 
 const koenklijnvelderman = {
-  avatar: "/designer2.png",
+  avatar: "/images/home/koen-avatar.png",
+  photo: "/images/home/koen.png",
   name: "Koen Klijn Velderman",
-  linkedin: "https://www.linkedin.com/in/jochem-tepperik-b0bbba141/",
+  linkedin: "https://www.linkedin.com/in/koen-klijn-velderman-8b59357a/",
   email: "koen@oostz-ontwerp.nl",
   jobtitle: "Bouwkundig ontwerper",
   description:
@@ -24,8 +27,8 @@ function Designers() {
   const [toggleDesigner, setToggleDesigner] = useState(true);
 
   const avatar = toggleDesigner
-    ? jochemtepperik.avatar
-    : koenklijnvelderman.avatar;
+    ? jochemtepperik.photo
+    : koenklijnvelderman.photo;
 
   const fullname = toggleDesigner
     ? jochemtepperik.name
@@ -49,58 +52,30 @@ function Designers() {
 
   return (
     <div className="flex flex-row">
-      <div className="hidden md:flex md:w-1/3 md:justify-center">
+      <div className="hidden md:flex md:w-1/3 md:justify-center mr-4">
         <img src={avatar}></img>
       </div>
       <div className="flex flex-col w-full md:w-2/3 justify-center">
-        <div className="inline-flex mb-8">
+        <div className="inline-flex mb-6">
           <button
             className={`${
               toggleDesigner
-                ? `p-4 mr-2 rounded bg-yellow-300`
-                : `p-4 mr-2 rounded`
+                ? `h-12 w-12 mr-3 rounded bg-yellow-100`
+                : `h-12 w-12 mr-3 rounded`
             }`}
             onClick={() => setToggleDesigner(true)}
           >
-            <svg
-              className={`${
-                toggleDesigner
-                  ? `fill-current text-background`
-                  : `fill-current text-white`
-              }`}
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M0 14v2h7l1-4 1 4h7v-2a2 2 0 00-1-1 10 10 0 00-5-2v-1a5 5 0 003-4V5A5 5 0 003 5v1a5 5 0 003 4v1c-2 0-4 0-5 2a2 2 0 00-1 1zm5-8V5a5 5 0 003-1l3 1v1a3 3 0 11-6 0z" />
-              <path d="M9 7a1 1 0 100-1 1 1 0 000 1z" />
-              <path d="M7 7a1 1 0 100-1 1 1 0 000 1zM8 9a2 2 0 001-1H7v1h1z" />
-            </svg>
+            <img src={jochemtepperik.avatar}></img>
           </button>
           <button
             className={`${
               !toggleDesigner
-                ? `p-4 mr-2 rounded bg-yellow-300`
-                : `p-4 mr-2 rounded `
+                ? `h-12 w-12 mr-3 rounded bg-yellow-100`
+                : `h-12 w-12 mr-3 rounded`
             }`}
             onClick={() => setToggleDesigner(false)}
           >
-            <svg
-              className={`${
-                !toggleDesigner
-                  ? `fill-current text-background`
-                  : `fill-current text-white`
-              }`}
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M0 14v2h7l1-4 1 4h7v-2a2 2 0 00-1-1 10 10 0 00-5-2v-1a5 5 0 003-4V5A5 5 0 003 5v1a5 5 0 003 4v1c-2 0-4 0-5 2a2 2 0 00-1 1zm5-8V5a5 5 0 003-1l3 1v1a3 3 0 11-6 0z" />
-              <path d="M9 7a1 1 0 100-1 1 1 0 000 1z" />
-              <path d="M7 7a1 1 0 100-1 1 1 0 000 1zM8 9a2 2 0 001-1H7v1h1z" />
-            </svg>
+            <img src={koenklijnvelderman.avatar}></img>
           </button>
         </div>
         <div>

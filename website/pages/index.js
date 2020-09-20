@@ -239,7 +239,7 @@ export default function Home() {
               <div
                 className="h-auto w-full bg-cover bg-bottom pt-24 pb-24"
                 style={{
-                  background: `linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(31,31,31,0.60) 25%, rgba(31,31,31,0.2) 50%, rgba(31,32,31,0.60) 75%, rgba(31,31,31,1) 100%), url(/images/home/aandacht-voor-jou.jpg)`,
+                  background: `linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(31,31,31,0.60) 30%, rgba(31,31,31,0.40) 50%, rgba(31,32,31,0.60) 80%, rgba(31,31,31,1) 100%), url(/images/home/aandacht-voor-jou.jpg)`,
                   backgroundPosition: "bottom",
                 }}
               >

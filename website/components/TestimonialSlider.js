@@ -16,7 +16,7 @@ function TestimonialSlider() {
   return (
     <CarouselProvider
       naturalSlideWidth={isLarge ? 100 : 100}
-      naturalSlideHeight={isLarge ? 15 : 50}
+      naturalSlideHeight={isLarge ? 30 : 50}
       totalSlides={3}
       isIntrinsicHeight={isLarge ? false : true}
     >
@@ -24,20 +24,23 @@ function TestimonialSlider() {
       <Slider>
         <Slide index={0}>
           <TestimonialSlide
-            testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
-            author="Familie de Wit"
+            testimonial="In de zomer van 2018 zijn we samen met Oostz-ontwerp gestart met het ontwerp van onze nieuwbouwwoning te Heeten. Aan de hand van onze wensen zijn we samen verschillende plannen gaan uitwerken om vervolgens tot een definitief ontwerp te komen. Een goed ontwerp gaat verder dan alleen het eerste aanzicht, Oostz-ontwerp neemt direct de bouwkundige aspecten mee in het ontwerp. De bouwbegeleiding vanuit Oostz-ontwerp was super, het maken van duidelijke afspraken middels goede communicatie ligt hieraan ten grondslag. Ook tijdens de realisatie kijkt Oostz-ontwerp met een kritisch oog mee, zodat er waar nodig kan worden bijgestuurd. Al met al mogen wij terugkijken op een leuke tijd, waarin Oostz-ontwerp zeker aan bijgedragen heeft. "
+            author="Anouk & Jort"
           ></TestimonialSlide>
         </Slide>
         <Slide index={1}>
           <TestimonialSlide
-            testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
-            author="Familie de Wit"
+            testimonial="In december 2018 zijn we uitgeloot voor een kavel op nieuwbouw plattenberg te Wijhe. Wij zochten een betrokken partner die ons kon begeleiden in dit gehele traject.
+            Oostz-ontwerp was deze partner. Hierin waren de eerste 2 á 3 gesprekken doorslaggevend. We spraken onze wensen uit en onze wensen werden netjes geïnventariseerd. Oostz-ontwerp vertelde op een duidelijke manier wat de mogelijkheden waren op onze kavel.
+            Openheid in zaken, meedenken in oplossingen en adviseren in opties is zeker wat je van Oostz-ontwerp kan verwachten. Als de mogelijkheid zich weer voordoet in de toekomst dan gaan wij zeker weer met Oostz-ontwerp om tafel.
+            "
+            author="Familie Klein Ovink"
           ></TestimonialSlide>
         </Slide>
         <Slide index={2}>
           <TestimonialSlide
-            testimonial="Fusce commodo aliquam arcu. Ut id nisl quis enim dignissim sagittis. Nullam vel sem. Etiam feugiat lorem non metus. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula. Suspendisse eu ligula. Etiam feugiat lorem non metus. Suspendisse eu ligula."
-            author="Familie de Wit"
+            testimonial="Halverwege 2019 besloten we een huis te gaan bouwen op het nieuwbouwplan de Mastenbroek in Hellendoorn. De keus voor een aannemer viel op Bajo-bouw & IJzerwerken in Mariënheem. Via hun kwamen we in contact met Oostz-ontwerp. De samenwerking hebben we als zeer prettig ervaren. Oostz-ontwerp was altijd goed bereikbaar en gaf ons goed advies over de ideeën en wensen waarmee wij aankwamen."
+            author="Familie Daggert"
           ></TestimonialSlide>
         </Slide>
       </Slider>
