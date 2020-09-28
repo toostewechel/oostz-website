@@ -13,9 +13,21 @@ export default function Page() {
       <body className="bg-background ">
         <div className="mx-auto">
           <Head>
-            <meta name="description" content="Oostz Ontwerp" />
+            <meta name="description" content="Oostz-ontwerp" />
+            <meta
+              property="og:title"
+              content="Twee-onder-een kap te Mariënheem"
+            />
+            <meta
+              property="og:image"
+              content="/images/projecten/featured/featured-image-pronk.jpg"
+            />
+            <meta
+              property="og:description"
+              content="Wat een plaatje! Voor onze opdrachtgever hebben we deze fraaie twee-onder-een kap mogen realiseren. Het bijzondere metselwerk geeft de woning karakter."
+            />
             <title>Oostz Ontwerp</title>
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.svg" />
           </Head>
           <main>
             <ProjectHeader />

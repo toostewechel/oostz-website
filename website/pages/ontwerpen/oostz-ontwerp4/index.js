@@ -13,9 +13,21 @@ export default function Page() {
       <body className="bg-background ">
         <div className="mx-auto">
           <Head>
-            <meta name="description" content="Oostz Ontwerp" />
+            <meta name="description" content="Oostz-ontwerp" />
+            <meta
+              property="og:title"
+              content="Landelijke schuurwoning te Hellendoorn"
+            />
+            <meta
+              property="og:image"
+              content="/images/projecten/featured/featured-image-oostz-ontwerp-4.jpg"
+            />
+            <meta
+              property="og:description"
+              content="In Hellendoorn hebben we deze moderne landelijke schuurwoning mogen ontwerpen. De houten gebinten maakt de woning af en zorgt voor een landelijke sfeer."
+            />
             <title>Oostz Ontwerp</title>
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.svg" />
           </Head>
           <main>
             <ProjectHeader />

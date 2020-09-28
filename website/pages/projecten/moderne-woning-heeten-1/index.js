@@ -13,9 +13,18 @@ export default function Page() {
       <body className="bg-background ">
         <div className="mx-auto">
           <Head>
-            <meta name="description" content="Oostz Ontwerp" />
+            <meta name="description" content="Oostz-ontwerp" />
+            <meta property="og:title" content="Moderne woning te Heeten" />
+            <meta
+              property="og:image"
+              content="/images/projecten/featured/featured-image-schutte-jansen-holleboom.jpg"
+            />
+            <meta
+              property="og:description"
+              content="Op nieuwbouwplan de IJsselgouwe te Heeten is deze moderne woning gerealiseerd. Het witte stucwerk in combinatie met de zwarte details geven een moderne look aan de woning."
+            />
             <title>Oostz Ontwerp</title>
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.svg" />
           </Head>
           <main>
             <ProjectHeader />

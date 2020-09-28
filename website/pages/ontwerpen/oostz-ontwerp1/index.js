@@ -13,9 +13,21 @@ export default function Page() {
       <body className="bg-background ">
         <div className="mx-auto">
           <Head>
-            <meta name="description" content="Oostz Ontwerp" />
+            <meta name="description" content="Oostz-ontwerp" />
+            <meta
+              property="og:title"
+              content="Twee-onder-een kap te Diepenveen"
+            />
+            <meta
+              property="og:image"
+              content="/images/projecten/featured/featured-image-oostz-ontwerp-1.jpg"
+            />
+            <meta
+              property="og:description"
+              content="In Diepenveen hebben we deze twee onder 1 kap mogen ontworpen. De woning is de breedte ontworpen wat hem uniek maakt in zijn soort. De combinatie van stucwerk en houten gevels geeft de woning een moderne uitstraling passend in de wijk."
+            />
             <title>Oostz Ontwerp</title>
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.svg" />
           </Head>
           <main>
             <ProjectHeader />

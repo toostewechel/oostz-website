@@ -13,9 +13,18 @@ export default function Page() {
       <body className="bg-background ">
         <div className="mx-auto">
           <Head>
-            <meta name="description" content="Oostz Ontwerp" />
+            <meta name="description" content="Oostz-ontwerp" />
+            <meta property="og:title" content="Moderne woning te Raalte" />
+            <meta
+              property="og:image"
+              content="/images/projecten/featured/featured-image-krosse.jpg"
+            />
+            <meta
+              property="og:description"
+              content="Op nieuwbouwplan de Terpen (Franciscushof) te Raalte is deze moderne woning gebouwd. De woning heeft unieke vormen wat een speels effect geeft. Daarnaast zorgt het stucwerk in combinatie met donker metselwerk voor een oogverblindend resultaat."
+            />
             <title>Oostz Ontwerp</title>
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.svg" />
           </Head>
           <main>
             <ProjectHeader />

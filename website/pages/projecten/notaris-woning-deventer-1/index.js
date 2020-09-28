@@ -13,9 +13,18 @@ export default function Page() {
       <body className="bg-background ">
         <div className="mx-auto">
           <Head>
-            <meta name="description" content="Oostz Ontwerp" />
+            <meta name="description" content="Oostz-ontwerp" />
+            <meta property="og:title" content="Notaris woning te Deventer" />
+            <meta
+              property="og:image"
+              content="/images/projecten/featured/featured-image-demir.jpg"
+            />
+            <meta
+              property="og:description"
+              content="In Deventer is deze fraaie vrijstaande woning gerealiseerd. De strakke lijnen en symmetrie vormen de basis van deze notaris woning. De gecentreerde entree met rijkversierde details geven deze woning karakter."
+            />
             <title>Oostz Ontwerp</title>
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.svg" />
           </Head>
           <main>
             <ProjectHeader />

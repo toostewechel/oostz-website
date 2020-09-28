@@ -13,9 +13,21 @@ export default function Page() {
       <body className="bg-background ">
         <div className="mx-auto">
           <Head>
-            <meta name="description" content="Oostz Ontwerp" />
+            <meta name="description" content="Oostz-ontwerp" />
+            <meta
+              property="og:title"
+              content="Vrijstaande woning te Hellendoorn"
+            />
+            <meta
+              property="og:image"
+              content="/images/projecten/featured/featured-image-oostz-ontwerp-2.jpg"
+            />
+            <meta
+              property="og:description"
+              content="Op het nieuwbouwplan de Mastenbroek in Hellendoorn hebben we deze prachtige rietgedekte woning mogen ontwerpen. De rieten kap geeft de woning een landelijke uitstraling."
+            />
             <title>Oostz Ontwerp</title>
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.svg" />
           </Head>
           <main>
             <ProjectHeader />
@@ -37,7 +49,7 @@ export default function Page() {
                   year="2020"
                   title="Rietgedekte woning"
                   location="Hellendoorn"
-                  description="Op het nieuwbouwplan de Mastenbroek in Hellendoorn hebben we deze prachtige rietgedekte woning mogen ontwerpen. De rieten kap geeft de woning een landelelijke uitstraling "
+                  description="Op het nieuwbouwplan de Mastenbroek in Hellendoorn hebben we deze prachtige rietgedekte woning mogen ontwerpen. De rieten kap geeft de woning een landelijke uitstraling. "
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
