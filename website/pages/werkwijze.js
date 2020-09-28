@@ -11,9 +11,18 @@ export default function Werkwijze() {
     <body className="bg-background ">
       <div className="mx-auto">
         <Head>
-          <meta name="description" content="Oostz Ontwerp" />
+          <meta name="description" content="Oostz-ontwerp" />
+          <meta property="og:title" content="Oostz-ontwerp" />
+          <meta property="og:image" content="/images/home/featured-home.jpg" />
+          <meta
+            property="og:description"
+            content="Oostz Ontwerp is een vakkundige en betrouwbare partner voor
+            realisatie van uw project van ontwerp tot oplevering. Wij
+            zijn sterk in het klantgericht meedenken en hebben veel
+            ervaring in de bouwsector."
+          />
           <title>Oostz Ontwerp</title>
-          <link rel="icon" href="/favicon.svgg" />
+          <link rel="icon" href="/favicon.svg" />
         </Head>
         <Header></Header>
         <main className="mt-20">
