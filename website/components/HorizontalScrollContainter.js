@@ -85,7 +85,7 @@ function HorizontalScrollContainer() {
         title="Moderne woning"
         description="Deze moderne woning staat in Wijhe."
         location="Wijhe"
-        href="/ontwerpen/oostz-ontwerp-1"
+        href="/ontwerpen/oostz-ontwerp-3"
       />
     </section>
   );
