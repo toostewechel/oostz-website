@@ -50,42 +50,42 @@ function HorizontalScrollContainer() {
         title="Notaris woning"
         description="In Deventer is deze fraaie vrijstaande woning gerealiseerd"
         location="Deventer"
-        href="/projecten/demir"
+        href="/projecten/notaris-woning-deventer-1"
       />
       <ProjectCard
         image="/images/projecten/featured/featured-image-bloemsma.jpg"
         title="Vrijstaand huis"
         description="Deze moderne woning staat op Spijkvoorderhout te Deventer"
-        location="Locatie"
-        href="/projecten/bloemsma"
+        location="Deventer"
+        href="/projecten/vrijstaande-woning-deventer-1"
       />
       <ProjectCard
         image="/images/projecten/featured/featured-image-krosse.jpg"
         title="Moderne woning"
         description="Deze unieke woning staat op de terpen te Raalte."
-        location="Locatie"
-        href="/projecten/krosse"
+        location="Raalte"
+        href="/projecten/moderne-woning-raalte-1"
       />
       <ProjectCard
         image="/images/projecten/featured/featured-image-oostz-ontwerp4.jpg"
         title="Schuurwoning"
         description="Deze moderne landelijke schuurwoning staat in Hellendoorn."
-        location="Locatie"
-        href="/projecten/mulder"
+        location="Hellendoorn"
+        href="/ontwerpen/oostz-ontwerp-4"
       />
       <ProjectCard
         image="/images/projecten/featured/featured-image-oostz-ontwerp1.jpg"
         title="Brede 2-onder-1 kap"
         description="Deze unieke 2-onder-1 kap staat in Diepenveen."
-        location="Locatie"
-        href="/projecten/mulder"
+        location="Diepenveen"
+        href="/ontwerpen/oostz-ontwerp-1"
       />
       <ProjectCard
         image="/images/projecten/featured/featured-image-oostz-ontwerp3.jpg"
         title="Moderne woning"
         description="Deze moderne woning staat in Wijhe."
-        location="Locatie"
-        href="/projecten/mulder"
+        location="Wijhe"
+        href="/ontwerpen/oostz-ontwerp-1"
       />
     </section>
   );
