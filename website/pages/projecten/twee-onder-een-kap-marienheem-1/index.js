@@ -21,9 +21,9 @@ export default function Page() {
             <ProjectHeader />
             <section>
               <LandingImage
-                backgroundImage="/images/projecten/zwakenberg/landing-image-zwakenberg.jpg"
-                category="Aanbouw"
-                title="Veranda"
+                backgroundImage="/images/projecten/pronk/landing-image-pronk.jpg"
+                category="Woningbouw"
+                title="Twee-onder-een-kap"
                 projectType="Gerealiseerd"
               />
             </section>
@@ -34,35 +34,35 @@ export default function Page() {
               <Layout>
                 <ProjectDetails
                   projectType="Gerealiseerd"
-                  year="2019"
-                  title="Luxe veranda"
-                  location="Raalte"
-                  description="In Raalte hebben we deze unieke veranda mogen ontwerpen. De toegepaste materialen geven een luxe en warme uitstraling."
+                  year="2016"
+                  title="Woning met karakter"
+                  location="Mariënheem"
+                  description="Wat een plaatje! Voor onze opdrachtgever hebben we deze fraaie twee-onder-een kap mogen realiseren. Het bijzondere metselwerk geeft de woning karakter. "
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/projecten/zwakenberg/zwakenberg-rectangle-1.jpg"
-                    description="Aanzicht veranda"
+                    src="/images/projecten/pronk/pronk-rectangle-1.jpg"
+                    description="Voorzijde woning"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/zwakenberg/zwakenberg-square-1.jpg"
-                      description="Houten plafond doorlopend in wand"
+                      src="/images/projecten/pronk/pronk-square-1.jpg"
+                      description="Voorzijde woning voorzien van erker"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/zwakenberg/zwakenberg-square-2.jpg"
-                      description="Lichtstraat"
+                      src="/images/projecten/pronk/pronk-square-2.jpg"
+                      description="Luchtfoto achterzijde woning"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/projecten/zwakenberg/zwakenberg-rectangle-2.jpg"
-                    description="Zitgedeelte"
+                    src="/images/projecten/pronk/pronk-rectangle-2.jpg"
+                    description="Luchtfoto voorzijde woning"
                   />
                 </div>
               </Layout>
@@ -78,15 +78,15 @@ export default function Page() {
                       src="/images/projecten/featured/featured-image-bloemsma.jpg"
                       title="Gerealiseerd"
                       description="Vrijstaande woning te Deventer"
-                      href="/projecten/mulder"
+                      href="/projecten/vrijstaande-woning-deventer-1"
                     />
                   </div>
                   <div className="mr-0 md:mr-4 md:w-1/3">
                     <ThumbnailImage
-                      src="/images/projecten/featured/featured-image-krosse.jpg"
+                      src="/images/projecten/featured/featured-image-schutte-jansen-holleboom.jpg"
                       title="Gerealiseerd"
-                      description="Moderne woning te Raalte"
-                      href="/projecten/mulder"
+                      description="Moderne woning te Heeten"
+                      href="/projecten/moderne-woning-heeten-1"
                     />
                   </div>
                   <div className=" md:w-1/3"></div>

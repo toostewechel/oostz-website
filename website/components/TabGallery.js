@@ -49,7 +49,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-demir.jpg"
                   title="Gerealiseerd"
                   description="Notaris woning te Deventer"
-                  href="/projecten/demir"
+                  href="/projecten/notaris-woning-deventer-1"
                 />
               </div>
             </div>
@@ -59,7 +59,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-schutte-jansen-holleboom.jpg"
                   title="Gerealiseerd"
                   description="Moderne woning te Heeten"
-                  href="/projecten/schutte-jansen-holleboom"
+                  href="/projecten/moderne-woning-heeten-1"
                 />
               </div>
             </div>
@@ -71,7 +71,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-zwakenberg.jpg"
                   title="Gerealiseerd"
                   description="Veranda te Raalte"
-                  href="/projecten/zwakenberg"
+                  href="/projecten/veranda-raalte-1"
                 />
               </div>
             </div>
@@ -81,7 +81,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-krosse.jpg"
                   title="Gerealiseerd"
                   description="Moderne woning te Raalte"
-                  href="/projecten/krosse"
+                  href="/projecten/moderne-woning-raalte-1"
                 />
               </div>
             </div>
@@ -93,7 +93,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-bloemsma.jpg"
                   title="Gerealiseerd"
                   description="Vrijstaande woning te Deventer"
-                  href="/projecten/bloemsma"
+                  href="/projecten/vrijstaande-woning-deventer-1"
                 />
               </div>
             </div>
@@ -103,7 +103,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-pronk.jpg"
                   title="Gerealiseerd"
                   description="Twee-onder-een kap te Mariënheem"
-                  href="/projecten/pronk"
+                  href="/projecten/twee-onder-een-kap-marienheem-1"
                 />
               </div>
             </div>
@@ -161,7 +161,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-demir.jpg"
                   title="Gerealiseerd"
                   description="Notaris woning te Deventer"
-                  href="/projecten/demir"
+                  href="/projecten/notaris-woning-deventer-1"
                 />
               </div>
             </div>
@@ -171,7 +171,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-schutte-jansen-holleboom.jpg"
                   title="Gerealiseerd"
                   description="Moderne woning te Heeten"
-                  href="/projecten/schutte-jansen-holleboom"
+                  href="/projecten/moderne-woning-heeten-1"
                 />
               </div>
             </div>
@@ -183,7 +183,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-zwakenberg.jpg"
                   title="Gerealiseerd"
                   description="Veranda te Raalte"
-                  href="/projecten/zwakenberg"
+                  href="/projecten/veranda-raalte-1"
                 />
               </div>
             </div>
@@ -193,7 +193,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-krosse.jpg"
                   title="Gerealiseerd"
                   description="Moderne woning te Raalte"
-                  href="/projecten/krosse"
+                  href="/projecten/moderne-woning-raalte-1"
                 />
               </div>
             </div>
@@ -205,7 +205,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-bloemsma.jpg"
                   title="Gerealiseerd"
                   description="Vrijstaande woning te Deventer"
-                  href="/projecten/bloemsma"
+                  href="/projecten/vrijstaande-woning-deventer-1"
                 />
               </div>
             </div>
@@ -215,7 +215,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-pronk.jpg"
                   title="Gerealiseerd"
                   description="Twee-onder-een kap woning te Mariënheem"
-                  href="/projecten/pronk"
+                  href="/projecten/twee-onder-een-kap-marienheem-1"
                 />
               </div>
             </div>

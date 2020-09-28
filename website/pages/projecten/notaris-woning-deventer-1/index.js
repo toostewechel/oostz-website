@@ -21,10 +21,10 @@ export default function Page() {
             <ProjectHeader />
             <section>
               <LandingImage
-                backgroundImage="/images/ontwerpen/oostz-ontwerp3/landing-image-oostz-ontwerp3.jpg"
+                backgroundImage="/images/projecten/demir/landing-image-demir.jpg"
                 category="Woningbouw"
-                title="Moderne woning"
-                projectType="Ontwerp"
+                title="Notaris woning"
+                projectType="Gerealiseerd"
               />
             </section>
             <section
@@ -33,36 +33,36 @@ export default function Page() {
             >
               <Layout>
                 <ProjectDetails
-                  projectType="Ontwerp"
+                  projectType="Gerealiseerd"
                   year="2020"
-                  title="Strakke lijnen"
-                  location="Wijhe"
-                  description="In Wijhe hebben we deze moderne woning mogen ontwerpen. Het stucwerk in combinatie met een vlakke dakpan zorgt voor een moderne en strakke uitstraling."
+                  title="Strakke lijnen en symmetrie"
+                  location="Deventer"
+                  description="In Deventer is deze fraaie vrijstaande woning gerealiseerd. De strakke lijnen en symmetrie vormen de basis van deze notaris woning. De gecentreerde entree met rijkversierde details geven deze woning karakter. "
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/ontwerpen/oostz-ontwerp3/oostz-ontwerp3-rectangle-1.jpg"
-                    description="Voorzijde woning"
+                    src="/images/projecten/demir/demir-rectangle-1.jpg"
+                    description="Luchtfoto voorzijde huis."
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/ontwerpen/oostz-ontwerp3/oostz-ontwerp3-square-1.jpg"
-                      description="Woning voorzien van vide"
+                      src="/images/projecten/demir/demir-square-1.jpg"
+                      description="Gecentreerde entree."
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/ontwerpen/oostz-ontwerp3/oostz-ontwerp3-square-2.jpg"
-                      description="Zijgevel woning"
+                      src="/images/projecten/demir/demir-square-2.jpg"
+                      description="Rijkversierde details entree."
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/ontwerpen/oostz-ontwerp3/oostz-ontwerp3-rectangle-2.jpg"
-                    description="Achtergevel woning"
+                    src="/images/projecten/demir/demir-rectangle-2.jpg"
+                    description="Luchtfoto achterzijde huis."
                   />
                 </div>
               </Layout>
@@ -78,7 +78,7 @@ export default function Page() {
                       src="/images/projecten/featured/featured-image-bloemsma.jpg"
                       title="Gerealiseerd"
                       description="Vrijstaande woning te Deventer"
-                      href="/projecten/mulder"
+                      href="/projecten/vrijstaande-woning-deventer-1"
                     />
                   </div>
                   <div className="mr-0 md:mr-4 md:w-1/3">
@@ -86,7 +86,7 @@ export default function Page() {
                       src="/images/projecten/featured/featured-image-krosse.jpg"
                       title="Gerealiseerd"
                       description="Moderne woning te Raalte"
-                      href="/projecten/mulder"
+                      href="/projecten/moderne-woning-raalte-1"
                     />
                   </div>
                   <div className=" md:w-1/3"></div>

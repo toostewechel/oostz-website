@@ -21,9 +21,9 @@ export default function Page() {
             <ProjectHeader />
             <section>
               <LandingImage
-                backgroundImage="/images/projecten/bloemsma/landing-image-bloemsma.jpg"
+                backgroundImage="/images/projecten/krosse/landing-image-krosse.jpg"
                 category="Woningbouw"
-                title="Vrijstaande woning"
+                title="Moderne woning"
                 projectType="Gerealiseerd"
               />
             </section>
@@ -34,34 +34,36 @@ export default function Page() {
               <Layout>
                 <ProjectDetails
                   projectType="Gerealiseerd"
-                  year="2017"
-                  title="Riante woning"
-                  location="Deventer"
-                  description="Deze vrijstaande woning staat op nieuwbouwplan Spijkvoorderhout te Deventer. De woning komt helemaal tot zijn recht op deze riante kavel."
+                  year="2019"
+                  title="Unieke vormen"
+                  location="Raalte"
+                  description="Op nieuwbouwplan de Terpen (Franciscushof) te Raalte is deze moderne woning gebouwd.
+                  De woning heeft unieke vormen wat een speels effect geeft. Daarnaast zorgt het stucwerk in combinatie met donker metselwerk voor een oogverblindend resultaat.
+                  "
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/projecten/bloemsma/bloemsma-rectangle-2.jpg"
+                    src="/images/projecten/krosse/krosse-rectangle-2.jpg"
                     description="Voorzijde woning"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/bloemsma/bloemsma-square-1.jpg"
-                      description="Luchtfoto woning"
+                      src="/images/projecten/krosse/krosse-square-1.jpg"
+                      description="Contrast stuc- en metselwerk"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/bloemsma/bloemsma-square-2.jpg"
-                      description="Woning voorzien van spekband"
+                      src="/images/projecten/krosse/krosse-square-2.jpg"
+                      description="Luchtfoto achterzijde"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/projecten/bloemsma/bloemsma-rectangle-1.jpg"
+                    src="/images/projecten/krosse/krosse-rectangle-1.jpg"
                     description="Achterzijde woning"
                   />
                 </div>
@@ -78,15 +80,15 @@ export default function Page() {
                       src="/images/projecten/featured/featured-image-bloemsma.jpg"
                       title="Gerealiseerd"
                       description="Vrijstaande woning te Deventer"
-                      href="/projecten/mulder"
+                      href="/projecten/vrijstaande-woning-deventer-1"
                     />
                   </div>
                   <div className="mr-0 md:mr-4 md:w-1/3">
                     <ThumbnailImage
-                      src="/images/projecten/featured/featured-image-krosse.jpg"
+                      src="/images/projecten/featured/featured-image-demir.jpg"
                       title="Gerealiseerd"
-                      description="Moderne woning te Raalte"
-                      href="/projecten/mulder"
+                      description="Notaris woning te Deventer"
+                      href="/projecten/notaris-woning-deventer-1"
                     />
                   </div>
                   <div className=" md:w-1/3"></div>

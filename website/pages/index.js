@@ -21,7 +21,17 @@ export default function Home() {
       <body className="bg-background ">
         <div className="mx-auto">
           <Head>
-            <meta name="description" content="Oostz Ontwerp" />
+            <meta name="description" content="Oostz-ontwerp" />
+            <meta property="og:title" content="Oostz-ontwerp" />
+            <meta
+              property="og:image"
+              content="/images/home/featured-home.jpg"
+            />
+            <meta
+              property="og:description"
+              content="Oostz Ontwerp is een vakkundige en betrouwbare partner voor
+              realisatie van uw project van ontwerp tot oplevering."
+            />
             <title>Oostz Ontwerp</title>
             <link rel="icon" href="/favicon.svg" />
           </Head>
@@ -135,21 +145,21 @@ export default function Home() {
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
                             src="/images/projecten/featured/featured-image-demir.jpg"
-                            href="/projecten/demir"
+                            href="/projecten/notaris-woning-deventer-1"
                             title="Gerealiseerd"
                           />
                         </div>
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
                             src="/images/projecten/featured/featured-image-bloemsma.jpg"
-                            href="/projecten/bloemsma"
+                            href="/projecten/vrijstaande-woning-deventer-1"
                             title="Gerealiseerd"
                           />
                         </div>
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
                             src="/images/projecten/featured/featured-image-krosse.jpg"
-                            href="/projecten/krosse"
+                            href="/projecten/moderne-woning-raalte-1"
                             title="Gerealiseerd"
                           />
                         </div>

@@ -21,10 +21,10 @@ export default function Page() {
             <ProjectHeader />
             <section>
               <LandingImage
-                backgroundImage="/images/projecten/schutte-jansen-holleboom/landing-image-schutte-jansen-holleboom.jpg"
+                backgroundImage="/images/ontwerpen/oostz-ontwerp4/landing-image-oostz-ontwerp4.jpg"
                 category="Woningbouw"
-                title="Moderne woning"
-                projectType="Gerealiseerd"
+                title="Schuurwoning"
+                projectType="Ontwerp"
               />
             </section>
             <section
@@ -34,35 +34,35 @@ export default function Page() {
               <Layout>
                 <ProjectDetails
                   projectType="Gerealiseerd"
-                  year="2019"
-                  title="Vrijstaande woning"
-                  location="Heeten"
-                  description="Op nieuwbouwplan de IJsselgouwe te Heeten is deze moderne woning gerealiseerd. Het witte stucwerk in combinatie met de zwarte details geven een moderne look aan de woning."
+                  year="2020"
+                  title="Landelijke schuurwoning"
+                  location="Hellendoorn"
+                  description="In Hellendoorn hebben we deze moderne landelijke schuurwoning mogen ontwerpen. De houten gebinten maakt de woning af en zorgt voor een landelijke sfeer."
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/projecten/schutte-jansen-holleboom/schutte-jansen-holleboom-rectangle-2.jpg"
-                    description="Luchtfoto woning."
+                    src="/images/ontwerpen/oostz-ontwerp4/oostz-ontwerp4-rectangle-1.jpg"
+                    description="Voorzijde woning"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/schutte-jansen-holleboom/schutte-jansen-holleboom-square-1.jpg"
-                      description="Entree woning."
+                      src="/images/ontwerpen/oostz-ontwerp4/oostz-ontwerp4-square-1.jpg"
+                      description="Entree woning"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/schutte-jansen-holleboom/schutte-jansen-holleboom-square-2.jpg"
-                      description="Wit stucwerk met zwarte details."
+                      src="/images/ontwerpen/oostz-ontwerp4/oostz-ontwerp4-square-2.jpg"
+                      description="Woning voorzien van verticale gevelbekleding"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/projecten/schutte-jansen-holleboom/schutte-jansen-holleboom-rectangle-1.jpg"
-                    description="Achterzijde woning."
+                    src="/images/ontwerpen/oostz-ontwerp4/oostz-ontwerp4-rectangle-2.jpg"
+                    description="Achterzijde woning"
                   />
                 </div>
               </Layout>

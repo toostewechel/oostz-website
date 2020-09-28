@@ -21,9 +21,9 @@ export default function Page() {
             <ProjectHeader />
             <section>
               <LandingImage
-                backgroundImage="/images/projecten/krosse/landing-image-krosse.jpg"
-                category="Woningbouw"
-                title="Moderne woning"
+                backgroundImage="/images/projecten/zwakenberg/landing-image-zwakenberg.jpg"
+                category="Aanbouw"
+                title="Veranda"
                 projectType="Gerealiseerd"
               />
             </section>
@@ -35,36 +35,34 @@ export default function Page() {
                 <ProjectDetails
                   projectType="Gerealiseerd"
                   year="2019"
-                  title="Unieke vormen"
+                  title="Luxe veranda"
                   location="Raalte"
-                  description="Op nieuwbouwplan de Terpen (Franciscushof) te Raalte is deze moderne woning gebouwd.
-                  De woning heeft unieke vormen wat een speels effect geeft. Daarnaast zorgt het stucwerk in combinatie met donker metselwerk voor een oogverblindend resultaat.
-                  "
+                  description="In Raalte hebben we deze unieke veranda mogen ontwerpen. De toegepaste materialen geven een luxe en warme uitstraling."
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/projecten/krosse/krosse-rectangle-2.jpg"
-                    description="Voorzijde woning"
+                    src="/images/projecten/zwakenberg/zwakenberg-rectangle-1.jpg"
+                    description="Aanzicht veranda"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/krosse/krosse-square-1.jpg"
-                      description="Contrast stuc- en metselwerk"
+                      src="/images/projecten/zwakenberg/zwakenberg-square-1.jpg"
+                      description="Houten plafond doorlopend in wand"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/projecten/krosse/krosse-square-2.jpg"
-                      description="Luchtfoto achterzijde"
+                      src="/images/projecten/zwakenberg/zwakenberg-square-2.jpg"
+                      description="Lichtstraat"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/projecten/krosse/krosse-rectangle-1.jpg"
-                    description="Achterzijde woning"
+                    src="/images/projecten/zwakenberg/zwakenberg-rectangle-2.jpg"
+                    description="Zitgedeelte"
                   />
                 </div>
               </Layout>
@@ -80,15 +78,15 @@ export default function Page() {
                       src="/images/projecten/featured/featured-image-bloemsma.jpg"
                       title="Gerealiseerd"
                       description="Vrijstaande woning te Deventer"
-                      href="/projecten/bloemsma"
+                      href="/projecten/vrijstaande-woning-deventer-1"
                     />
                   </div>
                   <div className="mr-0 md:mr-4 md:w-1/3">
                     <ThumbnailImage
-                      src="/images/projecten/featured/featured-image-demir.jpg"
+                      src="/images/projecten/featured/featured-image-krosse.jpg"
                       title="Gerealiseerd"
-                      description="Notaris woning te Deventer"
-                      href="/projecten/demir"
+                      description="Moderne woning te Raalte"
+                      href="/projecten/moderne-woning-raalte-1"
                     />
                   </div>
                   <div className=" md:w-1/3"></div>
