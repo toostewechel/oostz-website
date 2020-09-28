@@ -34,7 +34,22 @@ function Footer() {
               <path d="M19.115 15.34l-1.634-1.636a1.874 1.874 0 00-2.653 0l-.333.333a36.236 36.236 0 01-4.535-4.54l.333-.334a1.878 1.878 0 000-2.652L8.655 4.878a1.922 1.922 0 00-2.655 0l-.893.897a2.654 2.654 0 00-.334 3.33A36.117 36.117 0 0014.89 19.222a2.677 2.677 0 003.333-.333l.897-.898a1.874 1.874 0 000-2.651h-.004z" />
             </svg>
             <p className="text-sm font-body text-gray-200 font-normal antialiased">
-              0612345678
+              0628092228 - Jochem
+            </p>
+          </div>
+          <div className="flex flex-row mb-1">
+            <svg
+              className="fill-current text-yellow-500 mr-1"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M19.115 15.34l-1.634-1.636a1.874 1.874 0 00-2.653 0l-.333.333a36.236 36.236 0 01-4.535-4.54l.333-.334a1.878 1.878 0 000-2.652L8.655 4.878a1.922 1.922 0 00-2.655 0l-.893.897a2.654 2.654 0 00-.334 3.33A36.117 36.117 0 0014.89 19.222a2.677 2.677 0 003.333-.333l.897-.898a1.874 1.874 0 000-2.651h-.004z" />
+            </svg>
+            <p className="text-sm font-body text-gray-200 font-normal antialiased">
+              0642023612 - Koen
             </p>
           </div>
           <div className="flex flex-row mb-1">

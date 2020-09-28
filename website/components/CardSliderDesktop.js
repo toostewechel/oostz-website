@@ -31,7 +31,7 @@ function CardSliderDesktop() {
           <CardSlideDesktop
             backgroundImage="/images/home/oog-voor-details.jpg"
             title="Oog voor detail."
-            description="Wij hebben een sterk oog voor detail, want alleen details maken van een gedegen ontwerp een mooit ontwerp."
+            description="Wij hebben een sterk oog voor detail, want alleen details maken van een gedegen ontwerp een mooi ontwerp."
           />
         </Slide>
         <Slide index={2}>

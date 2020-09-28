@@ -7,7 +7,6 @@ import ThumbnailImage from "../components/ThumbnailImage";
 import Designers from "../components/Designers";
 import Footer from "../components/Footer";
 import Button from "../components/Button";
-import CardSlideDesktop from "../components/CardSlideDesktop";
 import CardSliderDesktop from "../components/CardSliderDesktop";
 import CardSliderMobile from "../components/CardSliderMobile";
 import TestimonialSlider from "../components/TestimonialSlider";
@@ -63,7 +62,7 @@ export default function Home() {
                       src="/concept-icon.svg"
                       title="Concept"
                       item1="Oriënterend gesprek"
-                      item2="Vergunning check"
+                      item2="Vergunningcheck"
                       item3="Bestemmingsplan check"
                     ></CardSmall>
                   </div>
@@ -229,7 +228,7 @@ export default function Home() {
                     <HoverCard
                       src="/professioneel-advies.svg"
                       title="Professioneel advies"
-                      description="Wij begeleiden u op klantgerichte wijze en geven betrouwbaar advies tijdens de realisatie"
+                      description="Klantgerichte begeleiding en betrouwbaar advies tijdens realisatie van uw project"
                     ></HoverCard>
                   </div>
                 </div>

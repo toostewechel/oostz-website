@@ -99,14 +99,14 @@ export default function Werkwijze() {
                     title="3D Impressies"
                     subtitle="Hoe het eruit gaat zien"
                     src="/3d-impressies.svg"
-                    description="Oostz ontwerp streeft ernaar om u een zo goed mogelijk beeld te geven van uw project. Doormiddel van realistische 3D impressies visualiseren wij uw project!"
+                    description="Oostz ontwerp streeft ernaar om u een zo goed mogelijk beeld te geven van uw project. Doormiddel van realistische 3D impressies creëren wij dit!"
                   ></Collapsible>
                   <Stack size={12} />
                   <Collapsible
                     title="Kostenraming"
                     subtitle="De verwachte kosten voor de realisatie"
                     src="/kostenraming.svg"
-                    description="Wij beschikken over kennis en actuele richtprijzen, zowel bouwkundig als op het gebied van installaties. Op basis van deze gegevens maken we een kostenindicatie voor uw project."
+                    description="Oostz ontwerp beschikt over kennis en actuele richtprijzen, zowel bouwkundig als op het gebied van installaties. Op basis van deze gegevens maken we een kostenindicatie voor uw project."
                   ></Collapsible>
                 </div>
               </div>
@@ -116,7 +116,8 @@ export default function Werkwijze() {
             <div
               className="h-auto w-full bg-cover  pt-16 pb-12"
               style={{
-                backgroundImage: "url(/background-testimonial-2k.png)",
+                background: `linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(31,31,31,0.60) 30%, rgba(31,31,31,0.40) 50%, rgba(31,32,31,0.60) 80%, rgba(31,31,31,1) 100%), url(/images/home/aandacht-voor-jou.jpg)`,
+                backgroundPosition: "center",
               }}
             >
               <Layout>
@@ -156,7 +157,7 @@ export default function Werkwijze() {
                 <div className="w-full md:w-2/3 md:pl-4">
                   <Collapsible
                     title="Bouwkundig tekenwerk"
-                    subtitle="Detail uitwerking van het schetsontwerp"
+                    subtitle="Definitief ontwerp tot in detail"
                     src="/bouwkundig-tekenwerk.svg"
                     description="Indien er een omgevingsvergunning en/of vooroverleg aangevraagd dient te worden verzorgen wij het benodigde tekenwerk conform de richtlijnen van uw gemeente."
                   ></Collapsible>

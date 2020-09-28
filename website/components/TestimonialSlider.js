@@ -31,7 +31,7 @@ function TestimonialSlider() {
         <Slide index={1}>
           <TestimonialSlide
             testimonial="In december 2018 zijn we uitgeloot voor een kavel op nieuwbouw plattenberg te Wijhe. Wij zochten een betrokken partner die ons kon begeleiden in dit gehele traject.
-            Oostz-ontwerp was deze partner. Hierin waren de eerste 2 á 3 gesprekken doorslaggevend. We spraken onze wensen uit en onze wensen werden netjes geïnventariseerd. Oostz-ontwerp vertelde op een duidelijke manier wat de mogelijkheden waren op onze kavel.
+            Oostz-ontwerp was deze partner. Hierin waren de eerste 2 á 3 gesprekken doorslaggevend. We spraken onze wensen uit en deze werder vervolgens netjes geïnventariseerd. Oostz-ontwerp vertelt op een duidelijke manier wat de mogelijkheden zijn op onze kavel.
             Openheid in zaken, meedenken in oplossingen en adviseren in opties is zeker wat je van Oostz-ontwerp kan verwachten. Als de mogelijkheid zich weer voordoet in de toekomst dan gaan wij zeker weer met Oostz-ontwerp om tafel.
             "
             author="Familie Klein Ovink"
