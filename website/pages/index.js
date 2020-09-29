@@ -168,21 +168,21 @@ export default function Home() {
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
                             src="/images/projecten/featured/featured-image-oostz-ontwerp4.jpg"
-                            href="/ontwerpen/oostz-ontwerp4"
+                            href="/ontwerpen/oostz-ontwerp-4"
                             title="Ontwerp"
                           />
                         </div>
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
                             src="/images/projecten/featured/featured-image-oostz-ontwerp1.jpg"
-                            href="/ontwerpen/oostz-ontwerp1"
+                            href="/ontwerpen/oostz-ontwerp-1"
                             title="Ontwerp"
                           />
                         </div>
                         <div className="p-2 md:w-1/3">
                           <ThumbnailImage
-                            src="/images/projecten/featured/featured-image-oostz-ontwerp3.jpg"
-                            href="/ontwerpen/oostz-ontwerp3"
+                            src="/images/projecten/featured/featured-image-oostz-ontwerp5.jpg"
+                            href="/ontwerpen/oostz-ontwerp-5"
                             title="Ontwerp"
                           />
                         </div>
@@ -286,17 +286,8 @@ export default function Home() {
                   >
                     <div className="flex flex-col items-start">
                       <div className="flex flex-row mb-6">
-                        <div>
-                          <svg
-                            className="fill-current text-background"
-                            width="27"
-                            height="27"
-                            viewBox="0 0 27 27"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path d="M13.5 19.042c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zM8.75 4.792c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0 4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0 4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm9.5-6.334c.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583zm-4.75 6.334c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm4.75 0c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0-4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm-4.75 0c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0-4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583z" />
-                          </svg>
+                        <div className="h-12 w-12 mr-2 rounded bg-background">
+                          <img src="/images/home/jochem-avatar.png"></img>
                         </div>
                         <div className="ml-2">
                           <h3 className="text-lg font-heading text-background font-semibold antialiased">
@@ -308,17 +299,8 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="flex flex-row">
-                        <div>
-                          <svg
-                            className="fill-current text-background"
-                            width="27"
-                            height="27"
-                            viewBox="0 0 27 27"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path d="M13.5 19.042c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zM8.75 4.792c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0 4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0 4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm9.5-6.334c.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583zm-4.75 6.334c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm4.75 0c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0-4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm-4.75 0c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583zm0-4.75c-.87 0-1.583.712-1.583 1.583 0 .87.712 1.583 1.583 1.583.87 0 1.583-.712 1.583-1.583 0-.87-.712-1.583-1.583-1.583z" />
-                          </svg>
+                        <div className="h-12 w-12 mr-2 rounded bg-background">
+                          <img src="/images/home/koen-avatar.png"></img>
                         </div>
                         <div className="ml-2">
                           <h3 className="text-lg font-heading text-background font-semibold antialiased">

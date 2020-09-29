@@ -21,9 +21,9 @@ export default function Page() {
             <ProjectHeader />
             <section>
               <LandingImage
-                backgroundImage="/images/ontwerpen/oostz-ontwerp4/landing-image-oostz-ontwerp4.jpg"
+                backgroundImage="/images/ontwerpen/oostz-ontwerp5/landing-image-oostz-ontwerp5.jpg"
                 category="Woningbouw"
-                title="Schuurwoning"
+                title="Moderne woning"
                 projectType="Ontwerp"
               />
             </section>
@@ -33,35 +33,35 @@ export default function Page() {
             >
               <Layout>
                 <ProjectDetails
-                  projectType="Gerealiseerd"
+                  projectType="Ontwerp"
                   year="2020"
-                  title="Landelijke schuurwoning"
-                  location="Hellendoorn"
-                  description="In Hellendoorn hebben we deze moderne landelijke schuurwoning mogen ontwerpen. De houten gebinten maakt de woning af en zorgt voor een landelijke sfeer."
+                  title="Luxe en comfort"
+                  location="Mariënheem"
+                  description="In Mariënheem hebben we het ontwerp mogen maken van deze moderne woning met paardenverblijf. De gekozen materialen zorgen voor een moderne uitstraling passend in de omgeving"
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/ontwerpen/oostz-ontwerp4/oostz-ontwerp4-rectangle-1.jpg"
+                    src="/images/ontwerpen/oostz-ontwerp5/oostz-ontwerp5-rectangle-1.jpg"
                     description="Voorzijde woning"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/ontwerpen/oostz-ontwerp4/oostz-ontwerp4-square-1.jpg"
+                      src="/images/ontwerpen/oostz-ontwerp5/oostz-ontwerp5-square-1.jpg"
                       description="Entree woning"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/ontwerpen/oostz-ontwerp4/oostz-ontwerp4-square-2.jpg"
+                      src="/images/ontwerpen/oostz-ontwerp5/oostz-ontwerp5-square-2.jpg"
                       description="Woning voorzien van verticale gevelbekleding"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/ontwerpen/oostz-ontwerp4/oostz-ontwerp4-rectangle-2.jpg"
+                    src="/images/ontwerpen/oostz-ontwerp5/oostz-ontwerp5-rectangle-2.jpg"
                     description="Achterzijde woning"
                   />
                 </div>

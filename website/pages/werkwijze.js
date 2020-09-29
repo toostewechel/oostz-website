@@ -25,9 +25,48 @@ export default function Werkwijze() {
           <link rel="icon" href="/favicon.svg" />
         </Head>
         <Header></Header>
-        <main className="mt-20">
+        <main className="mt-32">
+          <section className="mt-10 mb-10 lg:mt-20 lg:mb-24">
+            <div
+              className="h-auto w-full bg-cover pt-12 pb-12 md:pt-24 md:pb-24"
+              style={{
+                background: `linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(31,31,31,0.60) 30%, rgba(31,31,31,0.50) 50%, rgba(31,32,31,0.60) 80%, rgba(31,31,31,1) 100%), url(/images/home/aandacht-voor-jou.jpg)`,
+                backgroundPosition: "bottom",
+              }}
+            >
+              <Layout>
+                <div className="flex flex-col md:flex-row">
+                  <div className="w-full flex justify-center flex-col md:w-1/2 lg:w-2/3">
+                    <h1 className="text-3xl font-heading text-white font-extrabold mb-2 antialiased">
+                      Onze werkwijze
+                    </h1>
+                    <p
+                      style={{ maxWidth: "592px", textShadow: "1px 1px #000" }}
+                      className="text-base font-body text-gray-200 font-normal mb-10 antialiased"
+                    >
+                      Oostz Ontwerp is een vakkundige en betrouwbare partner
+                      voor realisatie van uw project van ontwerp tot oplevering.
+                      Wij zijn sterk in het klantgericht meedenken en hebben
+                      veel ervaring in de bouwsector.
+                    </p>
+                  </div>
+                  <div className="hidden md:flex md:flex-col md:w-1/2 lg:w-1/3 bg-yellow-100 rounded p-6">
+                    <h2 className="text-2xl font-heading text-heading font-extrabold mb-2 antialiased">
+                      Ontwerp laten maken?
+                    </h2>
+                    <p className="text-base font-body text-body font-normal mb-6 antialiased">
+                      Overtuigd dat wij de juiste partner zijn voor uw plannen
+                      en projecten? Wij helpen je graag! Neem vrijblijvend
+                      contact met ons op.
+                    </p>
+                    <Button href="/contact" label="Neem contact op"></Button>
+                  </div>
+                </div>
+              </Layout>
+            </div>
+          </section>
           <Layout>
-            <section className="mt-10 mb-10 lg:mt-20 lg:mb-24">
+            {/* <section className="mt-10 mb-10 lg:mt-20 lg:mb-24">
               <div className="flex flex-row">
                 <div className="w-full lg:w-2/3">
                   <h1 className="text-3xl font-heading text-white font-extrabold mb-2 antialiased">
@@ -47,7 +86,7 @@ export default function Werkwijze() {
                   <img src="/werkwijze.svg"></img>
                 </div>
               </div>
-            </section>
+            </section> */}
             <section className="mb-12 lg:mb-24">
               <div className="flex flex-col md:flex-row ">
                 <div className="w-full md:w-1/3 md:pr-4">
@@ -59,7 +98,7 @@ export default function Werkwijze() {
                   </div>
                   <p className="text-base md:text-sm font-body text-gray-200 font-normal mb-10 antialiased">
                     In deze fase maken we <strong>laagdrempelig </strong>
-                    kennnis, onderzoeken we uw wensen en bepalen we samen de
+                    kennis, onderzoeken we uw wensen en bepalen we samen de
                     haalbaarheid van uw plannen.
                   </p>
                 </div>
@@ -120,34 +159,7 @@ export default function Werkwijze() {
                 </div>
               </div>
             </section>
-          </Layout>
-          <section className="mb-12 lg:mb-24">
-            <div
-              className="h-auto w-full bg-cover  pt-16 pb-12"
-              style={{
-                background: `linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(31,31,31,0.60) 30%, rgba(31,31,31,0.40) 50%, rgba(31,32,31,0.60) 80%, rgba(31,31,31,1) 100%), url(/images/home/aandacht-voor-jou.jpg)`,
-                backgroundPosition: "center",
-              }}
-            >
-              <Layout>
-                <div className="flex">
-                  <div className="hidden md:flex md:w-1/2 lg:w-2/3"></div>
-                  <div className="w-full md:w-1/2 lg:w-1/3 bg-yellow-100 rounded p-6">
-                    <h2 className="text-2xl font-heading text-heading font-extrabold mb-2 antialiased">
-                      Ontwerp laten maken?
-                    </h2>
-                    <p className="text-base font-body text-body font-normal mb-6 antialiased">
-                      Overtuigd dat wij de juiste partner zijn voor uw plannen
-                      en projecten? Wij helpen je graag! Neem vrijblijvend
-                      contact met ons op.
-                    </p>
-                    <Button href="/contact" label="Neem contact op"></Button>
-                  </div>
-                </div>
-              </Layout>
-            </div>
-          </section>
-          <Layout>
+
             <section className="mb-12 lg:mb-24">
               <div className="flex flex-col md:flex-row ">
                 <div className="w-full md:w-1/3 md:pr-4">

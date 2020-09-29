@@ -87,18 +87,18 @@ export default function Page() {
                 <div className="md:flex md:flex-row mt-8 ">
                   <div className="mr-0 mb-8 md:mr-4 md:mb-0 md:w-1/3">
                     <ThumbnailImage
-                      src="/images/projecten/featured/featured-image-bloemsma.jpg"
-                      title="Gerealiseerd"
-                      description="Vrijstaande woning te Deventer"
-                      href="/projecten/mulder"
+                      src="/images/projecten/featured/featured-image-oostz-ontwerp3.jpg"
+                      title="Ontwerp"
+                      description="Moderne woning te Wijhe"
+                      href="/ontwerpen/oostz-ontwerp-3"
                     />
                   </div>
                   <div className="mr-0 md:mr-4 md:w-1/3">
                     <ThumbnailImage
-                      src="/images/projecten/featured/featured-image-krosse.jpg"
-                      title="Gerealiseerd"
-                      description="Moderne woning te Raalte"
-                      href="/projecten/mulder"
+                      src="/images/projecten/featured/featured-image-oostz-ontwerp4.jpg"
+                      title="Ontwerp"
+                      description="Schuurwoning te Hellendoorn"
+                      href="/ontwerpen/oostz-ontwerp-4"
                     />
                   </div>
                   <div className=" md:w-1/3"></div>

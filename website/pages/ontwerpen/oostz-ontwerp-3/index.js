@@ -14,17 +14,14 @@ export default function Page() {
         <div className="mx-auto">
           <Head>
             <meta name="description" content="Oostz-ontwerp" />
-            <meta
-              property="og:title"
-              content="Landelijke schuurwoning te Hellendoorn"
-            />
+            <meta property="og:title" content="Moderne woning te Wijhe" />
             <meta
               property="og:image"
-              content="/images/projecten/featured/featured-image-oostz-ontwerp-4.jpg"
+              content="/images/projecten/featured/featured-image-oostz-ontwerp-3.jpg"
             />
             <meta
               property="og:description"
-              content="In Hellendoorn hebben we deze moderne landelijke schuurwoning mogen ontwerpen. De houten gebinten maakt de woning af en zorgt voor een landelijke sfeer."
+              content="In Wijhe hebben we deze moderne woning mogen ontwerpen. Het stucwerk in combinatie met een vlakke dakpan zorgt voor een moderne en strakke uitstraling."
             />
             <title>Oostz Ontwerp</title>
             <link rel="icon" href="/favicon.svg" />
@@ -33,9 +30,9 @@ export default function Page() {
             <ProjectHeader />
             <section>
               <LandingImage
-                backgroundImage="/images/ontwerpen/oostz-ontwerp4/landing-image-oostz-ontwerp4.jpg"
+                backgroundImage="/images/ontwerpen/oostz-ontwerp3/landing-image-oostz-ontwerp3.jpg"
                 category="Woningbouw"
-                title="Schuurwoning"
+                title="Moderne woning"
                 projectType="Ontwerp"
               />
             </section>
@@ -45,36 +42,36 @@ export default function Page() {
             >
               <Layout>
                 <ProjectDetails
-                  projectType="Gerealiseerd"
+                  projectType="Ontwerp"
                   year="2020"
-                  title="Landelijke schuurwoning"
-                  location="Hellendoorn"
-                  description="In Hellendoorn hebben we deze moderne landelijke schuurwoning mogen ontwerpen. De houten gebinten maakt de woning af en zorgt voor een landelijke sfeer."
+                  title="Strakke lijnen"
+                  location="Wijhe"
+                  description="In Wijhe hebben we deze moderne woning mogen ontwerpen. Het stucwerk in combinatie met een vlakke dakpan zorgt voor een moderne en strakke uitstraling."
                 />
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
-                    src="/images/ontwerpen/oostz-ontwerp4/oostz-ontwerp4-rectangle-1.jpg"
+                    src="/images/ontwerpen/oostz-ontwerp3/oostz-ontwerp3-rectangle-1.jpg"
                     description="Voorzijde woning"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/ontwerpen/oostz-ontwerp4/oostz-ontwerp4-square-1.jpg"
-                      description="Entree woning"
+                      src="/images/ontwerpen/oostz-ontwerp3/oostz-ontwerp3-square-1.jpg"
+                      description="Woning voorzien van vide"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
-                      src="/images/ontwerpen/oostz-ontwerp4/oostz-ontwerp4-square-2.jpg"
-                      description="Woning voorzien van verticale gevelbekleding"
+                      src="/images/ontwerpen/oostz-ontwerp3/oostz-ontwerp3-square-2.jpg"
+                      description="Zijgevel woning"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
-                    src="/images/ontwerpen/oostz-ontwerp4/oostz-ontwerp4-rectangle-2.jpg"
-                    description="Achterzijde woning"
+                    src="/images/ontwerpen/oostz-ontwerp3/oostz-ontwerp3-rectangle-2.jpg"
+                    description="Achtergevel woning"
                   />
                 </div>
               </Layout>
@@ -87,18 +84,18 @@ export default function Page() {
                 <div className="md:flex md:flex-row mt-8 ">
                   <div className="mr-0 mb-8 md:mr-4 md:mb-0 md:w-1/3">
                     <ThumbnailImage
-                      src="/images/projecten/featured/featured-image-bloemsma.jpg"
-                      title="Gerealiseerd"
-                      description="Vrijstaande woning te Deventer"
-                      href="/projecten/mulder"
+                      src="/images/projecten/featured/featured-image-oostz-ontwerp1.jpg"
+                      title="Ontwerp"
+                      description="Twee-onder-een kap te Diepenveen"
+                      href="/ontwerpen/oostz-ontwerp-1"
                     />
                   </div>
                   <div className="mr-0 md:mr-4 md:w-1/3">
                     <ThumbnailImage
-                      src="/images/projecten/featured/featured-image-krosse.jpg"
-                      title="Gerealiseerd"
-                      description="Moderne woning te Raalte"
-                      href="/projecten/mulder"
+                      src="/images/projecten/featured/featured-image-oostz-ontwerp4.jpg"
+                      title="Ontwerp"
+                      description="Schuurwoning te Hellendoorn"
+                      href="/ontwerpen/oostz-ontwerp-4"
                     />
                   </div>
                   <div className=" md:w-1/3"></div>

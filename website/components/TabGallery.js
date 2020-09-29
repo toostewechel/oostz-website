@@ -115,17 +115,17 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-oostz-ontwerp1.jpg"
                   title="Ontwerp"
                   description="Twee-onder-een kap te Diepenveen"
-                  href="/ontwerpen/oostz-ontwerp1"
+                  href="/ontwerpen/oostz-ontwerp-1"
                 />
               </div>
             </div>
             <div className="md:mr-4 md:w-1/2">
               <div className="mb-8 md:mb-0">
                 <ThumbnailImage
-                  src="/images/projecten/featured/featured-image-oostz-ontwerp2.jpg"
+                  src="/images/projecten/featured/featured-image-oostz-ontwerp5.jpg"
                   title="Ontwerp"
-                  description="Vrijstaande woning te Hellendoorn"
-                  href="/ontwerpen/oostz-ontwerp2"
+                  description="Woning met paardenstal te Mariënheem"
+                  href="/ontwerpen/oostz-ontwerp-5"
                 />
               </div>
             </div>
@@ -137,7 +137,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-oostz-ontwerp3.jpg"
                   title="Ontwerp"
                   description="Moderne woning te Wijhe"
-                  href="/ontwerpen/oostz-ontwerp3"
+                  href="/ontwerpen/oostz-ontwerp-3"
                 />
               </div>
             </div>
@@ -147,7 +147,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-oostz-ontwerp4.jpg"
                   title="Ontwerp"
                   description="Schuurwoning te Hellendoorn"
-                  href="/ontwerpen/oostz-ontwerp4"
+                  href="/ontwerpen/oostz-ontwerp-4"
                 />
               </div>
             </div>
@@ -229,17 +229,17 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-oostz-ontwerp1.jpg"
                   title="Ontwerp"
                   description="Twee-onder-een kap te Diepenveen"
-                  href="/ontwerpen/oostz-ontwerp1"
+                  href="/ontwerpen/oostz-ontwerp-1"
                 />
               </div>
             </div>
             <div className="md:mr-4 md:w-1/2">
               <div className="mb-8 md:mb-0">
                 <ThumbnailImage
-                  src="/images/projecten/featured/featured-image-oostz-ontwerp2.jpg"
+                  src="/images/projecten/featured/featured-image-oostz-ontwerp5.jpg"
                   title="Ontwerp"
-                  description="Vrijstaande woning te Hellendoorn"
-                  href="/ontwerpen/oostz-ontwerp2"
+                  description="Woning met paardenstal te Mariënheem"
+                  href="/ontwerpen/oostz-ontwerp-5"
                 />
               </div>
             </div>
@@ -251,7 +251,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-oostz-ontwerp3.jpg"
                   title="Ontwerp"
                   description="Moderne woning te Wijhe"
-                  href="/ontwerpen/oostz-ontwerp3"
+                  href="/ontwerpen/oostz-ontwerp-3"
                 />
               </div>
             </div>
@@ -261,7 +261,7 @@ function TabGallery() {
                   src="/images/projecten/featured/featured-image-oostz-ontwerp4.jpg"
                   title="Ontwerp"
                   description="Schuurwoning te Hellendoorn"
-                  href="/ontwerpen/oostz-ontwerp4"
+                  href="/ontwerpen/oostz-ontwerp-4"
                 />
               </div>
             </div>
