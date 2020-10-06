@@ -5,8 +5,10 @@ import Layout from "../components/Layout";
 import Collapsible from "../components/Collapsible";
 import Stack from "../components/Stack";
 import Button from "../components/Button";
+import { useLogPageVisit } from "../components/googleAnalytics";
 
 export default function Werkwijze() {
+  useLogPageVisit();
   return (
     <body className="bg-background ">
       <div className="mx-auto">

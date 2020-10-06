@@ -12,8 +12,11 @@ import CardSliderMobile from "../components/CardSliderMobile";
 import TestimonialSlider from "../components/TestimonialSlider";
 import HorizontalScrollContainer from "../components/HorizontalScrollContainter";
 import { useMediaQuery } from "beautiful-react-hooks";
+import { useLogPageVisit } from "../components/googleAnalytics";
 
 export default function Home() {
+  useLogPageVisit();
+
   const isMobile = useMediaQuery("(max-width: 640px)");
 
   return (
@@ -275,7 +278,7 @@ export default function Home() {
                       contact met ons op.
                     </p>
                     <div className="mt-4 lg:mt-6">
-                      <Button label="Contactformulier" href="/contact"></Button>
+                      <Button label="Contact" href="/contact"></Button>
                     </div>
                   </div>
                   <div

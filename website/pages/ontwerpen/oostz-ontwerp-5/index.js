@@ -6,8 +6,10 @@ import ProjectDetails from "../../../components/project/ProjectDetails";
 import ProjectImage from "../../../components/project/ProjectImage";
 import ThumbnailImage from "../../../components/ThumbnailImage";
 import Footer from "../../../components/Footer";
+import { useLogPageVisit } from "../../../components/googleAnalytics";
 
 export default function Page() {
+  useLogPageVisit();
   return (
     <html style={{ scrollBehavior: "smooth" }}>
       <body className="bg-background ">

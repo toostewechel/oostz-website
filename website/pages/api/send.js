@@ -3,14 +3,15 @@ const sgMail = require("@sendgrid/mail");
 export default async function (req, res) {
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-  const { name, phone, email, message } = req.body;
+  const { name, surname, phone, preference, email, message } = req.body;
 
   const output = `
   <p>Iemand heeft het contactformulier op de website ingevuld</p> 
   <h3>Contactgegevens</h3>
   <ul>
-    <li>Naam: ${name}</li>
+    <li>Naam: ${name} " " ${surname} </li>
     <li>Telefoon: ${phone}</li>
+    <li>Voorkeur afspraak: ${preference}</li>
     <li>E-mail: ${email}</li>
   </ul>
   <h3>Bericht</h3>

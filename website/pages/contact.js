@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import Layout from "../components/Layout";
 import Head from "next/head";
 import Header from "../components/Header";
+import { useLogPageVisit } from "../components/googleAnalytics";
 
 export default () => {
+  useLogPageVisit();
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -12,7 +14,9 @@ export default () => {
 
   const [inputs, setInputs] = useState({
     name: "",
+    surname: "",
     phone: "",
+    preference: "",
     email: "",
     message: "",
   });
@@ -26,8 +30,10 @@ export default () => {
       });
       setInputs({
         name: "",
+        surname: "",
         phone: "",
         email: "",
+        preference: "",
         message: "",
       });
     } else {
@@ -88,76 +94,130 @@ export default () => {
               <div className="flex flex-col md:flex-row">
                 <div className="w-full mb-12 md:w-1/2 md:mb-0 md:mr-8">
                   <h1 className="text-3xl font-heading text-white font-extrabold mb-2 antialiased">
-                    Neem contact op
+                    Laten we samenwerken!
                   </h1>
                   <p className="text-base font-body text-gray-200 font-normal mb-10 antialiased">
-                    Heeft u vragen of wilt u ons meer vertellen over uw plannen?
-                    Neem contact met ons op en wij zullen snel bij u terugkomen.
+                    We horen graan van u! Stuur ons een bericht via dit
+                    formulier of neem rechtstreeks contact met ons op via e-mail
+                    of telefoon.
                   </p>
                   <div className="w-full">
-                    <form onSubmit={handleOnSubmit}>
-                      <div className="mb-8">
-                        <label
-                          className="text-base font-heading text-white font-semibold antialiased mb-1"
-                          htmlFor="name"
-                        >
-                          Naam <span className="text-yellow-500">*</span>
-                        </label>
-                        <input
-                          className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
-                          id="name"
-                          type="name"
-                          onChange={handleOnChange}
-                          required
-                          value={inputs.name}
-                        />
+                    <form onSubmit={handleOnSubmit} className="w-full">
+                      <div className="flex flex-wrap mb-6">
+                        <div className="w-full md:w-1/2 mb-6 md:mb-0 md:pr-2">
+                          <label
+                            className="block tracking-wide text-gray-200 text-sm font-bold mb-2"
+                            htmlFor="name"
+                          >
+                            Voornaam
+                          </label>
+                          <input
+                            className="appearance-none block w-full bg-transparent text-gray-200 border border-yellow-100 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-yellow-500"
+                            placeholder="Jan"
+                            id="name"
+                            type="name"
+                            onChange={handleOnChange}
+                            required
+                            value={inputs.name}
+                          ></input>
+                        </div>
+                        <div className="w-full md:w-1/2 mb-6 md:mb-0 md:pl-2">
+                          <label
+                            className="block tracking-wide text-gray-200 text-sm font-bold mb-2"
+                            htmlFor="surname"
+                          >
+                            Achternaam
+                          </label>
+                          <input
+                            className="appearance-none block w-full bg-transparent text-gray-200 border border-yellow-100 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-yellow-500"
+                            placeholder="Boom"
+                            id="surname"
+                            type="surname"
+                            onChange={handleOnChange}
+                            required
+                            value={inputs.surname}
+                          ></input>
+                        </div>
                       </div>
-                      <div className="mb-8">
-                        <label
-                          className="text-base font-heading text-white font-semibold antialiased mb-1"
-                          htmlFor="phone"
-                        >
-                          Telefoon
-                        </label>
-                        <input
-                          className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
-                          id="phone"
-                          type="phone"
-                          onChange={handleOnChange}
-                          value={inputs.phone}
-                        />
+                      <div className="flex flex-wrap mb-6">
+                        <div className="w-full">
+                          <label
+                            className="flex flex-row justify-between items-center mb-2"
+                            htmlFor="phone"
+                          >
+                            <p className="tracking-wide text-gray-200 text-sm font-bold">
+                              Telefoon
+                            </p>
+                            <p className="tracking-wide text-gray-200 text-xs font-light">
+                              Optioneel
+                            </p>
+                          </label>
+                          <input
+                            className="appearance-none block w-full bg-transparent text-gray-200 border border-yellow-100 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-yellow-500"
+                            placeholder="0612345678"
+                            id="phone"
+                            type="phone"
+                            onChange={handleOnChange}
+                            value={inputs.phone}
+                          ></input>
+                        </div>
                       </div>
-                      <div className="mb-8">
-                        <label
-                          className="text-base font-heading text-white font-semibold antialiased mb-1"
-                          htmlFor="email"
-                        >
-                          E-mail adress{" "}
-                          <span className="text-yellow-500">*</span>
-                        </label>
-                        <input
-                          className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
-                          id="email"
-                          type="email"
-                          onChange={handleOnChange}
-                          required
-                          value={inputs.email}
-                        />
+                      <div className="flex flex-wrap mb-6">
+                        <div className="w-full">
+                          <label
+                            className="block tracking-wide text-gray-200 text-sm font-bold mb-2"
+                            htmlFor="email"
+                          >
+                            E-mail adress
+                          </label>
+                          <input
+                            className="appearance-none block w-full bg-transparent text-gray-200 border border-yellow-100 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-yellow-500"
+                            placeholder="janboom@gmail.com"
+                            id="email"
+                            type="email"
+                            onChange={handleOnChange}
+                            required
+                            value={inputs.email}
+                          ></input>
+                        </div>
                       </div>
-                      <div className="mb-12">
-                        <label className="text-white block" htmlFor="message">
-                          Vraag of opmerking{" "}
-                          <span className="text-yellow-500">*</span>
+                      <div className="w-full mb-8">
+                        <label
+                          className="block tracking-wide text-gray-200 text-sm font-bold mb-2"
+                          htmlFor="preference"
+                        >
+                          Voorkeur type afspraak
+                        </label>
+                        <select
+                          className="appearance-none block w-full bg-transparent text-gray-200 border border-yellow-100 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-yellow-500"
+                          id="preference"
+                          type="preference"
+                          onChange={handleOnChange}
+                          value={inputs.preference}
+                        >
+                          <option>Belafspraak</option>
+                          <option>Videobellen</option>
+                          <option>Fysieke afspraak</option>
+                        </select>
+                      </div>
+
+                      <div className="w-full mb-8">
+                        <label
+                          className="block tracking-wide text-gray-200 text-sm font-bold mb-2"
+                          htmlFor="message"
+                        >
+                          Wat wilt u met ons bespreken?
                         </label>
                         <textarea
-                          className="text-base font-body text-gray-200 font-normal antialiased border-b-2 border-yellow-100 bg-transparent w-full p-1 outline-none focus:border-yellow-500"
+                          className="appearance-none block w-full bg-transparent text-gray-200 border border-yellow-100 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-yellow-500"
                           id="message"
                           onChange={handleOnChange}
                           required
                           value={inputs.message}
                           rows="3"
-                        />
+                        ></textarea>
                       </div>
+
                       <button
                         className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300"
                         type="submit"
@@ -166,7 +226,7 @@ export default () => {
                         {!status.submitting
                           ? !status.submitted
                             ? "Verzenden"
-                            : "Verzonden"
+                            : "Bericht succesvol verzonden, we nemen zo snel mogelijk contact met u op!"
                           : "Bezig met verzenden..."}
                       </button>
                     </form>

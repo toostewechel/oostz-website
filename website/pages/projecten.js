@@ -3,8 +3,10 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Layout from "../components/Layout";
 import TabGallery from "../components/TabGallery";
+import { useLogPageVisit } from "../components/googleAnalytics";
 
 export default function Projecten() {
+  useLogPageVisit();
   return (
     <body className="bg-background ">
       <div className="mx-auto">
