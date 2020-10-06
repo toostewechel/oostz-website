@@ -96,7 +96,10 @@ function Footer() {
             Volg ons
           </h4>
           <div className="flex flex-row">
-            <a href="https://www.linkedin.com/feed/" target="_blank">
+            <a
+              href="https://www.linkedin.com/company/oostz-ontwerp/"
+              target="_blank"
+            >
               <div className="p-1">
                 <svg
                   className="fill-current text-white"
@@ -110,7 +113,10 @@ function Footer() {
                 </svg>
               </div>
             </a>
-            <a href="https://www.facebook.com/" target="_blank">
+            <a
+              href="https://www.facebook.com/Oostz-ontwerp-116077013589027"
+              target="_blank"
+            >
               <div className="p-1">
                 <svg
                   className="fill-current text-white"
@@ -124,7 +130,7 @@ function Footer() {
                 </svg>
               </div>
             </a>
-            <a href="https://www.instagram.com/" target="_blank">
+            <a href="https://www.instagram.com/oostzontwerp/" target="_blank">
               <div className="p-1">
                 <svg
                   className="fill-current text-white"

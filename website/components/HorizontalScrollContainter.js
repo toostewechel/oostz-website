@@ -81,11 +81,11 @@ function HorizontalScrollContainer() {
         href="/ontwerpen/oostz-ontwerp-1"
       />
       <ProjectCard
-        image="/images/projecten/featured/featured-image-oostz-ontwerp3.jpg"
+        image="/images/projecten/featured/featured-image-oostz-ontwerp5.jpg"
         title="Moderne woning"
-        description="Deze moderne woning staat in Wijhe."
-        location="Wijhe"
-        href="/ontwerpen/oostz-ontwerp-3"
+        description="Moderne woning met paardenverblijf."
+        location="Mariënheem"
+        href="/ontwerpen/oostz-ontwerp-5"
       />
     </section>
   );

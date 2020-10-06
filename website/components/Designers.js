@@ -9,7 +9,7 @@ const jochemtepperik = {
   email: "jochem@oostz-ontwerp.nl",
   jobtitle: "Bouwkundig ontwerper",
   description:
-    "Ik maak graag samen met u de vertaling van een esthetisch ontwerp naar een technisch ontwerp dat geheel aansluit op uw wensen en ideeën. Ik vind het fantastisch om hierin als creatieve schakel te fungeren en uw droom om te zetten in een tastbaar resultaat.",
+    "Mijn missie als ontwerper is om samen met u de vertaling te maken van een esthetisch ontwerp naar een technisch ontwerp dat geheel aansluit op uw wensen en ideeën. Ik vind het fantastisch om hierin als creatieve schakel te fungeren en uw droom om te zetten in een tastbaar resultaat.",
 };
 
 const koenklijnvelderman = {
