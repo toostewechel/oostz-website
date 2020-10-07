@@ -22,7 +22,7 @@ export default async function (req, res) {
 
   const content = {
     to: "info@oostz-ontwerp.nl",
-    from: "info@oostz-ontwerp.nl",
+    from: "website@oostz-ontwerp.nl",
     subject: `Nieuw bericht - Oostz Ontwerp`,
     text: message,
     html: output,

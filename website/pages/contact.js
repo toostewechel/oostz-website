@@ -226,7 +226,7 @@ export default () => {
                         {!status.submitting
                           ? !status.submitted
                             ? "Verzenden"
-                            : "Bericht succesvol verzonden, we nemen zo snel mogelijk contact met u op!"
+                            : "Bericht verzonden"
                           : "Bezig met verzenden..."}
                       </button>
                     </form>

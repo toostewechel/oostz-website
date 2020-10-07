@@ -8,24 +8,26 @@ const bodyParser = require("body-parser");
 
 async function sendMail(req, res) {
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-  const { name, phone, email, message } = req.body;
+  const { name, surname, phone, preference, email, message } = req.body;
+
   const output = `
-    <p>Iemand heeft het contactformulier op de website ingevuld</p> 
-    <h3>Contactgegevens</h3>
-    <ul>
-      <li>Naam: ${name}</li>
-      <li>Telefoon: ${phone}</li>
-      <li>E-mail: ${email}</li>
-    </ul>
-    <h3>Bericht</h3>
-    <ul>
-      <li>${message}</li>
-    </ul>
-  `;
+  <p>Iemand heeft het contactformulier op de website ingevuld</p> 
+  <h3>Contactgegevens</h3>
+  <ul>
+    <li>Naam: ${name} " " ${surname} </li>
+    <li>Telefoon: ${phone}</li>
+    <li>Voorkeur afspraak: ${preference}</li>
+    <li>E-mail: ${email}</li>
+  </ul>
+  <h3>Bericht</h3>
+  <ul>
+    <li>${message}</li>
+  </ul>
+`;
 
   const content = {
     to: "info@oostz-ontwerp.nl",
-    from: "info@oostz-ontwerp.nl",
+    from: "website@oostz-ontwerp.nl",
     subject: `Nieuw bericht - Oostz Ontwerp`,
     text: message,
     html: output,
