@@ -14,16 +14,20 @@
     "@reach/disclosure": "^0.10.5",
     "@reach/tabs": "^0.10.5",
     "@sendgrid/mail": "^7.2.6",
+    "aws-sdk": "^2.768.0",
     "beautiful-react-hooks": "^0.27.4",
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "formik": "^2.2.0",
     "next": "9.4.4",
     "pure-react-carousel": "^1.27.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-ga": "^3.1.2",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "yup": "^0.29.3"
   },
   "devDependencies": {
     "postcss-preset-env": "^6.7.0",

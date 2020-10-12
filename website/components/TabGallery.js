@@ -124,7 +124,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/projecten/featured/featured-image-oostz-ontwerp5.jpg"
                   title="Ontwerp"
-                  description="Woning met paardenstal te Mariënheem"
+                  description="Moderne woning met paardenverblijf te Mariënheem"
                   href="/ontwerpen/oostz-ontwerp-5"
                 />
               </div>
@@ -238,7 +238,7 @@ function TabGallery() {
                 <ThumbnailImage
                   src="/images/projecten/featured/featured-image-oostz-ontwerp5.jpg"
                   title="Ontwerp"
-                  description="Woning met paardenstal te Mariënheem"
+                  description="Moderne woning met paardenverblijf te Mariënheem"
                   href="/ontwerpen/oostz-ontwerp-5"
                 />
               </div>

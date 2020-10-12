@@ -91,7 +91,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-end">
+        <div className="flex flex-col md:items-end">
           <h4 className="text-base font-heading text-white font-semibold antialiased mb-2 pr-2">
             Volg ons
           </h4>

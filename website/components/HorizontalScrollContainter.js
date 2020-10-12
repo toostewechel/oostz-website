@@ -55,35 +55,35 @@ function HorizontalScrollContainer() {
       <ProjectCard
         image="/images/projecten/featured/featured-image-bloemsma.jpg"
         title="Vrijstaand huis"
-        description="Deze moderne woning staat op Spijkvoorderhout te Deventer"
+        description="Deze moderne woning staat op plan Spijkvoorderhout te Deventer"
         location="Deventer"
         href="/projecten/vrijstaande-woning-deventer-1"
       />
       <ProjectCard
         image="/images/projecten/featured/featured-image-krosse.jpg"
         title="Moderne woning"
-        description="Deze unieke woning staat op de terpen te Raalte."
+        description="Deze unieke woning staat op het Franciscushof te Raalte"
         location="Raalte"
         href="/projecten/moderne-woning-raalte-1"
       />
       <ProjectCard
         image="/images/projecten/featured/featured-image-oostz-ontwerp4.jpg"
         title="Schuurwoning"
-        description="Deze moderne landelijke schuurwoning staat in Hellendoorn."
+        description="Modern landelijke schuurwoning te Hellendoorn"
         location="Hellendoorn"
         href="/ontwerpen/oostz-ontwerp-4"
       />
       <ProjectCard
         image="/images/projecten/featured/featured-image-oostz-ontwerp1.jpg"
-        title="Brede 2-onder-1 kap"
-        description="Deze unieke 2-onder-1 kap staat in Diepenveen."
+        title="Twee-onder-een kap"
+        description="Unieke twee-onder-een kap te Diepenveen"
         location="Diepenveen"
         href="/ontwerpen/oostz-ontwerp-1"
       />
       <ProjectCard
         image="/images/projecten/featured/featured-image-oostz-ontwerp5.jpg"
         title="Moderne woning"
-        description="Moderne woning met paardenverblijf."
+        description="Moderne woning met paardenverblijf te Mariënheem"
         location="Mariënheem"
         href="/ontwerpen/oostz-ontwerp-5"
       />

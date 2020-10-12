@@ -44,27 +44,27 @@ export default function Page() {
                 <div className="flex mb-16 md:mb-32">
                   <ProjectImage
                     src="/images/ontwerpen/oostz-ontwerp5/oostz-ontwerp5-rectangle-1.jpg"
-                    description="Voorzijde woning"
+                    description="Zij aanzicht"
                   />
                 </div>
                 <div className="flex flex-col md:flex-row justify-between md:mb-32">
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/ontwerpen/oostz-ontwerp5/oostz-ontwerp5-square-1.jpg"
-                      description="Entree woning"
+                      description="Achtergevel woning"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/ontwerpen/oostz-ontwerp5/oostz-ontwerp5-square-2.jpg"
-                      description="Woning voorzien van verticale gevelbekleding"
+                      description="Paardenverblijf"
                     />
                   </div>
                 </div>
                 <div className="flex">
                   <ProjectImage
                     src="/images/ontwerpen/oostz-ontwerp5/oostz-ontwerp5-rectangle-2.jpg"
-                    description="Achterzijde woning"
+                    description="Vooraanzicht"
                   />
                 </div>
               </Layout>
