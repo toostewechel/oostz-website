@@ -111,7 +111,7 @@ function Header() {
           </div>
           <div>
             <button className="px-3 py-2 w-full bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300 mt-6 lg:mt-0">
-              <a href="/contact">Maak afspraak</a>
+              <a href="/afspraak">Maak afspraak</a>
             </button>
           </div>
         </div>

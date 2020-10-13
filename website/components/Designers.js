@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { urlObjectKeys } from "next/dist/next-server/lib/utils";
 
 const jochemtepperik = {
   avatar: "/images/home/jochem-avatar.png",

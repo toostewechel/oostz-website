@@ -4,9 +4,14 @@ import Layout from "../components/Layout";
 import Head from "next/head";
 import Header from "../components/Header";
 import { useLogPageVisit } from "../components/googleAnalytics";
+import ProjectImage from "../components/project/ProjectImage";
+import Footer from "../components/Footer";
+import React, { useState } from "react";
 
 function ContactForm() {
   useLogPageVisit();
+  const [status, setStatus] = useState();
+
   return (
     <body className="bg-background">
       <div className="mx-auto">
@@ -29,7 +34,7 @@ function ContactForm() {
           <Layout>
             <section className="mt-10 mb-10 md:mt-20 md:mb-24">
               <div className="flex flex-col md:flex-row">
-                <div className="w-full mb-12 md:w-1/2 md:mb-0 md:mr-8">
+                <div className="w-full mb-12 md:w-2/3 md:mb-0 md:mr-8">
                   <h1 className="text-3xl font-heading text-white font-extrabold mb-2 antialiased">
                     Laten we samenwerken!
                   </h1>
@@ -65,7 +70,7 @@ function ContactForm() {
                       })}
                       onSubmit={async (
                         values,
-                        { setSubmitting, setStatus, resetForm }
+                        { setSubmitting, resetForm }
                       ) => {
                         const res = await fetch("/contact", {
                           method: "POST",
@@ -90,7 +95,7 @@ function ContactForm() {
                         setSubmitting(false);
                       }}
                     >
-                      {({ status, isSubmitting, submitForm }) => (
+                      {({ isSubmitting, submitForm }) => (
                         <Form>
                           <div className="flex flex-wrap md:mb-6">
                             <div className="w-full md:w-1/2 mb-6 md:mb-0 md:pr-2">
@@ -118,7 +123,7 @@ function ContactForm() {
                                 Achternaam
                               </label>
                               <Field
-                                className="appearance-none block w-full bg-transparent text-gray-200 border border-yellow-100 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-yellow-500"
+                                className="appearance-none block w-full bg-transparent text-gray-200 border border-yellow-100 rounded py-3 px-4 mb-2 leading-tight focus:outline-none focus:border-yellow-500"
                                 id="lastName"
                                 name="lastName"
                                 required
@@ -177,7 +182,7 @@ function ContactForm() {
                               </label>
                               <Field
                                 as="select"
-                                className="appearance-none block w-full bg-transparent text-gray-200 border border-yellow-100 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-yellow-500"
+                                className="appearance-none block w-full bg-transparent text-gray-200 border border-yellow-100 rounded py-3 px-4 mb-2 leading-tight focus:outline-none focus:border-yellow-500"
                                 name="preference"
                               >
                                 <option value="" disabled>
@@ -200,7 +205,7 @@ function ContactForm() {
                             </label>
                             <Field
                               as="textarea"
-                              className="appearance-none block w-full bg-transparent text-gray-200 border border-yellow-100 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-yellow-500"
+                              className="appearance-none block w-full bg-transparent text-gray-200 border border-yellow-100 rounded py-3 px-4 mb-2 leading-tight focus:outline-none focus:border-yellow-500"
                               id="message"
                               name="message"
                               required
@@ -217,7 +222,7 @@ function ContactForm() {
                             </div>
                           </div>
                           <button
-                            className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300"
+                            className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300 mb-2"
                             type="submit"
                             onClick={(e) => {
                               e.preventDefault();
@@ -244,42 +249,26 @@ function ContactForm() {
                     </Formik>
                   </div>
                 </div>
-                <div
-                  style={{
-                    backgroundImage: "url(/images/home/contactcard.jpg)",
-                  }}
-                  className="flex flex-col md:w-1/2 items-end md:ml-8 bg-yellow-100 rounded bg-cover px-8 py-8 self-start"
-                >
+                <div className="hidden md:flex md:flex-col md:w-1/3 items-end md:ml-12">
                   <div className="flex flex-col items-start">
-                    <div className="flex flex-row mb-6">
-                      <div className="h-12 w-12 mr-3 rounded bg-yellow-300">
-                        <img src="/images/home/jochem-avatar.png"></img>
-                      </div>
-                      <div className="ml-2">
-                        <h3 className="text-lg font-heading text-background font-semibold antialiased">
-                          0628092228
-                        </h3>
-                        <p className="text-sm font-body text-background font-light antialiased">
-                          Bel met Jochem
-                        </p>
-                      </div>
+                    <div className="mb-8">
+                      <ProjectImage src="/images/afspraak/koen-rectangle.png"></ProjectImage>
+                      <p className="text-sm font-body text-gray-200 font-normal antialiased text-center">
+                        Koen Klijn Velderman
+                      </p>
                     </div>
-                    <div className="flex flex-row">
-                      <div className="h-12 w-12 mr-3 rounded bg-yellow-300">
-                        <img src="/images/home/koen-avatar.png"></img>
-                      </div>
-                      <div className="ml-2">
-                        <h3 className="text-lg font-heading text-background font-semibold antialiased">
-                          0642023612
-                        </h3>
-                        <p className="text-sm font-body text-background font-light antialiased">
-                          Bel met Koen
-                        </p>
-                      </div>
+                    <div>
+                      <ProjectImage src="/images/afspraak/jochem-rectangle.png"></ProjectImage>
+                      <p className="text-sm font-body text-gray-200 font-normal antialiased text-center">
+                        Jochem Tepperik
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
+            </section>
+            <section className="mt-24">
+              <Footer></Footer>
             </section>
           </Layout>
         </main>
