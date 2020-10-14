@@ -2,74 +2,13 @@ import React, { useState } from "react";
 import Layout from "../components/Layout";
 import Head from "next/head";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import ListItem from "../components/ListItem";
+import Button from "../components/Button";
 import { useLogPageVisit } from "../components/googleAnalytics";
 
 export default () => {
   useLogPageVisit();
-
-  const [status, setStatus] = useState({
-    submitted: false,
-    submitting: false,
-    info: { error: false, msg: null },
-  });
-
-  const [inputs, setInputs] = useState({
-    firstName: "",
-    lastName: "",
-    phone: "",
-    preference: "",
-    email: "",
-    message: "",
-  });
-
-  const handleResponse = (status, msg) => {
-    if (status === 200) {
-      setStatus({
-        submitted: true,
-        submitting: false,
-        info: { error: false, msg: msg },
-      });
-      setInputs({
-        firstName: "",
-        lastName: "",
-        phone: "",
-        email: "",
-        preference: "",
-        message: "",
-      });
-    } else {
-      setStatus({
-        info: { error: true, msg: msg },
-      });
-    }
-  };
-
-  const handleOnChange = (e) => {
-    e.persist();
-    setInputs((prev) => ({
-      ...prev,
-      [e.target.id]: e.target.value,
-    }));
-    setStatus({
-      submitted: false,
-      submitting: false,
-      info: { error: false, msg: null },
-    });
-  };
-
-  const handleOnSubmit = async (e) => {
-    e.preventDefault();
-    setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
-    const res = await fetch("/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(inputs),
-    });
-    const text = await res.text();
-    handleResponse(res.status, text);
-  };
 
   return (
     <body className="bg-background">
@@ -91,62 +30,121 @@ export default () => {
         <Header></Header>
         <main className="mt-20">
           <Layout>
-            <section className="mt-10 mb-10 md:mt-20 md:mb-24">
+            <section className="mt-10 mb-10 md:mt-20 ">
               <div className="flex flex-col md:flex-row">
-                <div className="w-full mb-12 md:w-1/2 md:mb-0 md:mr-8">
+                <div className="w-full md:w-2/3 md:mb-0 md:mr-8">
                   <h1 className="text-3xl font-heading text-white font-extrabold mb-2 antialiased">
-                    Laten we samenwerken!
+                    Onze contacgegevens
                   </h1>
                   <p className="text-base font-body text-gray-200 font-normal mb-10 antialiased">
-                    We horen graag van u! Stuur ons een bericht via dit
-                    formulier of neem rechtstreeks contact met ons op via e-mail
-                    of telefoon.
+                    Heeft u vragen of wilt u ons meer vertellen over uw plannen?
+                    Neem contact met ons op en wij zullen snel bij u terugkomen.
                   </p>
-                  <div className="w-full">
-                    <form
-                      onSubmit={handleOnSubmit}
-                      className="w-full"
-                      noValidate
-                    ></form>
+                  <div className="mb-8">
+                    <div className="flex flex-row items-center">
+                      <div className="flex">
+                        <img
+                          src="/images/contact/e-mail.svg"
+                          className="mr-3"
+                        ></img>
+                      </div>
+                      <div className="flex flex-col items-start">
+                        <h4 className="text-base font-heading text-white font-semibold antialiased">
+                          E-mail
+                        </h4>
+                        <p className="text-sm font-body text-gray-200 font-normal antialiased truncate">
+                          <a href="info@oostz-ontwerp.nl">
+                            info@oostz-ontwerp.nl
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mb-8">
+                    <div className="flex flex-row items-start">
+                      <div className="flex">
+                        <img
+                          src="/images/contact/phone.svg"
+                          className="mr-3"
+                        ></img>
+                      </div>
+                      <div className="flex flex-col items-start">
+                        <h4 className="text-base font-heading text-white font-semibold antialiased">
+                          Telefoon
+                        </h4>
+                        <p className="text-sm font-body text-gray-200 font-normal antialiased truncate">
+                          <a href="tel:0642023612">0642023612 - Koen</a>{" "}
+                          <br></br>
+                          <a href="tel:0628092228">0628092228 - Jochem</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mb-8">
+                    <div className="flex flex-row items-center">
+                      <div className="flex">
+                        <img
+                          src="/images/contact/location.svg"
+                          className="mr-3"
+                        ></img>
+                      </div>
+                      <div className="flex flex-col items-start">
+                        <h4 className="text-base font-heading text-white font-semibold antialiased">
+                          Adresgegevens
+                        </h4>
+                        <p className="text-sm font-body text-gray-200 font-normal antialiased truncate">
+                          Hellendoornseweg 44, 8106PL Mariënheem
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="flex flex-row items-center">
+                      <div className="flex">
+                        <img
+                          src="/images/contact/kvk-nummer.svg"
+                          className="mr-3"
+                        ></img>
+                      </div>
+                      <div className="flex flex-col items-start">
+                        <h4 className="text-base font-heading text-white font-semibold antialiased">
+                          KVK Nummer
+                        </h4>
+                        <p className="text-sm font-body text-gray-200 font-normal antialiased truncate">
+                          12345678
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div
-                  style={{
-                    backgroundImage: "url(/images/home/contactcard.jpg)",
-                  }}
-                  className="flex flex-col md:w-1/2 items-end md:ml-8 bg-yellow-100 rounded bg-cover px-8 py-8 self-start"
-                >
-                  <div className="flex flex-col items-start">
-                    <div className="flex flex-row mb-6">
-                      <div className="h-12 w-12 mr-3 rounded bg-yellow-300">
-                        <img src="/images/home/jochem-avatar.png"></img>
-                      </div>
-                      <div className="ml-2">
-                        <h3 className="text-lg font-heading text-background font-semibold antialiased">
-                          0628092228
-                        </h3>
-                        <p className="text-sm font-body text-background font-light antialiased">
-                          Bel met Jochem
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex flex-row">
-                      <div className="h-12 w-12 mr-3 rounded bg-yellow-300">
-                        <img src="/images/home/koen-avatar.png"></img>
-                      </div>
-                      <div className="ml-2">
-                        <h3 className="text-lg font-heading text-background font-semibold antialiased">
-                          0642023612
-                        </h3>
-                        <p className="text-sm font-body text-background font-light antialiased">
-                          Bel met Koen
-                        </p>
-                      </div>
-                    </div>
+                <div className="hidden md:flex md:flex-col md:w-1/3 lg:w-1/3 bg-yellow-100 rounded p-6 self-start">
+                  <h2 className="text-2xl font-heading text-heading font-extrabold mb-2 antialiased">
+                    Ontwerp laten maken?
+                  </h2>
+                  <p className="text-base font-body text-body font-normal mb-6 antialiased">
+                    Overtuigd dat wij de juiste partner zijn voor uw plannen en
+                    projecten? Wij helpen je graag! Neem vrijblijvend contact
+                    met ons op.
+                  </p>
+                  <div>
+                    <Button href="/afspraak" label="Maak afspraak"></Button>
                   </div>
                 </div>
               </div>
             </section>
+          </Layout>
+          <section className="mt-10 mb-24 lg:mt-20 lg:mb-32">
+            <div
+              className="w-full bg-cover"
+              style={{
+                background: `url(/images/contact/map-oostz.jpg)`,
+                backgroundPosition: "center",
+                height: "440px",
+              }}
+            ></div>
+          </section>
+          <Layout>
+            <Footer></Footer>
           </Layout>
         </main>
       </div>
