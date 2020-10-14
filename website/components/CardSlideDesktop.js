@@ -13,7 +13,6 @@ function CardSlideDesktop(props) {
     >
       <Layout>
         <div style={{ height: "75vh" }} className="flex items-center">
-          <div className="hidden md:flex md:w-1/2 lg:w-2/3"></div>
           <div className="w-full md:w-1/2 lg:w-1/3 bg-yellow-500 rounded p-6">
             <h1 className="text-3xl font-heading text-heading font-extrabold mb-2 antialiased">
               {props.title}
@@ -48,6 +47,7 @@ function CardSlideDesktop(props) {
               </svg>
             </a>
           </div>
+          <div className="hidden md:flex md:w-1/2 lg:w-2/3"></div>
         </div>
       </Layout>
     </div>
