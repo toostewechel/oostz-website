@@ -34,7 +34,7 @@ function Footer() {
               <path d="M19.115 15.34l-1.634-1.636a1.874 1.874 0 00-2.653 0l-.333.333a36.236 36.236 0 01-4.535-4.54l.333-.334a1.878 1.878 0 000-2.652L8.655 4.878a1.922 1.922 0 00-2.655 0l-.893.897a2.654 2.654 0 00-.334 3.33A36.117 36.117 0 0014.89 19.222a2.677 2.677 0 003.333-.333l.897-.898a1.874 1.874 0 000-2.651h-.004z" />
             </svg>
             <p className="text-sm font-body text-gray-200 font-normal antialiased">
-              0628092228 - Jochem
+              <a href="tel:0628092228">0628092228 - Jochem</a>
             </p>
           </div>
           <div className="flex flex-row mb-1">
@@ -49,7 +49,7 @@ function Footer() {
               <path d="M19.115 15.34l-1.634-1.636a1.874 1.874 0 00-2.653 0l-.333.333a36.236 36.236 0 01-4.535-4.54l.333-.334a1.878 1.878 0 000-2.652L8.655 4.878a1.922 1.922 0 00-2.655 0l-.893.897a2.654 2.654 0 00-.334 3.33A36.117 36.117 0 0014.89 19.222a2.677 2.677 0 003.333-.333l.897-.898a1.874 1.874 0 000-2.651h-.004z" />
             </svg>
             <p className="text-sm font-body text-gray-200 font-normal antialiased">
-              0642023612 - Koen
+              <a href="tel:0642023612">0642023612 - Koen</a>
             </p>
           </div>
           <div className="flex flex-row mb-1">
@@ -65,7 +65,7 @@ function Footer() {
               <path d="M11.41 13.704a.835.835 0 001.179 0l6.457-6.457a.333.333 0 00.08-.341c-.073-.22-.277-.24-.46-.24H5.334c-.183 0-.388.02-.46.24a.333.333 0 00.08.34l6.457 6.458z" />
             </svg>
             <p className="text-sm font-body text-gray-200 font-normal antialiased">
-              info@oostz-ontwerp.nl
+              <a href="info@oostz-ontwerp.nl">info@oostz-ontwerp.nl</a>
             </p>
           </div>
           <div className="flex flex-row items-center">
