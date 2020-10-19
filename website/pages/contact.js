@@ -93,7 +93,7 @@ export default () => {
                           Adresgegevens
                         </h4>
                         <p className="text-sm font-body text-gray-200 font-normal antialiased truncate">
-                          Hellendoornseweg 44, 8106PL Mariënheem
+                          Het Fiester 1, 8106 PP Mariënheem
                         </p>
                       </div>
                     </div>
@@ -111,7 +111,7 @@ export default () => {
                           KVK Nummer
                         </h4>
                         <p className="text-sm font-body text-gray-200 font-normal antialiased truncate">
-                          12345678
+                          80610919
                         </p>
                       </div>
                     </div>

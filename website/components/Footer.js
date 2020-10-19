@@ -65,7 +65,7 @@ function Footer() {
               <path d="M11.41 13.704a.835.835 0 001.179 0l6.457-6.457a.333.333 0 00.08-.341c-.073-.22-.277-.24-.46-.24H5.334c-.183 0-.388.02-.46.24a.333.333 0 00.08.34l6.457 6.458z" />
             </svg>
             <p className="text-sm font-body text-gray-200 font-normal antialiased">
-              <a href="info@oostz-ontwerp.nl">info@oostz-ontwerp.nl</a>
+              <a href="mailto:info@oostz-ontwerp.nl">info@oostz-ontwerp.nl</a>
             </p>
           </div>
           <div className="flex flex-row items-center">
@@ -87,7 +87,7 @@ function Footer() {
               </defs>
             </svg>
             <p className="text-sm font-body text-gray-200 font-normal antialiased">
-              Hellendoornseweg 44, Mariënheem
+              Het Fiester 1, Mariënheem
             </p>
           </div>
         </div>
@@ -156,7 +156,7 @@ function Footer() {
           </a>
         </p>
         <p className="text-sm font-body text-gray-200 font-normal antialiased">
-          KvK: 12345678
+          KVK 80610919
         </p>
       </div>
     </footer>

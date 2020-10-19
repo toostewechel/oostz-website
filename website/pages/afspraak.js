@@ -43,6 +43,28 @@ function ContactForm() {
                     formulier of neem rechtstreeks contact met ons op via e-mail
                     of telefoon.
                   </p>
+                  <div className="flex flex-row mb-16">
+                    <div className="mr-8">
+                      <div className="flex flex-row items-center">
+                        <div className="flex">
+                          <img
+                            src="/images/contact/e-mail.svg"
+                            className="mr-3"
+                          ></img>
+                        </div>
+                        <div className="flex flex-col items-start">
+                          <h4 className="text-base font-heading text-white font-semibold antialiased">
+                            E-mail
+                          </h4>
+                          <p className="text-sm font-body text-gray-200 font-normal antialiased truncate">
+                            <a href="mailto:info@oostz-ontwerp.nl">
+                              info@oostz-ontwerp.nl
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div className="w-full">
                     <Formik
                       initialValues={{
@@ -249,19 +271,44 @@ function ContactForm() {
                     </Formik>
                   </div>
                 </div>
-                <div className="hidden md:flex md:flex-col md:w-1/3 items-end md:ml-12">
-                  <div className="flex flex-col items-start">
-                    <div className="mb-8">
+                <div className="hidden md:flex md:flex-col md:w-1/3 items-end md:ml-12 mt-12">
+                  <div className="flex flex-col items-start justify-center">
+                    <div className="mb-12">
                       <ProjectImage src="/images/afspraak/koen-rectangle.png"></ProjectImage>
-                      <p className="text-sm font-body text-gray-200 font-normal antialiased text-center">
-                        Koen Klijn Velderman
-                      </p>
+
+                      <div className="flex flex-row mb-1 justify-center">
+                        <svg
+                          className="fill-current text-yellow-500 mr-1"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path d="M19.115 15.34l-1.634-1.636a1.874 1.874 0 00-2.653 0l-.333.333a36.236 36.236 0 01-4.535-4.54l.333-.334a1.878 1.878 0 000-2.652L8.655 4.878a1.922 1.922 0 00-2.655 0l-.893.897a2.654 2.654 0 00-.334 3.33A36.117 36.117 0 0014.89 19.222a2.677 2.677 0 003.333-.333l.897-.898a1.874 1.874 0 000-2.651h-.004z" />
+                        </svg>
+                        <p className="text-sm font-body text-gray-200 font-normal antialiased">
+                          <a href="tel:0642023612">0642023612 - Koen</a>
+                        </p>
+                      </div>
                     </div>
                     <div>
                       <ProjectImage src="/images/afspraak/jochem-rectangle.png"></ProjectImage>
-                      <p className="text-sm font-body text-gray-200 font-normal antialiased text-center">
-                        Jochem Tepperik
-                      </p>
+                      <div className="flex flex-row mb-1 justify-center">
+                        <svg
+                          className="fill-current text-yellow-500 mr-1"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path d="M19.115 15.34l-1.634-1.636a1.874 1.874 0 00-2.653 0l-.333.333a36.236 36.236 0 01-4.535-4.54l.333-.334a1.878 1.878 0 000-2.652L8.655 4.878a1.922 1.922 0 00-2.655 0l-.893.897a2.654 2.654 0 00-.334 3.33A36.117 36.117 0 0014.89 19.222a2.677 2.677 0 003.333-.333l.897-.898a1.874 1.874 0 000-2.651h-.004z" />
+                        </svg>
+                        <p className="text-sm font-body text-gray-200 font-normal antialiased">
+                          <a href="tel:0642023612">0628092228 - Jochem</a>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
