@@ -62,7 +62,12 @@ export default function Werkwijze() {
                       contact met ons op.
                     </p>
                     <div>
-                      <Button href="/afspraak" label="Maak afspraak"></Button>
+                      <Button
+                        href="/afspraak"
+                        label="Maak afspraak"
+                        ariaLabel="Maak afspraak"
+                        icon="true"
+                      ></Button>
                     </div>
                   </div>
                 </div>

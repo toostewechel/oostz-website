@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import { useMediaQuery } from "beautiful-react-hooks";
 import React, { useState, useEffect } from "react";
+import Button from "./Button";
 
 function ActiveLink({ label, href }) {
   const router = useRouter();
@@ -84,9 +85,11 @@ function Header() {
               <ActiveLink label="Contact" href="/contact" />
             </div>
             <div>
-              <button className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300 ">
-                <a href="/afspraak">Maak afspraak</a>
-              </button>
+              <Button
+                href="/afspraak"
+                label="Maak afspraak"
+                ariaLabel="Maak afspraak"
+              ></Button>
             </div>
           </div>
         ) : (
@@ -110,9 +113,11 @@ function Header() {
             <ActiveLink label="Contact" href="/contact" />
           </div>
           <div>
-            <button className="px-3 py-2 w-full bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300 mt-6 lg:mt-0">
-              <a href="/afspraak">Maak afspraak</a>
-            </button>
+            <Button
+              href="/afspraak"
+              label="Maak afspraak"
+              ariaLabel="Maak afspraak"
+            ></Button>
           </div>
         </div>
       )}

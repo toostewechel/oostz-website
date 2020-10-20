@@ -246,6 +246,7 @@ function ContactForm() {
                           <button
                             className="px-3 py-2 bg-yellow-500 text-heading text-sm font-body font-medium rounded hover:bg-yellow-300 mb-2"
                             type="submit"
+                            aria-label="Verzenden"
                             onClick={(e) => {
                               e.preventDefault();
                               if (!isSubmitting) {

@@ -109,7 +109,12 @@ export default function Home() {
                 </div>
                 <div className="flex md:justify-center">
                   <div className=" lg:mt-0">
-                    <Button label="Onze werkwijze" href="/werkwijze"></Button>
+                    <Button
+                      label="Onze werkwijze"
+                      href="/werkwijze"
+                      ariaLabel="Onze werkwijze"
+                      icon="true"
+                    ></Button>
                   </div>
                 </div>
               </section>
@@ -137,6 +142,8 @@ export default function Home() {
                         <Button
                           label="Alle projecten"
                           href="/projecten"
+                          ariaLabel="Alle projecten"
+                          icon="true"
                         ></Button>
                       </div>
                     </div>
@@ -195,6 +202,8 @@ export default function Home() {
                           <Button
                             label="Alle projecten"
                             href="/projecten"
+                            ariaLabel="Alle projecten"
+                            icon="true"
                           ></Button>
                         </div>
                       </div>
@@ -278,7 +287,12 @@ export default function Home() {
                       contact met ons op.
                     </p>
                     <div className="mt-4 lg:mt-6">
-                      <Button label="Contact" href="/contact"></Button>
+                      <Button
+                        label="Contact"
+                        href="/contact"
+                        ariaLabel="Contact"
+                        icon="true"
+                      ></Button>
                     </div>
                   </div>
                   <div

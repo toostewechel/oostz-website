@@ -3,7 +3,6 @@ import Layout from "../components/Layout";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ListItem from "../components/ListItem";
 import Button from "../components/Button";
 import { useLogPageVisit } from "../components/googleAnalytics";
 
@@ -127,7 +126,12 @@ export default () => {
                     met ons op.
                   </p>
                   <div>
-                    <Button href="/afspraak" label="Maak afspraak"></Button>
+                    <Button
+                      href="/afspraak"
+                      label="Maak afspraak"
+                      ariaLabel="Maak afspraak"
+                      icon="true"
+                    ></Button>
                   </div>
                 </div>
               </div>
