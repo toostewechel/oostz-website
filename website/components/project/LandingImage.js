@@ -35,7 +35,11 @@ function LandingImage(props) {
                 </div>
                 <div className="inline-flex">
                   <div className="flex flex-row">
-                    <a href="https://www.linkedin.com/feed/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/feed/"
+                      target="_blank"
+                      rel="noopener"
+                    >
                       <div className="p-1 rounded hover:bg-yellow-300">
                         <svg
                           className="fill-current text-background"
@@ -49,7 +53,11 @@ function LandingImage(props) {
                         </svg>
                       </div>
                     </a>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener"
+                    >
                       <div className="p-1 rounded hover:bg-yellow-300">
                         <svg
                           className="fill-current text-background"
@@ -66,6 +74,7 @@ function LandingImage(props) {
                     <a
                       href="https://www.instagram.com/oostzontwerp/"
                       target="_blank"
+                      rel="noopener"
                     >
                       <div className="p-1 rounded hover:bg-yellow-300">
                         <svg

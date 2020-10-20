@@ -88,7 +88,7 @@ function Designers() {
             {description}
           </p>
           <div className="flex flex-row items-center">
-            <a href={linkedin} target="_blank">
+            <a href={linkedin} target="_blank" rel="noopener">
               <svg
                 className="fill-current text-white mr-3"
                 width="24"
@@ -100,7 +100,7 @@ function Designers() {
                 <path d="M8.333 9.667H5.667a.333.333 0 00-.334.333v8.667c0 .184.15.333.334.333h2.666c.184 0 .334-.15.334-.333V10a.333.333 0 00-.334-.333zM6.987 8.333A1.66 1.66 0 008.64 6.667C8.64 5.747 7.9 5 6.987 5a1.66 1.66 0 00-1.654 1.667c0 .92.74 1.666 1.654 1.666zM16.333 19h2a.333.333 0 00.334-.333v-5.6c0-2.514-1.42-3.734-3.407-3.734a2.807 2.807 0 00-2.113.847.274.274 0 01-.48-.18.333.333 0 00-.334-.333h-2A.333.333 0 0010 10v8.667a.334.334 0 00.333.333h2a.333.333 0 00.334-.333v-5a1.667 1.667 0 013.333 0v5a.334.334 0 00.333.333z" />
               </svg>
             </a>
-            <a href={`mailto:${email}`} target="_blank">
+            <a href={`mailto:${email}`} target="_blank" rel="noopener">
               <svg
                 className="fill-current text-white mr-3"
                 width="24"

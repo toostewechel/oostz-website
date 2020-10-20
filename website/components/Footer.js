@@ -99,6 +99,7 @@ function Footer() {
             <a
               href="https://www.linkedin.com/company/oostz-ontwerp/"
               target="_blank"
+              rel="noopener"
             >
               <div className="p-1">
                 <svg
@@ -116,6 +117,7 @@ function Footer() {
             <a
               href="https://www.facebook.com/Oostz-ontwerp-116077013589027"
               target="_blank"
+              rel="noopener"
             >
               <div className="p-1">
                 <svg
@@ -130,7 +132,11 @@ function Footer() {
                 </svg>
               </div>
             </a>
-            <a href="https://www.instagram.com/oostzontwerp/" target="_blank">
+            <a
+              href="https://www.instagram.com/oostzontwerp/"
+              target="_blank"
+              rel="noopener"
+            >
               <div className="p-1">
                 <svg
                   className="fill-current text-white"
@@ -151,7 +157,7 @@ function Footer() {
       <div className="flex flex-row justify-between mb-8">
         <p className="text-sm font-body text-gray-200 font-normal antialiased">
           Copyright ©️ 2020 door{" "}
-          <a href="https://snapshots.design/" target="_blank">
+          <a href="https://snapshots.design/" target="_blank" rel="noopener">
             snapshots.design
           </a>
         </p>
