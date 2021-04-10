@@ -10,7 +10,9 @@ function HoverCard(props) {
             id="parent"
             className="flex w-full flex-col justify-center text-center border border-yellow-100 p-6 hover:bg-yellow-100 rounded hover:text-heading"
           >
-            <img src={props.src} className="mb-4"></img>
+            <div className="flex justify-center">
+              <img src={props.src} className="mb-4 h-10 w-10"></img>
+            </div>
             <h4
               id="heading"
               className="text-base font-heading text-white font-medium antialiased mb-1"
