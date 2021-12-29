@@ -76,7 +76,7 @@ export default function Page() {
                 <div className="flex">
                   <ProjectImage
                     src="/images/projecten/mastenbroek/mastenbroek-rectangle-2.jpg"
-                    description="Achterzijde woning"
+                    description="Zijkant woning"
                   />
                 </div>
               </Layout>

@@ -60,13 +60,13 @@ export default function Page() {
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/projecten/plattenberg/plattenberg-square-1.jpg"
-                      description="Woning voorzien van vide"
+                      description="Risaliet"
                     />
                   </div>
                   <div className="mb-12 md:mb-0">
                     <ProjectImage
                       src="/images/projecten/plattenberg/plattenberg-square-2.jpg"
-                      description="Zijgevel woning"
+                      description="Dakkapel"
                     />
                   </div>
                 </div>

@@ -12,7 +12,7 @@ function LandingImage(props) {
           height: isMobile ? "60vh" : "75vh",
           background: `linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(31,31,31,0.60) 25%, rgba(31,31,31,0.2) 50%, rgba(31,31,31,0.60) 75%, rgba(31,31,31,1) 100%), url(${props.backgroundImage})`,
           backgroundSize: "cover",
-          backgroundPosition: isMobile ? "center" : null,
+          backgroundPosition: isMobile ? "center" : "center",
           backgroundRepeat: "no-repeat",
         }}
       >
