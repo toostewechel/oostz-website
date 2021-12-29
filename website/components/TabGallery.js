@@ -41,6 +41,7 @@ function TabGallery() {
         </TabList>
       </div>
       <TabPanels>
+        {/* Alle */}
         <TabPanel>
           <div className="md:flex md:flex-row mt-8 mb-6">
             <div className="md:mr-4 md:w-1/2">
@@ -134,10 +135,10 @@ function TabGallery() {
             <div className="md:mr-4 md:w-1/2">
               <div className="mb-8 md:mb-0">
                 <ThumbnailImage
-                  src="/images/projecten/featured/featured-image-oostz-ontwerp3.jpg"
-                  title="Ontwerp"
+                  src="/images/projecten/featured/featured-image-plattenberg.jpg"
+                  title="Gerealiseerd"
                   description="Moderne woning te Wijhe"
-                  href="/ontwerpen/oostz-ontwerp-3"
+                  href="/projecten/moderne-woning-wijhe-1"
                 />
               </div>
             </div>
@@ -152,8 +153,21 @@ function TabGallery() {
               </div>
             </div>
           </div>
+          <div className="md:flex md:flex-row mt-8 mb-6">
+            <div className="md:mr-4 md:w-1/2">
+              <div className="mb-8 md:mb-0">
+                <ThumbnailImage
+                  src="/images/projecten/featured/featured-image-mastenbroek.jpg"
+                  title="Gerealiseerd"
+                  description="Vrijstaande woning te Hellendoorn"
+                  href="/projecten/vrijstaande-woning-hellendoorn-1"
+                />
+              </div>
+            </div>
+            <div className="md:mr-4 md:w-1/2"></div>
+          </div>
         </TabPanel>
-
+        {/* Ontwerpen */}
         <TabPanel>
           <div className="md:flex md:flex-row mt-8 mb-6">
             <div className="md:mr-4 md:w-1/2">
@@ -181,16 +195,6 @@ function TabGallery() {
             <div className="md:mr-4 md:w-1/2">
               <div className="mb-8 md:mb-0">
                 <ThumbnailImage
-                  src="/images/projecten/featured/featured-image-oostz-ontwerp3.jpg"
-                  title="Ontwerp"
-                  description="Moderne woning te Wijhe"
-                  href="/ontwerpen/oostz-ontwerp-3"
-                />
-              </div>
-            </div>
-            <div className="md:mr-4 md:w-1/2">
-              <div className="mb-8 md:mb-0">
-                <ThumbnailImage
                   src="/images/projecten/featured/featured-image-oostz-ontwerp4.jpg"
                   title="Ontwerp"
                   description="Schuurwoning te Hellendoorn"
@@ -198,8 +202,10 @@ function TabGallery() {
                 />
               </div>
             </div>
+            <div className="md:mr-4 md:w-1/2"></div>
           </div>
         </TabPanel>
+        {/* Gerealiseerd */}
         <TabPanel>
           <div className="md:flex md:flex-row mt-8 mb-6">
             <div className="md:mr-4 md:w-1/2">
@@ -245,7 +251,7 @@ function TabGallery() {
               </div>
             </div>
           </div>
-          <div className="md:flex md:flex-row mt-8 ">
+          <div className="md:flex md:flex-row mt-8 mb-6">
             <div className="md:mr-4 md:w-1/2">
               <div className="mb-8 md:mb-0">
                 <ThumbnailImage
@@ -263,6 +269,28 @@ function TabGallery() {
                   title="Gerealiseerd"
                   description="Twee-onder-een kap woning te Mariënheem"
                   href="/projecten/twee-onder-een-kap-marienheem-1"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="md:flex md:flex-row mt-8 mb-6">
+            <div className="md:mr-4 md:w-1/2">
+              <div className="mb-8 md:mb-0">
+                <ThumbnailImage
+                  src="/images/projecten/featured/featured-image-mastenbroek.jpg"
+                  title="Gerealiseerd"
+                  description="Vrijstaande woning te Hellendoorn"
+                  href="/projecten/vrijstaande-woning-hellendoorn-1"
+                />
+              </div>
+            </div>
+            <div className="md:mr-4 md:w-1/2">
+              <div className="mb-8 md:mb-0">
+                <ThumbnailImage
+                  src="/images/projecten/featured/featured-image-plattenberg.jpg"
+                  title="Gerealiseerd"
+                  description="Moderne woning te Wijhe"
+                  href="/projecten/moderne-woning-wijhe-1"
                 />
               </div>
             </div>

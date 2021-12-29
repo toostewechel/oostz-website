@@ -36,7 +36,7 @@ function LandingImage(props) {
                 <div className="inline-flex">
                   <div className="flex flex-row">
                     <a
-                      href="https://www.linkedin.com/feed/"
+                      href="https://www.linkedin.com/company/oostz-ontwerp/"
                       target="_blank"
                       rel="noopener"
                     >
@@ -54,7 +54,7 @@ function LandingImage(props) {
                       </div>
                     </a>
                     <a
-                      href="https://www.facebook.com/"
+                      href="https://www.facebook.com/OOSTZontwerp/"
                       target="_blank"
                       rel="noopener"
                     >
