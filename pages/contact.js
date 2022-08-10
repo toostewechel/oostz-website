@@ -127,7 +127,7 @@ export default () => {
                   </p>
                   <div>
                     <Button
-                      href="/afspraak"
+                      href="/formbold-example"
                       label="Maak afspraak"
                       ariaLabel="Maak afspraak"
                       icon="true"
