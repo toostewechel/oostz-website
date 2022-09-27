@@ -33,7 +33,7 @@ export default () => {
               <div className="flex flex-col md:flex-row">
                 <div className="w-full md:w-2/3 md:mb-0 md:mr-8">
                   <h1 className="text-3xl font-heading text-white font-extrabold mb-2 antialiased">
-                    Onze contacgegevens
+                    Onze contactgegevens
                   </h1>
                   <p className="text-base font-body text-gray-200 font-normal mb-10 antialiased">
                     Heeft u vragen of wilt u ons meer vertellen over uw plannen?
