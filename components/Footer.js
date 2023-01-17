@@ -154,11 +154,16 @@ function Footer() {
         </div>
       </div>
       <hr className="border-white mb-6"></hr>
-      <div className="flex flex-row justify-between mb-8">
+      <div className="flex flex-col gap-3 justify-between mb-8 md:flex-row md:gap-0">
         <p className="text-sm font-body text-gray-200 font-normal antialiased">
-          Copyright ©️ 2020 door{" "}
-          <a href="https://snapshots.design/" target="_blank" rel="noopener">
-            snapshots.design
+          Copyright ©️ 2023
+        </p>
+        <p className="text-sm font-body text-gray-200 font-normal antialiased">
+          <a
+            href="/algemene-voorwaarden-oostz-ontwerp-2022-12-14.pdf"
+            target="_blank"
+          >
+            Algemene voorwaarden
           </a>
         </p>
         <p className="text-sm font-body text-gray-200 font-normal antialiased">
