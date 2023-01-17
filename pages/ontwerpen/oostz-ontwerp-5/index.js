@@ -5,7 +5,7 @@ import LandingImage from "../../../components/project/LandingImage";
 import ProjectDetails from "../../../components/project/ProjectDetails";
 import ProjectImage from "../../../components/project/ProjectImage";
 import ThumbnailImage from "../../../components/ThumbnailImage";
-import Footer from "../../../components/Footer";
+import FooterMenu from "../../../components/FooterMenu";
 import { useLogPageVisit } from "../../../components/googleAnalytics";
 
 export default function Page() {
@@ -97,7 +97,7 @@ export default function Page() {
             </section>
           </main>
           <Layout>
-            <Footer />
+            <FooterMenu />
           </Layout>
         </div>
       </body>

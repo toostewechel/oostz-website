@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+import FooterMenu from "../components/FooterMenu";
 import Layout from "../components/Layout";
 import Collapsible from "../components/Collapsible";
 import Stack from "../components/Stack";
@@ -228,7 +228,7 @@ export default function Werkwijze() {
                 </div>
               </div>
             </section>
-            <Footer />
+            <FooterMenu />
           </Layout>
         </main>
       </div>

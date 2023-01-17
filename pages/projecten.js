@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+import FooterMenu from "../components/FooterMenu";
 import Layout from "../components/Layout";
 import TabGallery from "../components/TabGallery";
 import { useLogPageVisit } from "../components/googleAnalytics";
@@ -48,7 +48,7 @@ export default function Projecten() {
                 <TabGallery />
               </div>
             </section>
-            <Footer />
+            <FooterMenu />
           </Layout>
         </main>
       </div>

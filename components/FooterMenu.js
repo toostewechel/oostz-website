@@ -1,4 +1,4 @@
-function Footer() {
+function FooterMenu() {
   return (
     <footer className="bg-background">
       <div className="flex flex-col md:flex-row justify-between mb-6">
@@ -156,7 +156,7 @@ function Footer() {
       <hr className="border-white mb-6"></hr>
       <div className="flex flex-col gap-3 justify-between mb-8 md:flex-row md:gap-0">
         <p className="text-sm font-body text-gray-200 font-normal antialiased">
-          Copyright ©️ 2023
+          Copyright ©️ 2022
         </p>
         <p className="text-sm font-body text-gray-200 font-normal antialiased">
           <a
@@ -174,4 +174,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterMenu;

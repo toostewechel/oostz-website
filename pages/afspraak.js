@@ -5,7 +5,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import { useLogPageVisit } from "../components/googleAnalytics";
 import ProjectImage from "../components/project/ProjectImage";
-import Footer from "../components/Footer";
+import FooterMenu from "../components/FooterMenu";
 import React, { useState } from "react";
 
 function ContactForm() {
@@ -316,7 +316,7 @@ function ContactForm() {
               </div>
             </section>
             <section className="mt-24">
-              <Footer></Footer>
+              <FooterMenu />
             </section>
           </Layout>
         </main>

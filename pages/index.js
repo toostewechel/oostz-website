@@ -5,7 +5,7 @@ import CardSmall from "../components/CardSmall";
 import HoverCard from "../components/HoverCard";
 import ThumbnailImage from "../components/ThumbnailImage";
 import Designers from "../components/Designers";
-import Footer from "../components/Footer";
+import FooterMenu from "../components/FooterMenu";
 import Button from "../components/Button";
 import CardSliderDesktop from "../components/CardSliderDesktop";
 import CardSliderMobile from "../components/CardSliderMobile";
@@ -335,7 +335,7 @@ export default function Home() {
             </section>
           </main>
           <Layout>
-            <Footer />
+            <FooterMenu />
           </Layout>
         </div>
       </body>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Layout from "../components/Layout";
 import Head from "next/head";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+import FooterMenu from "../components/FooterMenu";
 import Button from "../components/Button";
 import { useLogPageVisit } from "../components/googleAnalytics";
 
@@ -148,7 +148,7 @@ export default () => {
             ></div>
           </section>
           <Layout>
-            <Footer></Footer>
+            <FooterMenu></FooterMenu>
           </Layout>
         </main>
       </div>
